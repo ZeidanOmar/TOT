@@ -14,142 +14,194 @@
     <![endif]-->    
   </head>
   <body>
-    <!-- Top Header -->
-    <div class="topHeader">
-      <div class="row">
-        <div class="large-4 columns logo wobble-horizontal">
-          <a href="#"> <img src="images/logo.png" width="135" height="90" alt="" /> </a>
-        </div>
-        <div class="large-8 columns">
-          <img src="images/AdImage.jpg" width="728" height="90" alt="AdArea" />
-        </div>
-      </div>
-    </div>
-    <!-- Top Bar -->
-    <section id="top-barSection">
-      <div class="row">
-        <div class="large-12">
-          <nav class="top-bar" data-topbar>
-                <ul class="title-area">
-                 <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-                </ul>
-                <div class="top-bar-section">
-                  <!-- Left Nav Section -->
-                  <ul class="left">
-                    <li class="active"><a href="#">HOME</a></li>
-                    <li><a href="#">CONCERTS</a></li>
-                    <li><a href="#">SPORTS</a></li>
-                    <li><a href="#">THEATRE</a></li>
-                    <li><a href="#">EXHIBITIONS & EXPERIENCES</a></li>
-                    <li><a href="#">FAMILY</a></li>
-                    <li><a href="#">COMEDY</a></li>
+    <div class="off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+        <nav class="tab-bar hidden-for-large-up">
+          <section class="left-small">
+            <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+          </section>       
+          
+          <section class="right-small">
+            <a class="right-off-canvas-toggle menu-icon" href="#"><span></span></a>
+          </section>           
+        </nav>
+        <!-- Off Canvas Menu -->
+        <aside class="left-off-canvas-menu">
+            <!-- whatever you want goes here -->
+            <ul class="off-canvas-list">    
+              <li><label> MENU </label></li>
+              <li class="active"><a href="#">HOME</a></li>
+              <li><a href="#">CONCERTS</a></li>
+              <li><a href="#">SPORTS</a></li>
+              <li><a href="#">THEATRE</a></li>
+              <li><a href="#">EXHIBITIONS & EXPERIENCES</a></li>
+              <li><a href="#">FAMILY</a></li>
+              <li><a href="#">COMEDY</a></li>
+            </ul>
+        </aside>
 
-                    <li class="has-form">
-                      <div class="row collapse">
-                        <div class="large-12 columns">
-                          <span class="icon-search"></span>
-                          <input id="topSearch" class="radius" type="text" placeholder="SEARCH">
-                        </div>
-                      </div>
-                    </li>  
-                    <li class="has-dropdown icon-arrow-down"><a href="#">DUBAI</a>
-                      <ul class="dropdown">
-                        <li><a href="#"> Item 1 </a></li>
-                        <li><a href="#"> Item 2 </a></li>
-                        <li><a href="#"> Item 3 </a></li>
-                      </ul>
-                    </li>                          
-                  </ul>
+        <!-- Off Canvas Right Menu -->
+        <aside class="right-off-canvas-menu">
+          <ul class="off-canvas-list">
+            <li><label>Search</label></li>
+              <li class="has-form">
+                <div class="row collapse">
+                  <div class="large-12 columns">
+                    <span class="icon-search"></span>
+                    <input id="topSearch" class="radius" type="text" placeholder="SEARCH">
+                  </div>
                 </div>
-          </nav> <!-- top-bar -->
-        </div>
-      </div>
-    </section>
-    <footer>
-      <div id="footer" class="row">
-
-        <div class="large-2 columns otherITPsites">
-          <ul>
-            <li><a href="#">About us</a></li>         
-            <li><a href="#">retail sales outlets</a></li>         
-            <li><a href="#">delivery methods</a></li>         
-            <li><a href="#">utilities-me.com</a></li>         
-            <li><a href="#">purchase policy</a></li>         
-            <li><a href="#">terms of use</a></li>         
-            <li><a href="#">contact us</a></li>         
+              </li> 
+              <li><label>Country</label></li>
+              <li><a href="#">DUBAI</a></li> 
+              <li><a href="#">QATAR</a></li>
+              <li><a href="#">DUBAI</a></li> 
           </ul>
-        </div>
-
-        <div class="large-4 columns footer-sections">
-          <div class="row">
-            <div class="large-12 columns"> <p class="footer-titles"> WHAT'S ON </p> </div>
-            <div class="large-6 columns">              
-              <ul>
-                <li><a href="#">comedy tickets</a></li>             
-                <li><a href="#">concerts tickets</a></li>             
-                <li><a href="#">exhibition tickets</a></li>
-                <li><a href="#">experience tickets</a></li>             
-                <li><a href="#">family and kids tickets</a></li>             
-                <li><a href="#">festival tickets</a></li>                
-              </ul>           
-            </div>
-            <div class="large-6 columns">
-              <ul>
-                <li><a href="#">lifestyle tickets</a></li>             
-                <li><a href="#">Music tickets</a></li>             
-                <li><a href="#">sports tickets</a></li>
-                <li><a href="#">theatre & arts tickets</a></li>             
-                <li><a href="#">waitlist events</a></li>             
-                <li><a href="#">group entertainment</a></li>   
-              </ul>                
-            </div>          
+        </aside>        
+      <!-- close the off-canvas menu -->
+      <a class="exit-off-canvas"></a>
+ 
+      <!-- Top Header -->
+      <div class="topHeader">
+        <div class="row">
+          <div class="large-4 columns medium-text-center small-text-center  logo wobble-horizontal">
+            <a href="#"> <img src="images/logo.png" width="135" height="90" alt="" /> </a>
+          </div>
+          <div class="large-8 columns medium-text-center ">
+            <img class="visible-for-medium-up " src="images/AdImage.jpg" width="728" height="90" alt="AdArea" />
           </div>
         </div>
+      </div>
+      
+      <!-- Top Bar -->
+      <section id="top-barSection">  
+        <div class="row visible-for-large-up" >
+          <div class="large-12">
+            <nav class="top-bar" data-topbar>
+                  <ul class="title-area">
+                   <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+                  </ul>
 
-        <div class="large-4 columns footer-sections">
-          <div class="large-12 columns"><p class="footer-titles"> STAY CONNECTED </p></div>
-          <div class="large-12 columns social">
-            <ul class="inline-list">
-              <li><a class="facebook" href="#"></a></li>
-              <li><a class="twitter" href="#"></a></li>
-              <li><a  class="ytube" href="#"></a></li>
-              <li><a class="gplus" href="#"></a></li>
-              <li><a class="in" href="#"></a></li>
+                  <div class="top-bar-section">
+                    <!-- Left Nav Section -->
+                    <ul>
+                      <li class="active"><a href="#">HOME</a></li>
+                      <li><a href="#">CONCERTS</a></li>
+                      <li><a href="#">SPORTS</a></li>
+                      <li><a href="#">THEATRE</a></li>
+                      <li><a href="#">EXHIBITIONS & EXPERIENCES</a></li>
+                      <li><a href="#">FAMILY</a></li>
+                      <li><a href="#">COMEDY</a></li>
+
+                      <li class="has-form">
+                        <div class="row collapse">
+                          <div class="large-12 columns">
+                            <span class="icon-search"></span>
+                            <input id="topSearch" class="radius" type="text" placeholder="SEARCH">
+                          </div>
+                        </div>
+                      </li>  
+                      <li class="has-dropdown icon-arrow-down"><a href="#">DUBAI</a>
+                        <ul class="dropdown">
+                          <li><a href="#"> Item 1 </a></li>
+                          <li><a href="#"> Item 2 </a></li>
+                          <li><a href="#"> Item 3 </a></li>
+                        </ul>
+                      </li>                          
+                    </ul>
+                  </div>
+            </nav> <!-- top-bar -->
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div id="footer" class="row">
+
+          <div class="large-2 columns otherITPsites">
+            <ul>
+              <li><a href="#">About us</a></li>         
+              <li><a href="#">retail sales outlets</a></li>         
+              <li><a href="#">delivery methods</a></li>         
+              <li><a href="#">utilities-me.com</a></li>         
+              <li><a href="#">purchase policy</a></li>         
+              <li><a href="#">terms of use</a></li>         
+              <li><a href="#">contact us</a></li>         
             </ul>
           </div>
-          <div class="large-12 columns"><p class="footer-titles"> SUBSCRIBE TO NEWSLETTER </p></div>
-          <div class="large-12 columns">
-            <form class="newsletter-form">
-              <div class="row">
-                <div class="large-12 columns">
-                  <div class="row collapse">
-                    <div class="small-8 columns">
-                      <input type="text" placeholder="Type your email...">
-                    </div>
-                    <div class="small-4 columns">
-                      <a href="#" class="button postfix subscribe">Subscribe</a>
-                    </div>
-                  </div>
-                </div>  
-              </div>        
-            </form>
-          </div>
-        </div>
 
-        <div class="large-2 columns">
-         <div class="large-12 columns"><p class="footer-titles"> WE PREFER </p></div>
-         <div class="large-12 columns we-prefer">
-          <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-2">
-            <li></li>
-            <li class="master-card"></li>
-            <li class="Xpress"></li>
-            <li class="paypal"></li>
-          </ul>
-         </div>
-        </div>
-      </div>               
-    </footer>
+          <div class="large-4 columns footer-sections">
+            <div class="row">
+              <div class="large-12 columns"> <p class="footer-titles"> WHAT'S ON </p> </div>
+              <div class="large-6 columns">              
+                <ul>
+                  <li><a href="#">comedy tickets</a></li>             
+                  <li><a href="#">concerts tickets</a></li>             
+                  <li><a href="#">exhibition tickets</a></li>
+                  <li><a href="#">experience tickets</a></li>             
+                  <li><a href="#">family and kids tickets</a></li>             
+                  <li><a href="#">festival tickets</a></li>                
+                </ul>           
+              </div>
+              <div class="large-6 columns">
+                <ul>
+                  <li><a href="#">lifestyle tickets</a></li>             
+                  <li><a href="#">Music tickets</a></li>             
+                  <li><a href="#">sports tickets</a></li>
+                  <li><a href="#">theatre & arts tickets</a></li>             
+                  <li><a href="#">waitlist events</a></li>             
+                  <li><a href="#">group entertainment</a></li>   
+                </ul>                
+              </div>          
+            </div>
+          </div>
+
+          <div class="large-4 columns footer-sections">
+            <div class="large-12 columns"><p class="footer-titles"> STAY CONNECTED </p></div>
+            <div class="large-12 columns social">
+              <ul class="inline-list">
+                <li><a class="facebook" href="#"></a></li>
+                <li><a class="twitter" href="#"></a></li>
+                <li><a  class="ytube" href="#"></a></li>
+                <li><a class="gplus" href="#"></a></li>
+                <li><a class="in" href="#"></a></li>
+              </ul>
+            </div>
+            <div class="large-12 columns"><p class="footer-titles"> SUBSCRIBE TO NEWSLETTER </p></div>
+            <div class="large-12 columns">
+              <form class="newsletter-form">
+                <div class="row">
+                  <div class="large-12 columns">
+                    <div class="row collapse">
+                      <div class="small-8 columns">
+                        <input type="text" placeholder="Type your email...">
+                      </div>
+                      <div class="small-4 columns">
+                        <a href="#" class="button postfix subscribe">Subscribe</a>
+                      </div>
+                    </div>
+                  </div>  
+                </div>        
+              </form>
+            </div>
+          </div>
+
+          <div class="large-2 columns">
+           <div class="large-12 columns"><p class="footer-titles"> WE PREFER </p></div>
+           <div class="large-12 columns we-prefer">
+            <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-2">
+              <li></li>
+              <li class="master-card"></li>
+              <li class="Xpress"></li>
+              <li class="paypal"></li>
+            </ul>
+           </div>
+          </div>
+        </div>               
+      </footer>
+
+      </div> <!-- Inner wrap -->
+    </div><!-- OFF-canvas-->    
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>

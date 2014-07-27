@@ -120,6 +120,33 @@ $footerBg: #1b1b1b;
 ::-moz-selection{
 	background: $topbar-bg-color;
 }
+
+/**** OFF-CANVAS *****/
+.off-canvas-wrap{
+	.tab-bar{
+		.menu-icon{
+			span{
+				&:after{
+					left: rem-calc(14);
+				}
+			}
+		}	
+	} 
+	.has-form{
+		#topSearch{
+			top: 15px;
+		}
+		.icon-search{
+			position: absolute;
+			z-index: 999;
+			top: 5px;
+			right: rem-calc(5);
+			color: #5f9f6f;
+			font-size: rem-calc(18);
+			color: #e50000;
+		}		
+	}		
+}
 /**** Top Header Section ****/
 .topHeader{
 		padding: rem-calc(15 0);
