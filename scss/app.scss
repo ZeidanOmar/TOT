@@ -217,6 +217,12 @@ $footerBg: #1b1b1b;
 	}
 }
 
+/**** CONTENT SECTION ****/
+#content{
+	margin: rem-calc(445 0 0 0);
+	border-bottom: 10px solid red;
+}
+
 /**** FOOTER SECTION ****/
 
 footer{
