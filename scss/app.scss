@@ -219,8 +219,38 @@ $footerBg: #1b1b1b;
 
 /**** CONTENT SECTION ****/
 #content{
-	margin: rem-calc(445 0 0 0);
-	border-bottom: 10px solid red;
+	margin: rem-calc(40 0);
+	.sectionTitle{
+		text-transform: uppercase;
+		margin-bottom: rem-calc(15);
+	}
+	//Feautured Slider
+	.orbit-container{
+		max-width: rem-calc(659);
+		.orbit-caption{
+			font-weight: bold;
+			text-transform: uppercase;
+			.pupDate{
+				font-size: rem-calc(14);
+				display: block;
+				font-style: italic;
+				font-weight: normal;
+				text-transform: none;
+			} 
+		}		
+	}
+	.orbit-bullets-container{
+		position: absolute;
+		bottom:rem-calc(20);
+		right: 3%;
+		.orbit-bullets{
+			margin: rem-calc(0 0 10 0);
+			li{
+				width: rem-calc(20);
+				height: 20px;
+			}
+		}
+	}
 }
 
 /**** FOOTER SECTION ****/
