@@ -153,7 +153,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 68.75rem;
+  max-width: 62.5rem;
 }
 /* line 168, ../bower_components/foundation/scss/foundation/components/_global.scss */
 .row:before, .row:after {
@@ -4420,7 +4420,7 @@ kbd {
 .orbit-container .orbit-slides-container > * .orbit-caption {
   position: absolute;
   bottom: 0;
-  background-color: black;
+  background-color: rgba(51, 51, 51, 0.8);
   color: white;
   width: 100%;
   padding: 0.625rem 0.875rem;
@@ -6623,7 +6623,7 @@ meta.foundation-mq-topbar {
   color: white;
   width: 75%;
   display: block;
-  padding: 0 20px;
+  padding: 0 15px;
 }
 /* line 201, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .toggle-topbar {
@@ -6639,7 +6639,7 @@ meta.foundation-mq-topbar {
   font-weight: bold;
   position: relative;
   display: block;
-  padding: 0 20px;
+  padding: 0 15px;
   height: 60px;
   line-height: 60px;
 }
@@ -6652,7 +6652,7 @@ meta.foundation-mq-topbar {
 .top-bar .toggle-topbar.menu-icon a {
   height: 34px;
   line-height: 33px;
-  padding: 0 45px 0 20px;
+  padding: 0 40px 0 15px;
   color: white;
   position: relative;
 }
@@ -6664,7 +6664,7 @@ meta.foundation-mq-topbar {
   height: 0;
   top: 50%;
   margin-top: -8px;
-  right: 20px;
+  right: 15px;
   box-shadow: 0 0px 0 1px white, 0 7px 0 1px white, 0 14px 0 1px white;
   width: 16px;
 }
@@ -6724,7 +6724,7 @@ meta.foundation-mq-topbar {
   width: 100%;
   color: white;
   padding: 12px 0 12px 0;
-  padding-left: 20px;
+  padding-left: 15px;
   font-family: "Open Sans", sans-serif;
   font-size: 0.8125rem;
   font-weight: bold;
@@ -6733,8 +6733,8 @@ meta.foundation-mq-topbar {
 /* line 312, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button {
   font-size: 0.8125rem;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
   background-color: #2e2e2e;
   border-color: #252525;
   color: white;
@@ -6792,8 +6792,8 @@ meta.foundation-mq-topbar {
 /* line 323, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > button {
   font-size: 0.8125rem;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
   background-color: #2e2e2e;
   border-color: #252525;
   color: white;
@@ -6866,7 +6866,7 @@ meta.foundation-mq-topbar {
 }
 /* line 356, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .has-form {
-  padding: 20px;
+  padding: 15px;
 }
 /* line 359, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .has-dropdown {
@@ -6881,7 +6881,7 @@ meta.foundation-mq-topbar {
   border: inset 5px;
   border-color: transparent transparent transparent rgba(255, 255, 255, 0.4);
   border-left-style: solid;
-  margin-right: 20px;
+  margin-right: 15px;
   margin-top: -4.5px;
   position: absolute;
   top: 50%;
@@ -6928,7 +6928,7 @@ meta.foundation-mq-topbar {
 /* line 399, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li a {
   font-weight: normal;
-  padding: 8px 20px;
+  padding: 8px 15px;
 }
 /* line 402, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li a.parent-link {
@@ -6947,7 +6947,7 @@ meta.foundation-mq-topbar {
 }
 /* line 416, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li.has-form {
-  padding: 8px 20px;
+  padding: 8px 15px;
 }
 /* line 417, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li .button, .top-bar-section .dropdown li button {
@@ -6955,7 +6955,7 @@ meta.foundation-mq-topbar {
 }
 /* line 420, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown label {
-  padding: 8px 20px 2px;
+  padding: 8px 15px 2px;
   margin-bottom: 0;
   text-transform: uppercase;
   color: #777777;
@@ -7010,7 +7010,7 @@ meta.foundation-mq-topbar {
 
   /* line 457, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .contain-to-grid .top-bar {
-    max-width: 68.75rem;
+    max-width: 62.5rem;
     margin: 0 auto;
     margin-bottom: 0;
   }
@@ -7042,7 +7042,7 @@ meta.foundation-mq-topbar {
   }
   /* line 489, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button) {
-    padding: 0 20px;
+    padding: 0 15px;
     line-height: 60px;
     background: #333333;
   }
@@ -7053,7 +7053,7 @@ meta.foundation-mq-topbar {
   }
   /* line 502, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button) {
-    padding: 0 20px;
+    padding: 0 15px;
     line-height: 60px;
     color: white;
     background: #2e2e2e;
@@ -7064,7 +7064,7 @@ meta.foundation-mq-topbar {
   }
   /* line 516, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-dropdown > a {
-    padding-right: 40px !important;
+    padding-right: 35px !important;
   }
   /* line 518, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-dropdown > a:after {
@@ -7122,7 +7122,7 @@ meta.foundation-mq-topbar {
     color: white;
     line-height: 60px;
     white-space: nowrap;
-    padding: 12px 20px;
+    padding: 12px 15px;
     background: #333333;
   }
   /* line 569, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -8268,7 +8268,7 @@ th.hide-for-touch {
 /* line 223, ../scss/app.scss */
 #content .sectionTitle {
   text-transform: uppercase;
-  margin-bottom: 0.9375rem;
+  margin: 1.25rem 0;
 }
 /* line 228, ../scss/app.scss */
 #content .orbit-container {
@@ -8287,89 +8287,127 @@ th.hide-for-touch {
   font-weight: normal;
   text-transform: none;
 }
-/* line 242, ../scss/app.scss */
-#content .orbit-bullets-container {
+/* line 241, ../scss/app.scss */
+#content .orbit-container .orbit-bullets-container {
   position: absolute;
   bottom: 1.25rem;
   right: 3%;
 }
-/* line 246, ../scss/app.scss */
-#content .orbit-bullets-container .orbit-bullets {
+/* line 245, ../scss/app.scss */
+#content .orbit-container .orbit-bullets-container .orbit-bullets {
   margin: 0 0 0.625rem 0;
 }
-/* line 248, ../scss/app.scss */
-#content .orbit-bullets-container .orbit-bullets li {
+/* line 247, ../scss/app.scss */
+#content .orbit-container .orbit-bullets-container .orbit-bullets li {
   width: 1.25rem;
   height: 20px;
 }
+/* line 258, ../scss/app.scss */
+#content .upcomingEvents .upcomingList li a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+/* line 262, ../scss/app.scss */
+#content .upcomingEvents .upcomingList li a:before {
+  position: absolute;
+  content: attr(title);
+  bottom: -2.8125rem;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background: rgba(51, 51, 51, 0.8);
+  color: #fff;
+  font-weight: bold;
+  padding: 0.625rem 0;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+/* line 276, ../scss/app.scss */
+#content .upcomingEvents .upcomingList li a:hover:before {
+  bottom: 0;
+}
+/* line 280, ../scss/app.scss */
+#content .upcomingEvents .upcomingList li .upTitle {
+  font-weight: bold;
+  margin: 0.625rem 0 0;
+  color: #333333;
+  text-transform: uppercase;
+}
+/* line 289, ../scss/app.scss */
+#content .upcomingEvents .button {
+  background: #e74c3c;
+  border-bottom: 7px solid #af3729;
+  width: 18.75rem;
+}
 
 /**** FOOTER SECTION ****/
-/* line 258, ../scss/app.scss */
+/* line 299, ../scss/app.scss */
 footer {
   background: #1b1b1b;
   padding: 2.5rem 0;
 }
-/* line 261, ../scss/app.scss */
+/* line 302, ../scss/app.scss */
 footer ul {
   margin: 0;
   padding: 0;
 }
-/* line 264, ../scss/app.scss */
+/* line 305, ../scss/app.scss */
 footer ul li {
   list-style-type: none;
   margin-top: 0.3125rem;
   padding-bottom: 0.3125rem;
 }
-/* line 268, ../scss/app.scss */
+/* line 309, ../scss/app.scss */
 footer ul li a {
   color: #fff;
   font-family: "Open Sans", sans-serif;
   font-size: 0.75rem;
   text-transform: uppercase;
 }
-/* line 273, ../scss/app.scss */
+/* line 314, ../scss/app.scss */
 footer ul li a:hover {
   color: #fff;
   text-decoration: underline;
 }
-/* line 282, ../scss/app.scss */
+/* line 323, ../scss/app.scss */
 footer .social ul {
   margin-left: -0.4375rem;
 }
-/* line 284, ../scss/app.scss */
+/* line 325, ../scss/app.scss */
 footer .social ul li {
   margin-left: 0.3125rem;
 }
-/* line 287, ../scss/app.scss */
+/* line 328, ../scss/app.scss */
 footer .social ul a {
   background: url(../images/sprite-all.png) no-repeat 0 0;
   width: 2rem;
   height: 32px;
 }
-/* line 292, ../scss/app.scss */
+/* line 333, ../scss/app.scss */
 footer .social ul .twitter {
   background-position: -36px 0;
 }
-/* line 293, ../scss/app.scss */
+/* line 334, ../scss/app.scss */
 footer .social ul .ytube {
   background-position: -69px 0;
 }
-/* line 294, ../scss/app.scss */
+/* line 335, ../scss/app.scss */
 footer .social ul .gplus {
   background-position: -103px 0;
 }
-/* line 295, ../scss/app.scss */
+/* line 336, ../scss/app.scss */
 footer .social ul .in {
   background-position: -137px 0;
 }
-/* line 299, ../scss/app.scss */
+/* line 340, ../scss/app.scss */
 footer .footer-titles {
   color: #fff;
   font-size: 0.875rem;
   margin: 0 0 0.625rem 0;
   font-weight: bold;
 }
-/* line 306, ../scss/app.scss */
+/* line 347, ../scss/app.scss */
 footer .footer-sections,
 footer .preferSection {
   border-right-width: 0;
@@ -8378,32 +8416,32 @@ footer .preferSection {
   padding-top: 20px;
   margin-top: 20px;
 }
-/* line 314, ../scss/app.scss */
+/* line 355, ../scss/app.scss */
 footer .newsletter-form input[type="text"] {
   border: 1px solid #e74c3c;
 }
-/* line 317, ../scss/app.scss */
+/* line 358, ../scss/app.scss */
 footer .newsletter-form .subscribe {
   font-size: 0.75rem;
   font-weight: bold;
   background: #e74c3c;
 }
-/* line 325, ../scss/app.scss */
+/* line 366, ../scss/app.scss */
 footer .we-prefer ul li {
   width: 4rem;
   height: 40px;
   background: url(../images/sprite-all.png) no-repeat 0 -42px;
   margin: 0 0 0.625rem 0.3125rem;
 }
-/* line 331, ../scss/app.scss */
+/* line 372, ../scss/app.scss */
 footer .we-prefer ul .master-card {
   background-position: -202px -42px;
 }
-/* line 334, ../scss/app.scss */
+/* line 375, ../scss/app.scss */
 footer .we-prefer ul .paypal {
   background-position: -135px -42px;
 }
-/* line 337, ../scss/app.scss */
+/* line 378, ../scss/app.scss */
 footer .we-prefer ul .Xpress {
   background-position: -68px -42px;
 }
@@ -8411,7 +8449,7 @@ footer .we-prefer ul .Xpress {
 /***** Media Queries *****/
 @media only screen and (min-width: 64.063em) {
   /**** FOOTER ***/
-  /* line 350, ../scss/app.scss */
+  /* line 391, ../scss/app.scss */
   footer .footer-sections {
     border-right: 1px solid #fff;
     border-top-width: 0;
@@ -8419,7 +8457,7 @@ footer .we-prefer ul .Xpress {
     margin-top: 0;
     padding-top: 0;
   }
-  /* line 357, ../scss/app.scss */
+  /* line 398, ../scss/app.scss */
   footer .preferSection {
     border-top-width: 0;
     margin-top: 0;
@@ -8428,13 +8466,13 @@ footer .we-prefer ul .Xpress {
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /**** FOOTER ***/
-  /* line 369, ../scss/app.scss */
+  /* line 410, ../scss/app.scss */
   footer .footer-sections {
     border: 0 none;
     min-height: 0;
     margin-top: 0;
   }
-  /* line 374, ../scss/app.scss */
+  /* line 415, ../scss/app.scss */
   footer .connectedSection, footer .preferSection {
     margin-top: 20px;
     border-top: 1px solid #fff;

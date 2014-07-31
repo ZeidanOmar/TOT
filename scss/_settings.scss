@@ -35,7 +35,7 @@
 // $include-html-block-grid-classes: $include-html-classes; 
 // $include-xl-html-grid-classes: false;
 
- $row-width: rem-calc(1100);
+ $row-width: rem-calc(1000);
 // $total-columns: 12;
 
 // Global
@@ -745,7 +745,7 @@
 
 // We use these to control the caption styles
 // $orbit-container-bg: none;
- $orbit-caption-bg: #000;
+ $orbit-caption-bg: rgba(51,51,51, 0.8);
 // $orbit-caption-font-color: #fff;
  $orbit-caption-font-size: rem-calc(24);
 // $orbit-caption-position: "bottom"; // Supported values: "bottom", "under"
@@ -1221,7 +1221,7 @@
 // $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
 // $topbar-link-font-family: $body-font-family;
 // $topbar-link-text-transform: none;
-// $topbar-link-padding: $topbar-height / 3;
+ $topbar-link-padding: $topbar-height / 4;
 
 // $topbar-button-font-size: 0.75rem;
 // $topbar-button-top: 7px;
