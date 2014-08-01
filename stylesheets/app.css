@@ -4453,7 +4453,7 @@ kbd {
 /* line 192, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
 .orbit-container .orbit-timer .orbit-progress {
   height: 3px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: #e50000;
   display: block;
   width: 0%;
   position: relative;
@@ -4631,11 +4631,6 @@ kbd {
 
   /* line 361, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
   .orbit-next, .orbit-prev {
-    display: none;
-  }
-
-  /* line 364, ../bower_components/foundation/scss/foundation/components/_orbit.scss */
-  .orbit-bullets {
     display: none;
   }
 }
@@ -8064,8 +8059,9 @@ th.hide-for-touch {
   font-style: normal;
 }
 
-/* line 56, ../scss/app.scss */
-[class^="icon-"]:before, [class*=" icon-"]:before {
+/* line 57, ../scss/app.scss */
+[class^="icon-"]:before, [class*=" icon-"]:before,
+.slick-prev:before, .slick-next:before {
   font-family: 'icomoon';
   speak: none;
   font-style: normal;
@@ -8078,62 +8074,62 @@ th.hide-for-touch {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 70, ../scss/app.scss */
+/* line 71, ../scss/app.scss */
 .icon-menu:before {
   content: "\e600";
 }
 
-/* line 73, ../scss/app.scss */
+/* line 74, ../scss/app.scss */
 .icon-star:before {
   content: "\e601";
 }
 
-/* line 76, ../scss/app.scss */
+/* line 77, ../scss/app.scss */
 .icon-star2:before {
   content: "\e602";
 }
 
-/* line 79, ../scss/app.scss */
+/* line 80, ../scss/app.scss */
 .icon-search:before {
   content: "\e603";
 }
 
-/* line 82, ../scss/app.scss */
+/* line 83, ../scss/app.scss */
 .icon-arrow-left:before {
   content: "\e604";
 }
 
-/* line 85, ../scss/app.scss */
+/* line 86, ../scss/app.scss */
 .icon-arrow-down:before {
   content: "\e605";
 }
 
-/* line 88, ../scss/app.scss */
+/* line 89, ../scss/app.scss */
 .icon-arrow-right:before {
   content: "\e606";
 }
 
-/* line 91, ../scss/app.scss */
+/* line 92, ../scss/app.scss */
 .icon-rss:before {
   content: "\e60a";
 }
 
-/* line 94, ../scss/app.scss */
+/* line 95, ../scss/app.scss */
 .icon-location:before {
   content: "\e607";
 }
 
-/* line 97, ../scss/app.scss */
+/* line 98, ../scss/app.scss */
 .icon-input-checked:before {
   content: "\e608";
 }
 
-/* line 100, ../scss/app.scss */
+/* line 101, ../scss/app.scss */
 .icon-social-twitter:before {
   content: "\e609";
 }
 
-/* line 103, ../scss/app.scss */
+/* line 104, ../scss/app.scss */
 .icon-social-facebook:before {
   content: "\e60b";
 }
@@ -8141,34 +8137,36 @@ th.hide-for-touch {
 /**** General ****/
 /*solid black*/
 /*kinda black*/
-/* line 113, ../scss/app.scss */
+/* line 114, ../scss/app.scss */
 .top-bar-section .has-dropdown > a:after {
   border: 0 none;
 }
 
-/* line 114, ../scss/app.scss */
+/* line 115, ../scss/app.scss */
 .my-divider {
   height: 1px;
   background: black;
   background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #5f9f6f));
 }
 
-/* line 120, ../scss/app.scss */
+/* line 121, ../scss/app.scss */
 ::selection,
 ::-moz-selection {
   background: #333333;
 }
 
+/*====Functions and Mixins======*/
+/*====Functions and Mixins======*/
 /**** OFF-CANVAS *****/
-/* line 129, ../scss/app.scss */
+/* line 169, ../scss/app.scss */
 .off-canvas-wrap .tab-bar .menu-icon span:after {
   left: 0.875rem;
 }
-/* line 136, ../scss/app.scss */
+/* line 176, ../scss/app.scss */
 .off-canvas-wrap .has-form #topSearch {
   top: 15px;
 }
-/* line 139, ../scss/app.scss */
+/* line 179, ../scss/app.scss */
 .off-canvas-wrap .has-form .icon-search {
   position: absolute;
   z-index: 999;
@@ -8180,24 +8178,24 @@ th.hide-for-touch {
 }
 
 /**** Top Header Section ****/
-/* line 151, ../scss/app.scss */
+/* line 191, ../scss/app.scss */
 .topHeader {
   padding: 0.9375rem 0;
   background: #1b1b1b;
 }
-/* line 154, ../scss/app.scss */
+/* line 194, ../scss/app.scss */
 .topHeader .logo {
   padding: 0 0 0 0;
   cursor: pointer;
 }
 
 /**** Top bar section / Menu and Search section ****/
-/* line 161, ../scss/app.scss */
+/* line 201, ../scss/app.scss */
 #top-barSection {
   background: #333333;
 }
 
-/* line 166, ../scss/app.scss */
+/* line 206, ../scss/app.scss */
 .top-bar-section .icon-arrow-down:before {
   position: absolute;
   top: 1.3125rem;
@@ -8206,16 +8204,16 @@ th.hide-for-touch {
   right: 0.6875rem;
   height: 100%;
 }
-/* line 175, ../scss/app.scss */
+/* line 215, ../scss/app.scss */
 .top-bar-section .has-form {
   width: 10.3125rem;
 }
-/* line 177, ../scss/app.scss */
+/* line 217, ../scss/app.scss */
 .top-bar-section .has-form #topSearch {
   top: 15px;
   width: 9.0625rem;
 }
-/* line 181, ../scss/app.scss */
+/* line 221, ../scss/app.scss */
 .top-bar-section .has-form .icon-search {
   position: absolute;
   z-index: 999;
@@ -8225,15 +8223,15 @@ th.hide-for-touch {
   font-size: 1.125rem;
   color: #e50000;
 }
-/* line 191, ../scss/app.scss */
+/* line 231, ../scss/app.scss */
 .top-bar-section .submit-press {
   position: relative;
 }
-/* line 193, ../scss/app.scss */
+/* line 233, ../scss/app.scss */
 .top-bar-section .submit-press a {
   padding: 0 1.25rem 0 2.5rem !important;
 }
-/* line 196, ../scss/app.scss */
+/* line 236, ../scss/app.scss */
 .top-bar-section .submit-press .icon-input-checked {
   position: absolute;
   color: #fff;
@@ -8243,43 +8241,46 @@ th.hide-for-touch {
 }
 
 /*** CopyRights ***/
-/* line 206, ../scss/app.scss */
+/* line 246, ../scss/app.scss */
 #copyright {
   background: #232323;
   color: #949495;
   border-top: 1px solid #131313;
 }
-/* line 210, ../scss/app.scss */
+/* line 250, ../scss/app.scss */
 #copyright h2 {
   color: #666666;
   text-transform: uppercase;
   margin-top: 1.875rem;
 }
-/* line 215, ../scss/app.scss */
+/* line 255, ../scss/app.scss */
 #copyright p {
   font-size: 0.75rem;
 }
 
 /**** CONTENT SECTION ****/
-/* line 221, ../scss/app.scss */
+/* line 261, ../scss/app.scss */
 #content {
   margin: 2.5rem 0;
+  /*====Feautured Slider====*/
+  /*====Upcoming Slider====*/
+  /*====Carousel Slider*====*/
 }
-/* line 223, ../scss/app.scss */
+/* line 263, ../scss/app.scss */
 #content .sectionTitle {
   text-transform: uppercase;
   margin: 1.25rem 0;
 }
-/* line 228, ../scss/app.scss */
+/* line 268, ../scss/app.scss */
 #content .orbit-container {
   max-width: 41.1875rem;
 }
-/* line 230, ../scss/app.scss */
+/* line 270, ../scss/app.scss */
 #content .orbit-container .orbit-caption {
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 233, ../scss/app.scss */
+/* line 273, ../scss/app.scss */
 #content .orbit-container .orbit-caption .pupDate {
   font-size: 0.875rem;
   display: block;
@@ -8287,31 +8288,49 @@ th.hide-for-touch {
   font-weight: normal;
   text-transform: none;
 }
-/* line 241, ../scss/app.scss */
+/* line 281, ../scss/app.scss */
 #content .orbit-container .orbit-bullets-container {
   position: absolute;
   bottom: 1.25rem;
   right: 3%;
+  z-index: 9;
 }
-/* line 245, ../scss/app.scss */
+/* line 286, ../scss/app.scss */
 #content .orbit-container .orbit-bullets-container .orbit-bullets {
   margin: 0 0 0.625rem 0;
 }
-/* line 247, ../scss/app.scss */
+/* line 288, ../scss/app.scss */
 #content .orbit-container .orbit-bullets-container .orbit-bullets li {
   width: 1.25rem;
+  height: 10px;
+  -webkit-transition: all .13s ease-in;
+  transition: all .13s ease-in;
+}
+/* line 294, ../scss/app.scss */
+#content .orbit-container .orbit-bullets-container .orbit-bullets .active {
   height: 20px;
 }
-/* line 258, ../scss/app.scss */
-#content .upcomingEvents .upcomingList li a {
+/* line 127, ../scss/app.scss */
+#content .upcomingEvents .upcomingList li img, #content .upcomingEvents .upcomingList div img {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+/* line 132, ../scss/app.scss */
+#content .upcomingEvents .upcomingList li:hover img, #content .upcomingEvents .upcomingList div:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  z-index: -2;
+}
+/* line 138, ../scss/app.scss */
+#content .upcomingEvents .upcomingList li a, #content .upcomingEvents .upcomingList div a {
   display: block;
   position: relative;
   overflow: hidden;
 }
-/* line 262, ../scss/app.scss */
-#content .upcomingEvents .upcomingList li a:before {
+/* line 142, ../scss/app.scss */
+#content .upcomingEvents .upcomingList li a:before, #content .upcomingEvents .upcomingList div a:before {
   position: absolute;
-  content: attr(title);
+  content: "Get Tickets";
   bottom: -2.8125rem;
   left: 0;
   width: 100%;
@@ -8320,94 +8339,143 @@ th.hide-for-touch {
   color: #fff;
   font-weight: bold;
   padding: 0.625rem 0;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all .3s ease .13s;
+  transition: all .3s ease .13s;
+  z-index: 9;
 }
-/* line 276, ../scss/app.scss */
-#content .upcomingEvents .upcomingList li a:hover:before {
+/* line 157, ../scss/app.scss */
+#content .upcomingEvents .upcomingList li a:hover:before, #content .upcomingEvents .upcomingList div a:hover:before {
   bottom: 0;
 }
-/* line 280, ../scss/app.scss */
-#content .upcomingEvents .upcomingList li .upTitle {
+/* line 305, ../scss/app.scss */
+#content .upcomingEvents .upcomingList .upTitle {
   font-weight: bold;
   margin: 0.625rem 0 0;
   color: #333333;
   text-transform: uppercase;
 }
-/* line 289, ../scss/app.scss */
+/* line 312, ../scss/app.scss */
 #content .upcomingEvents .button {
   background: #e74c3c;
-  border-bottom: 7px solid #af3729;
-  width: 18.75rem;
+  box-shadow: 0 6px #af3729;
+  width: 16.875rem;
+  padding: 0.625rem;
+}
+/* line 317, ../scss/app.scss */
+#content .upcomingEvents .button:hover {
+  box-shadow: 0 4px #af3729;
+  top: 2px;
+}
+/* line 321, ../scss/app.scss */
+#content .upcomingEvents .button:active {
+  box-shadow: 0 0 #af3729;
+  top: 5px;
+}
+/* line 127, ../scss/app.scss */
+#content .carouselSlider .slick-track li img, #content .carouselSlider .slick-track div img {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+/* line 132, ../scss/app.scss */
+#content .carouselSlider .slick-track li:hover img, #content .carouselSlider .slick-track div:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  z-index: -2;
+}
+/* line 138, ../scss/app.scss */
+#content .carouselSlider .slick-track li a, #content .carouselSlider .slick-track div a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+/* line 142, ../scss/app.scss */
+#content .carouselSlider .slick-track li a:before, #content .carouselSlider .slick-track div a:before {
+  position: absolute;
+  content: "Get Tickets";
+  bottom: -2.8125rem;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background: rgba(51, 51, 51, 0.8);
+  color: #fff;
+  font-weight: bold;
+  padding: 0.625rem 0;
+  -webkit-transition: all .3s ease .13s;
+  transition: all .3s ease .13s;
+  z-index: 9;
+}
+/* line 157, ../scss/app.scss */
+#content .carouselSlider .slick-track li a:hover:before, #content .carouselSlider .slick-track div a:hover:before {
+  bottom: 0;
 }
 
 /**** FOOTER SECTION ****/
-/* line 299, ../scss/app.scss */
+/* line 337, ../scss/app.scss */
 footer {
   background: #1b1b1b;
   padding: 2.5rem 0;
 }
-/* line 302, ../scss/app.scss */
+/* line 340, ../scss/app.scss */
 footer ul {
   margin: 0;
   padding: 0;
 }
-/* line 305, ../scss/app.scss */
+/* line 343, ../scss/app.scss */
 footer ul li {
   list-style-type: none;
   margin-top: 0.3125rem;
   padding-bottom: 0.3125rem;
 }
-/* line 309, ../scss/app.scss */
+/* line 347, ../scss/app.scss */
 footer ul li a {
   color: #fff;
   font-family: "Open Sans", sans-serif;
   font-size: 0.75rem;
   text-transform: uppercase;
 }
-/* line 314, ../scss/app.scss */
+/* line 352, ../scss/app.scss */
 footer ul li a:hover {
   color: #fff;
   text-decoration: underline;
 }
-/* line 323, ../scss/app.scss */
+/* line 361, ../scss/app.scss */
 footer .social ul {
   margin-left: -0.4375rem;
 }
-/* line 325, ../scss/app.scss */
+/* line 363, ../scss/app.scss */
 footer .social ul li {
   margin-left: 0.3125rem;
 }
-/* line 328, ../scss/app.scss */
+/* line 366, ../scss/app.scss */
 footer .social ul a {
   background: url(../images/sprite-all.png) no-repeat 0 0;
   width: 2rem;
   height: 32px;
 }
-/* line 333, ../scss/app.scss */
+/* line 371, ../scss/app.scss */
 footer .social ul .twitter {
   background-position: -36px 0;
 }
-/* line 334, ../scss/app.scss */
+/* line 372, ../scss/app.scss */
 footer .social ul .ytube {
   background-position: -69px 0;
 }
-/* line 335, ../scss/app.scss */
+/* line 373, ../scss/app.scss */
 footer .social ul .gplus {
   background-position: -103px 0;
 }
-/* line 336, ../scss/app.scss */
+/* line 374, ../scss/app.scss */
 footer .social ul .in {
   background-position: -137px 0;
 }
-/* line 340, ../scss/app.scss */
+/* line 378, ../scss/app.scss */
 footer .footer-titles {
   color: #fff;
   font-size: 0.875rem;
   margin: 0 0 0.625rem 0;
   font-weight: bold;
 }
-/* line 347, ../scss/app.scss */
+/* line 385, ../scss/app.scss */
 footer .footer-sections,
 footer .preferSection {
   border-right-width: 0;
@@ -8416,32 +8484,32 @@ footer .preferSection {
   padding-top: 20px;
   margin-top: 20px;
 }
-/* line 355, ../scss/app.scss */
+/* line 393, ../scss/app.scss */
 footer .newsletter-form input[type="text"] {
   border: 1px solid #e74c3c;
 }
-/* line 358, ../scss/app.scss */
+/* line 396, ../scss/app.scss */
 footer .newsletter-form .subscribe {
   font-size: 0.75rem;
   font-weight: bold;
   background: #e74c3c;
 }
-/* line 366, ../scss/app.scss */
+/* line 404, ../scss/app.scss */
 footer .we-prefer ul li {
   width: 4rem;
   height: 40px;
   background: url(../images/sprite-all.png) no-repeat 0 -42px;
   margin: 0 0 0.625rem 0.3125rem;
 }
-/* line 372, ../scss/app.scss */
+/* line 410, ../scss/app.scss */
 footer .we-prefer ul .master-card {
   background-position: -202px -42px;
 }
-/* line 375, ../scss/app.scss */
+/* line 413, ../scss/app.scss */
 footer .we-prefer ul .paypal {
   background-position: -135px -42px;
 }
-/* line 378, ../scss/app.scss */
+/* line 416, ../scss/app.scss */
 footer .we-prefer ul .Xpress {
   background-position: -68px -42px;
 }
@@ -8449,7 +8517,7 @@ footer .we-prefer ul .Xpress {
 /***** Media Queries *****/
 @media only screen and (min-width: 64.063em) {
   /**** FOOTER ***/
-  /* line 391, ../scss/app.scss */
+  /* line 429, ../scss/app.scss */
   footer .footer-sections {
     border-right: 1px solid #fff;
     border-top-width: 0;
@@ -8457,7 +8525,7 @@ footer .we-prefer ul .Xpress {
     margin-top: 0;
     padding-top: 0;
   }
-  /* line 398, ../scss/app.scss */
+  /* line 436, ../scss/app.scss */
   footer .preferSection {
     border-top-width: 0;
     margin-top: 0;
@@ -8466,13 +8534,13 @@ footer .we-prefer ul .Xpress {
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /**** FOOTER ***/
-  /* line 410, ../scss/app.scss */
+  /* line 448, ../scss/app.scss */
   footer .footer-sections {
     border: 0 none;
     min-height: 0;
     margin-top: 0;
   }
-  /* line 415, ../scss/app.scss */
+  /* line 453, ../scss/app.scss */
   footer .connectedSection, footer .preferSection {
     margin-top: 20px;
     border-top: 1px solid #fff;

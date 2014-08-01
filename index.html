@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TimeOut Tickets</title>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'> 
+    <link rel="stylesheet" href="stylesheets/slick.css" />
     <link rel="stylesheet" href="stylesheets/app.css" />
     <!--[if lt IE 9]>
       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
@@ -124,8 +125,8 @@
 
             <!-- FEATURED EVENTS SLIDER -->
             <div class="featuredEvents">
-              <h3 class="sectionTitle"> Featured Events </h3>
-              <ul class="featuredSlider" data-orbit  data-options="navigation_arrows:false;slide_number: false; timer: false;">
+              <h4 class="sectionTitle"> Featured Events </h4>
+              <ul class="featuredSlider" data-orbit  data-options=" timer_speed: 4000;navigation_arrows:false;slide_number: false;pause_on_hover: true;resume_on_mouseout: true;">
                 <li>
                   <img src="images/slider1.jpg" alt="slide 1" /> 
                    <div class="orbit-caption">
@@ -173,36 +174,52 @@
 
             <!-- UPCOMING EVENTS -->
             <div class="upcomingEvents clearfix">
-              <h3 class="sectionTitle"> Upcoming Events </h3>
+              <h4 class="sectionTitle"> Upcoming Events </h4>
               <ul class="upcomingList large-block-grid-3 small-block-grid-3">
                 <li>
-                  <a href="javascript:void(0)" title="Get Tickets"><img src="images/upslider1.jpg" alt="Upslider1"></a>
+                  <a href="javascript:void(0)"><img src="images/upslider1.jpg" alt="Upslider1"></a>
                   <div class="upTitle"> deep house fiesta </div>
                 </li>
                 <li>
-                  <a href="javascript:void(0)" title="Get Tickets"><img src="images/upslider2.jpg" alt="Upslider2"></a>
+                  <a href="javascript:void(0)"><img src="images/upslider2.jpg" alt="Upslider2"></a>
                   <div class="upTitle"> deep house fiesta</div>
                 </li>
                 <li>
-                  <a href="javascript:void(0)" title="Get Tickets"><img src="images/upslider1.jpg" alt="Upslider3"></a>
+                  <a href="javascript:void(0)"><img src="images/upslider1.jpg" alt="Upslider3"></a>
                   <div class="upTitle"> deep house fiesta </div>
                 </li>
                 <li>
-                  <a href="javascript:void(0)" title="Get Tickets"><img src="images/upslider1.jpg" alt="Upslider1"></a>
+                  <a href="javascript:void(0)"><img src="images/upslider1.jpg" alt="Upslider1"></a>
                   <div class="upTitle"> deep house fiesta </div>
                 </li>
                 <li>
-                  <a href="javascript:void(0)" title="Get Tickets"><img src="images/upslider2.jpg" alt="Upslider2"></a>
+                  <a href="javascript:void(0)"><img src="images/upslider2.jpg" alt="Upslider2"></a>
                   <div class="upTitle"> deep house fiesta</div>
                 </li>
                 <li>
-                  <a href="javascript:void(0)" title="Get Tickets"><img src="images/upslider1.jpg" alt="Upslider3"></a>
+                  <a href="javascript:void(0)"><img src="images/upslider1.jpg" alt="Upslider3"></a>
                   <div class="upTitle"> deep house fiesta </div>
                 </li>
               </ul>
               <a href="javascript:void(0)" class="button radius right"> SEE ALL EVENTS </a>
             </div>
-          </div>
+            <!-- CAROUSEL FEATURED SLIDER -->
+            <div class="carouselFeautured">
+              <h4 class="sectionTitle"> Featured Events </h4>
+              <div class="carouselSlider">
+                <div><a href="javscript:void(0)"><img src="images/carou1.jpg" alt="" /></a></div>
+                <div><a href="javscript:void(0)"><img src="images/carou2.jpg" alt="" /></a></div>
+                <div><a href="javscript:void(0)"><img src="images/carou3.jpg" alt="" /></a></div>
+                <div><a href="javscript:void(0)"><img src="images/carou4.jpg" alt="" /></a></div>
+                <div><a href="javscript:void(0)"><img src="images/carou1.jpg" alt="" /></a></div>
+                <div><a href="javscript:void(0)"><img src="images/carou2.jpg" alt="" /></a></div>
+                <div><a href="javscript:void(0)"><img src="images/carou3.jpg" alt="" /></a></div>
+                <div><a href="javscript:void(0)"><img src="images/carou4.jpg" alt="" /></a></div>
+                <div><a href="javscript:void(0)"><img src="images/carou1.jpg" alt="" /></a></div>
+                <div><a href="javscript:void(0)"><img src="images/carou2.jpg" alt="" /></a></div>
+              </div>
+            </div>
+          </div> <!-- Large-8 -->
 
           <!-- RIGHT SIDE -->
           <div class="large-4 columns">
@@ -302,6 +319,7 @@
     </div><!-- OFF-canvas-->    
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <script src="js/app.js"></script>
     <!--[if lt IE 9]>
       <script src="js/rem.min.js"></script>
