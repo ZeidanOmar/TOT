@@ -8272,6 +8272,7 @@ th.hide-for-touch {
   /*====Upcoming Slider====*/
   /*====Carousel Slider*====*/
   /*==== Latest Events ====*/
+  /*==== Right Sider ==== */
 }
 /* line 279, ../scss/app.scss */
 #content .sectionTitle {
@@ -8458,74 +8459,88 @@ th.hide-for-touch {
   box-shadow: 0 0 #317eb1;
   top: 6px;
 }
+/* line 368, ../scss/app.scss */
+#content .bigEvnt {
+  margin-top: 4.375rem;
+}
+/* line 371, ../scss/app.scss */
+#content .bigEvnt .panel img {
+  margin: 0.625rem 0 0 0.375rem;
+}
+/* line 375, ../scss/app.scss */
+#content .bigEvnt .panel h5 {
+  margin: 0.625rem 0 0.625rem 0.5rem;
+  padding: 0.625rem 0;
+  border-bottom: 1px solid #ddd;
+}
 
 /**** FOOTER SECTION ****/
-/* line 370, ../scss/app.scss */
+/* line 386, ../scss/app.scss */
 footer {
   background: #1b1b1b;
   padding: 2.5rem 0;
 }
-/* line 373, ../scss/app.scss */
+/* line 389, ../scss/app.scss */
 footer ul {
   margin: 0;
   padding: 0;
 }
-/* line 376, ../scss/app.scss */
+/* line 392, ../scss/app.scss */
 footer ul li {
   list-style-type: none;
   margin-top: 0.3125rem;
   padding-bottom: 0.3125rem;
 }
-/* line 380, ../scss/app.scss */
+/* line 396, ../scss/app.scss */
 footer ul li a {
   color: #fff;
   font-family: "Open Sans", sans-serif;
   font-size: 0.75rem;
   text-transform: uppercase;
 }
-/* line 385, ../scss/app.scss */
+/* line 401, ../scss/app.scss */
 footer ul li a:hover {
   color: #fff;
   text-decoration: underline;
 }
-/* line 394, ../scss/app.scss */
+/* line 410, ../scss/app.scss */
 footer .social ul {
   margin-left: -0.4375rem;
 }
-/* line 396, ../scss/app.scss */
+/* line 412, ../scss/app.scss */
 footer .social ul li {
   margin-left: 0.3125rem;
 }
-/* line 399, ../scss/app.scss */
+/* line 415, ../scss/app.scss */
 footer .social ul a {
   background: url(../images/sprite-all.png) no-repeat 0 0;
   width: 2rem;
   height: 32px;
 }
-/* line 404, ../scss/app.scss */
+/* line 420, ../scss/app.scss */
 footer .social ul .twitter {
   background-position: -36px 0;
 }
-/* line 405, ../scss/app.scss */
+/* line 421, ../scss/app.scss */
 footer .social ul .ytube {
   background-position: -69px 0;
 }
-/* line 406, ../scss/app.scss */
+/* line 422, ../scss/app.scss */
 footer .social ul .gplus {
   background-position: -103px 0;
 }
-/* line 407, ../scss/app.scss */
+/* line 423, ../scss/app.scss */
 footer .social ul .in {
   background-position: -137px 0;
 }
-/* line 411, ../scss/app.scss */
+/* line 427, ../scss/app.scss */
 footer .footer-titles {
   color: #fff;
   font-size: 0.875rem;
   margin: 0 0 0.625rem 0;
   font-weight: bold;
 }
-/* line 418, ../scss/app.scss */
+/* line 434, ../scss/app.scss */
 footer .footer-sections,
 footer .preferSection {
   border-right-width: 0;
@@ -8534,32 +8549,32 @@ footer .preferSection {
   padding-top: 20px;
   margin-top: 20px;
 }
-/* line 426, ../scss/app.scss */
+/* line 442, ../scss/app.scss */
 footer .newsletter-form input[type="text"] {
   border: 1px solid #e74c3c;
 }
-/* line 429, ../scss/app.scss */
+/* line 445, ../scss/app.scss */
 footer .newsletter-form .subscribe {
   font-size: 0.75rem;
   font-weight: bold;
   background: #e74c3c;
 }
-/* line 437, ../scss/app.scss */
+/* line 453, ../scss/app.scss */
 footer .we-prefer ul li {
   width: 4rem;
   height: 40px;
   background: url(../images/sprite-all.png) no-repeat 0 -42px;
   margin: 0 0 0.625rem 0.3125rem;
 }
-/* line 443, ../scss/app.scss */
+/* line 459, ../scss/app.scss */
 footer .we-prefer ul .master-card {
   background-position: -202px -42px;
 }
-/* line 446, ../scss/app.scss */
+/* line 462, ../scss/app.scss */
 footer .we-prefer ul .paypal {
   background-position: -135px -42px;
 }
-/* line 449, ../scss/app.scss */
+/* line 465, ../scss/app.scss */
 footer .we-prefer ul .Xpress {
   background-position: -68px -42px;
 }
@@ -8567,7 +8582,7 @@ footer .we-prefer ul .Xpress {
 /***** Media Queries *****/
 @media only screen and (min-width: 64.063em) {
   /**** FOOTER ***/
-  /* line 462, ../scss/app.scss */
+  /* line 478, ../scss/app.scss */
   footer .footer-sections {
     border-right: 1px solid #fff;
     border-top-width: 0;
@@ -8575,7 +8590,7 @@ footer .we-prefer ul .Xpress {
     margin-top: 0;
     padding-top: 0;
   }
-  /* line 469, ../scss/app.scss */
+  /* line 485, ../scss/app.scss */
   footer .preferSection {
     border-top-width: 0;
     margin-top: 0;
@@ -8584,13 +8599,13 @@ footer .we-prefer ul .Xpress {
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /**** FOOTER ***/
-  /* line 481, ../scss/app.scss */
+  /* line 497, ../scss/app.scss */
   footer .footer-sections {
     border: 0 none;
     min-height: 0;
     margin-top: 0;
   }
-  /* line 486, ../scss/app.scss */
+  /* line 502, ../scss/app.scss */
   footer .connectedSection, footer .preferSection {
     margin-top: 20px;
     border-top: 1px solid #fff;
