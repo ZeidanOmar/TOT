@@ -171,7 +171,7 @@
 
 /* line 195, ../scss/slick.scss */
 .slick-next {
-  right: 0;
+  right: -1px;
   left: auto;
 }
 /* line 198, ../scss/slick.scss */

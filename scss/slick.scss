@@ -193,7 +193,7 @@ $opacity-not-active: .25;
     }
 }
 .slick-next {
-    right: 0;
+    right: -1px;
     left: auto;
     &:before {
         content: $slick-next-character;
