@@ -8074,62 +8074,87 @@ th.hide-for-touch {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 71, ../scss/app.scss */
+/* line 70, ../scss/app.scss */
+.icon-uniE607:before {
+  content: "\e607";
+}
+
+/* line 73, ../scss/app.scss */
+.icon-map-marker:before {
+  content: "\f041";
+}
+
+/* line 76, ../scss/app.scss */
+.icon-check-circle:before {
+  content: "\f058";
+}
+
+/* line 79, ../scss/app.scss */
+.icon-phone:before {
+  content: "\f095";
+}
+
+/* line 82, ../scss/app.scss */
+.icon-envelope:before {
+  content: "\f0e0";
+}
+
+/* line 85, ../scss/app.scss */
+.icon-clock:before {
+  content: "\e60c";
+}
+
+/* line 88, ../scss/app.scss */
 .icon-menu:before {
   content: "\e600";
 }
 
-/* line 74, ../scss/app.scss */
+/* line 91, ../scss/app.scss */
 .icon-star:before {
   content: "\e601";
 }
 
-/* line 77, ../scss/app.scss */
+/* line 94, ../scss/app.scss */
 .icon-star2:before {
   content: "\e602";
 }
 
-/* line 80, ../scss/app.scss */
+/* line 97, ../scss/app.scss */
 .icon-search:before {
   content: "\e603";
 }
 
-/* line 83, ../scss/app.scss */
+/* line 100, ../scss/app.scss */
 .icon-arrow-left:before {
   content: "\e604";
 }
 
-/* line 86, ../scss/app.scss */
+/* line 103, ../scss/app.scss */
 .icon-arrow-down:before {
   content: "\e605";
 }
 
-/* line 89, ../scss/app.scss */
+/* line 106, ../scss/app.scss */
 .icon-arrow-right:before {
   content: "\e606";
 }
 
-/* line 92, ../scss/app.scss */
+/* line 109, ../scss/app.scss */
 .icon-rss:before {
   content: "\e60a";
 }
 
-/* line 95, ../scss/app.scss */
-.icon-location:before {
-  content: "\e607";
-}
-
-/* line 98, ../scss/app.scss */
+/* line 112, ../scss/app.scss */
 .icon-input-checked:before {
   content: "\e608";
 }
 
-/* line 101, ../scss/app.scss */
+/* line 115, ../scss/app.scss */
 .icon-social-twitter:before {
   content: "\e609";
 }
 
-/* line 104, ../scss/app.scss */
+/* line 118, ../scss/app.scss */
 .icon-social-facebook:before {
   content: "\e60b";
 }
@@ -8137,25 +8162,25 @@ th.hide-for-touch {
 /**** General ****/
 /*solid black*/
 /*kinda black*/
-/* line 115, ../scss/app.scss */
+/* line 130, ../scss/app.scss */
 .top-bar-section .has-dropdown > a:after {
   border: 0 none;
 }
 
-/* line 116, ../scss/app.scss */
+/* line 131, ../scss/app.scss */
 .my-divider {
   height: 1px;
   background: black;
   background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #5f9f6f));
 }
 
-/* line 121, ../scss/app.scss */
+/* line 136, ../scss/app.scss */
 .inTitles {
   font-size: 1rem;
   text-transform: uppercase;
 }
 
-/* line 123, ../scss/app.scss */
+/* line 138, ../scss/app.scss */
 ::selection,
 ::-moz-selection {
   background: #333333;
@@ -8164,15 +8189,15 @@ th.hide-for-touch {
 /*====Functions and Mixins======*/
 /*====Functions and Mixins======*/
 /**** OFF-CANVAS *****/
-/* line 185, ../scss/app.scss */
+/* line 200, ../scss/app.scss */
 .off-canvas-wrap .tab-bar .menu-icon span:after {
   left: 0.875rem;
 }
-/* line 192, ../scss/app.scss */
+/* line 207, ../scss/app.scss */
 .off-canvas-wrap .has-form #topSearch {
   top: 15px;
 }
-/* line 195, ../scss/app.scss */
+/* line 210, ../scss/app.scss */
 .off-canvas-wrap .has-form .icon-search {
   position: absolute;
   z-index: 999;
@@ -8184,24 +8209,24 @@ th.hide-for-touch {
 }
 
 /**** Top Header Section ****/
-/* line 207, ../scss/app.scss */
+/* line 222, ../scss/app.scss */
 .topHeader {
   padding: 0.9375rem 0;
   background: #1b1b1b;
 }
-/* line 210, ../scss/app.scss */
+/* line 225, ../scss/app.scss */
 .topHeader .logo {
   padding: 0 0 0 0;
   cursor: pointer;
 }
 
 /**** Top bar section / Menu and Search section ****/
-/* line 217, ../scss/app.scss */
+/* line 232, ../scss/app.scss */
 #top-barSection {
   background: #333333;
 }
 
-/* line 222, ../scss/app.scss */
+/* line 237, ../scss/app.scss */
 .top-bar-section .icon-arrow-down:before {
   position: absolute;
   top: 1.3125rem;
@@ -8210,16 +8235,16 @@ th.hide-for-touch {
   right: 0.6875rem;
   height: 100%;
 }
-/* line 231, ../scss/app.scss */
+/* line 246, ../scss/app.scss */
 .top-bar-section .has-form {
   width: 10.3125rem;
 }
-/* line 233, ../scss/app.scss */
+/* line 248, ../scss/app.scss */
 .top-bar-section .has-form #topSearch {
   top: 15px;
   width: 9.0625rem;
 }
-/* line 237, ../scss/app.scss */
+/* line 252, ../scss/app.scss */
 .top-bar-section .has-form .icon-search {
   position: absolute;
   z-index: 999;
@@ -8229,15 +8254,15 @@ th.hide-for-touch {
   font-size: 1.125rem;
   color: #e50000;
 }
-/* line 247, ../scss/app.scss */
+/* line 262, ../scss/app.scss */
 .top-bar-section .submit-press {
   position: relative;
 }
-/* line 249, ../scss/app.scss */
+/* line 264, ../scss/app.scss */
 .top-bar-section .submit-press a {
   padding: 0 1.25rem 0 2.5rem !important;
 }
-/* line 252, ../scss/app.scss */
+/* line 267, ../scss/app.scss */
 .top-bar-section .submit-press .icon-input-checked {
   position: absolute;
   color: #fff;
@@ -8247,25 +8272,25 @@ th.hide-for-touch {
 }
 
 /*** CopyRights ***/
-/* line 262, ../scss/app.scss */
+/* line 277, ../scss/app.scss */
 #copyright {
   background: #232323;
   color: #949495;
   border-top: 1px solid #131313;
 }
-/* line 266, ../scss/app.scss */
+/* line 281, ../scss/app.scss */
 #copyright h2 {
   color: #666666;
   text-transform: uppercase;
   margin-top: 1.875rem;
 }
-/* line 271, ../scss/app.scss */
+/* line 286, ../scss/app.scss */
 #copyright p {
   font-size: 0.75rem;
 }
 
 /**** CONTENT SECTION ****/
-/* line 277, ../scss/app.scss */
+/* line 292, ../scss/app.scss */
 #content {
   margin: 2.5rem 0;
   /*====Feautured Slider====*/
@@ -8274,21 +8299,21 @@ th.hide-for-touch {
   /*==== Latest Events ====*/
   /*==== Right Sider ==== */
 }
-/* line 279, ../scss/app.scss */
+/* line 294, ../scss/app.scss */
 #content .sectionTitle {
   text-transform: uppercase;
   margin: 1.25rem 0;
 }
-/* line 284, ../scss/app.scss */
+/* line 299, ../scss/app.scss */
 #content .orbit-container {
   max-width: 41.1875rem;
 }
-/* line 286, ../scss/app.scss */
+/* line 301, ../scss/app.scss */
 #content .orbit-container .orbit-caption {
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 289, ../scss/app.scss */
+/* line 304, ../scss/app.scss */
 #content .orbit-container .orbit-caption .pupDate {
   font-size: 0.875rem;
   display: block;
@@ -8296,46 +8321,46 @@ th.hide-for-touch {
   font-weight: normal;
   text-transform: none;
 }
-/* line 297, ../scss/app.scss */
+/* line 312, ../scss/app.scss */
 #content .orbit-container .orbit-bullets-container {
   position: absolute;
   bottom: 1.25rem;
   right: 3%;
   z-index: 9;
 }
-/* line 302, ../scss/app.scss */
+/* line 317, ../scss/app.scss */
 #content .orbit-container .orbit-bullets-container .orbit-bullets {
   margin: 0 0 0.625rem 0;
 }
-/* line 304, ../scss/app.scss */
+/* line 319, ../scss/app.scss */
 #content .orbit-container .orbit-bullets-container .orbit-bullets li {
   width: 1.25rem;
   height: 10px;
   -webkit-transition: all .13s ease-in;
   transition: all .13s ease-in;
 }
-/* line 310, ../scss/app.scss */
+/* line 325, ../scss/app.scss */
 #content .orbit-container .orbit-bullets-container .orbit-bullets .active {
   height: 20px;
 }
-/* line 129, ../scss/app.scss */
+/* line 144, ../scss/app.scss */
 #content .upcomingEvents .upcomingList li img, #content .upcomingEvents .upcomingList div img {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
-/* line 134, ../scss/app.scss */
+/* line 149, ../scss/app.scss */
 #content .upcomingEvents .upcomingList li:hover img, #content .upcomingEvents .upcomingList div:hover img {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
   z-index: -2;
 }
-/* line 140, ../scss/app.scss */
+/* line 155, ../scss/app.scss */
 #content .upcomingEvents .upcomingList li a, #content .upcomingEvents .upcomingList div a {
   display: block;
   position: relative;
   overflow: hidden;
 }
-/* line 144, ../scss/app.scss */
+/* line 159, ../scss/app.scss */
 #content .upcomingEvents .upcomingList li a:before, #content .upcomingEvents .upcomingList div a:before {
   position: absolute;
   content: "Get Tickets";
@@ -8351,11 +8376,11 @@ th.hide-for-touch {
   transition: all .3s ease .13s;
   z-index: 9;
 }
-/* line 159, ../scss/app.scss */
+/* line 174, ../scss/app.scss */
 #content .upcomingEvents .upcomingList li a:hover:before, #content .upcomingEvents .upcomingList div a:hover:before {
   bottom: 0;
 }
-/* line 321, ../scss/app.scss */
+/* line 336, ../scss/app.scss */
 #content .upcomingEvents .upcomingList .inTitles {
   font-weight: bold;
   margin: 0.625rem 0 0;
@@ -8363,41 +8388,41 @@ th.hide-for-touch {
   text-transform: uppercase;
   font-size: 1rem;
 }
-/* line 329, ../scss/app.scss */
+/* line 344, ../scss/app.scss */
 #content .upcomingEvents .button {
   background: #e74c3c;
   box-shadow: 0 6px #af3729;
   width: 16.875rem;
   padding: 0.625rem;
 }
-/* line 170, ../scss/app.scss */
+/* line 185, ../scss/app.scss */
 #content .upcomingEvents .button:hover {
   box-shadow: 0 4px #af3729;
   top: 2px;
 }
-/* line 174, ../scss/app.scss */
+/* line 189, ../scss/app.scss */
 #content .upcomingEvents .button:active {
   box-shadow: 0 0 #af3729;
   top: 5px;
 }
-/* line 129, ../scss/app.scss */
+/* line 144, ../scss/app.scss */
 #content .carouselSlider .slick-track li img, #content .carouselSlider .slick-track div img {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
-/* line 134, ../scss/app.scss */
+/* line 149, ../scss/app.scss */
 #content .carouselSlider .slick-track li:hover img, #content .carouselSlider .slick-track div:hover img {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
   z-index: -2;
 }
-/* line 140, ../scss/app.scss */
+/* line 155, ../scss/app.scss */
 #content .carouselSlider .slick-track li a, #content .carouselSlider .slick-track div a {
   display: block;
   position: relative;
   overflow: hidden;
 }
-/* line 144, ../scss/app.scss */
+/* line 159, ../scss/app.scss */
 #content .carouselSlider .slick-track li a:before, #content .carouselSlider .slick-track div a:before {
   position: absolute;
   content: "Get Tickets";
@@ -8413,33 +8438,33 @@ th.hide-for-touch {
   transition: all .3s ease .13s;
   z-index: 9;
 }
-/* line 159, ../scss/app.scss */
+/* line 174, ../scss/app.scss */
 #content .carouselSlider .slick-track li a:hover:before, #content .carouselSlider .slick-track div a:hover:before {
   bottom: 0;
 }
-/* line 341, ../scss/app.scss */
+/* line 356, ../scss/app.scss */
 #content .latestEvents .panel {
   position: relative;
   font-size: 0.875rem;
   color: #484848;
 }
-/* line 345, ../scss/app.scss */
+/* line 360, ../scss/app.scss */
 #content .latestEvents .panel img {
   margin-right: 0.625rem;
 }
-/* line 348, ../scss/app.scss */
+/* line 363, ../scss/app.scss */
 #content .latestEvents .panel span {
   font-style: italic;
   margin: 0.625rem 0;
   display: block;
 }
-/* line 353, ../scss/app.scss */
+/* line 368, ../scss/app.scss */
 #content .latestEvents .panel p {
   margin: 0;
   line-height: 1.3;
   font-size: 0.875rem;
 }
-/* line 358, ../scss/app.scss */
+/* line 373, ../scss/app.scss */
 #content .latestEvents .panel .button {
   position: absolute;
   top: 5px;
@@ -8449,98 +8474,150 @@ th.hide-for-touch {
   width: 9.0625rem;
   padding: 0.625rem;
 }
-/* line 170, ../scss/app.scss */
+/* line 185, ../scss/app.scss */
 #content .latestEvents .panel .button:hover {
   box-shadow: 0 4px #317eb1;
   top: 5px;
 }
-/* line 174, ../scss/app.scss */
+/* line 189, ../scss/app.scss */
 #content .latestEvents .panel .button:active {
   box-shadow: 0 0 #317eb1;
   top: 6px;
 }
-/* line 368, ../scss/app.scss */
+/* line 383, ../scss/app.scss */
 #content .bigEvnt {
   margin-top: 4.375rem;
 }
-/* line 371, ../scss/app.scss */
+/* line 386, ../scss/app.scss */
 #content .bigEvnt .panel img {
   margin: 0.625rem 0 0 0.375rem;
 }
-/* line 375, ../scss/app.scss */
+/* line 389, ../scss/app.scss */
 #content .bigEvnt .panel h5 {
   margin: 0.625rem 0 0.625rem 0.5rem;
   padding: 0.625rem 0;
   border-bottom: 1px solid #ddd;
 }
+/* line 394, ../scss/app.scss */
+#content .bigEvnt .panel .info {
+  margin: 0.9375rem 0 0.625rem 0.5rem;
+}
+/* line 396, ../scss/app.scss */
+#content .bigEvnt .panel .info:before {
+  color: #2b97df;
+}
+/* line 400, ../scss/app.scss */
+#content .bigEvnt .panel .evntDate {
+  margin-left: 0.125rem;
+}
+/* line 403, ../scss/app.scss */
+#content .bigEvnt .panel .evntBuytckt {
+  position: relative;
+  margin: 0.9375rem 0 0.625rem 0.5rem;
+  background: #2b97df;
+  box-shadow: 0 6px #317eb1;
+  width: 17.1875rem;
+  padding: 0.625rem;
+}
+/* line 185, ../scss/app.scss */
+#content .bigEvnt .panel .evntBuytckt:hover {
+  box-shadow: 0 4px #317eb1;
+  top: 2px;
+}
+/* line 189, ../scss/app.scss */
+#content .bigEvnt .panel .evntBuytckt:active {
+  box-shadow: 0 0 #317eb1;
+  top: 5px;
+}
+/* line 407, ../scss/app.scss */
+#content .bigEvnt .panel .evntBuytckt:before {
+  margin-right: 5px;
+  color: #2A5B7C;
+  font-size: 1.25rem;
+  position: relative;
+  top: 2px;
+  z-index: 2;
+}
+/* line 416, ../scss/app.scss */
+#content .bigEvnt .panel .evntBuytckt:after {
+  content: "";
+  position: absolute;
+  width: 0.9375rem;
+  height: 16px;
+  background: #fff;
+  border-radius: 15px;
+  left: 1.6875rem;
+  z-index: 1;
+  top: 14px;
+}
 
 /**** FOOTER SECTION ****/
-/* line 386, ../scss/app.scss */
+/* line 434, ../scss/app.scss */
 footer {
   background: #1b1b1b;
   padding: 2.5rem 0;
 }
-/* line 389, ../scss/app.scss */
+/* line 437, ../scss/app.scss */
 footer ul {
   margin: 0;
   padding: 0;
 }
-/* line 392, ../scss/app.scss */
+/* line 440, ../scss/app.scss */
 footer ul li {
   list-style-type: none;
   margin-top: 0.3125rem;
   padding-bottom: 0.3125rem;
 }
-/* line 396, ../scss/app.scss */
+/* line 444, ../scss/app.scss */
 footer ul li a {
   color: #fff;
   font-family: "Open Sans", sans-serif;
   font-size: 0.75rem;
   text-transform: uppercase;
 }
-/* line 401, ../scss/app.scss */
+/* line 449, ../scss/app.scss */
 footer ul li a:hover {
   color: #fff;
   text-decoration: underline;
 }
-/* line 410, ../scss/app.scss */
+/* line 458, ../scss/app.scss */
 footer .social ul {
   margin-left: -0.4375rem;
 }
-/* line 412, ../scss/app.scss */
+/* line 460, ../scss/app.scss */
 footer .social ul li {
   margin-left: 0.3125rem;
 }
-/* line 415, ../scss/app.scss */
+/* line 463, ../scss/app.scss */
 footer .social ul a {
   background: url(../images/sprite-all.png) no-repeat 0 0;
   width: 2rem;
   height: 32px;
 }
-/* line 420, ../scss/app.scss */
+/* line 468, ../scss/app.scss */
 footer .social ul .twitter {
   background-position: -36px 0;
 }
-/* line 421, ../scss/app.scss */
+/* line 469, ../scss/app.scss */
 footer .social ul .ytube {
   background-position: -69px 0;
 }
-/* line 422, ../scss/app.scss */
+/* line 470, ../scss/app.scss */
 footer .social ul .gplus {
   background-position: -103px 0;
 }
-/* line 423, ../scss/app.scss */
+/* line 471, ../scss/app.scss */
 footer .social ul .in {
   background-position: -137px 0;
 }
-/* line 427, ../scss/app.scss */
+/* line 475, ../scss/app.scss */
 footer .footer-titles {
   color: #fff;
   font-size: 0.875rem;
   margin: 0 0 0.625rem 0;
   font-weight: bold;
 }
-/* line 434, ../scss/app.scss */
+/* line 482, ../scss/app.scss */
 footer .footer-sections,
 footer .preferSection {
   border-right-width: 0;
@@ -8549,32 +8626,32 @@ footer .preferSection {
   padding-top: 20px;
   margin-top: 20px;
 }
-/* line 442, ../scss/app.scss */
+/* line 490, ../scss/app.scss */
 footer .newsletter-form input[type="text"] {
   border: 1px solid #e74c3c;
 }
-/* line 445, ../scss/app.scss */
+/* line 493, ../scss/app.scss */
 footer .newsletter-form .subscribe {
   font-size: 0.75rem;
   font-weight: bold;
   background: #e74c3c;
 }
-/* line 453, ../scss/app.scss */
+/* line 501, ../scss/app.scss */
 footer .we-prefer ul li {
   width: 4rem;
   height: 40px;
   background: url(../images/sprite-all.png) no-repeat 0 -42px;
   margin: 0 0 0.625rem 0.3125rem;
 }
-/* line 459, ../scss/app.scss */
+/* line 507, ../scss/app.scss */
 footer .we-prefer ul .master-card {
   background-position: -202px -42px;
 }
-/* line 462, ../scss/app.scss */
+/* line 510, ../scss/app.scss */
 footer .we-prefer ul .paypal {
   background-position: -135px -42px;
 }
-/* line 465, ../scss/app.scss */
+/* line 513, ../scss/app.scss */
 footer .we-prefer ul .Xpress {
   background-position: -68px -42px;
 }
@@ -8582,7 +8659,7 @@ footer .we-prefer ul .Xpress {
 /***** Media Queries *****/
 @media only screen and (min-width: 64.063em) {
   /**** FOOTER ***/
-  /* line 478, ../scss/app.scss */
+  /* line 526, ../scss/app.scss */
   footer .footer-sections {
     border-right: 1px solid #fff;
     border-top-width: 0;
@@ -8590,7 +8667,7 @@ footer .we-prefer ul .Xpress {
     margin-top: 0;
     padding-top: 0;
   }
-  /* line 485, ../scss/app.scss */
+  /* line 533, ../scss/app.scss */
   footer .preferSection {
     border-top-width: 0;
     margin-top: 0;
@@ -8599,13 +8676,13 @@ footer .we-prefer ul .Xpress {
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /**** FOOTER ***/
-  /* line 497, ../scss/app.scss */
+  /* line 545, ../scss/app.scss */
   footer .footer-sections {
     border: 0 none;
     min-height: 0;
     margin-top: 0;
   }
-  /* line 502, ../scss/app.scss */
+  /* line 550, ../scss/app.scss */
   footer .connectedSection, footer .preferSection {
     margin-top: 20px;
     border-top: 1px solid #fff;

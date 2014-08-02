@@ -67,7 +67,24 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-
+.icon-uniE607:before {
+	content: "\e607";
+}
+.icon-map-marker:before {
+	content: "\f041";
+}
+.icon-check-circle:before {
+	content: "\f058";
+}
+.icon-phone:before {
+	content: "\f095";
+}
+.icon-envelope:before {
+	content: "\f0e0";
+}
+.icon-clock:before {
+	content: "\e60c";
+}
 .icon-menu:before {
 	content: "\e600";
 }
@@ -92,9 +109,6 @@
 .icon-rss:before {
 	content: "\e60a";
 }
-.icon-location:before {
-	content: "\e607";
-}
 .icon-input-checked:before {
 	content: "\e608";
 }
@@ -104,6 +118,7 @@
 .icon-social-facebook:before {
 	content: "\e60b";
 }
+
 
 
 /**** General ****/
@@ -370,12 +385,45 @@ $inTitlesFontSize: rem-calc(16);
 		.panel{
 			img{
 				margin: rem-calc(10 0 0 6);
-
 			}
 			h5{
 				margin: rem-calc(10 0 10 8);
 				padding: rem-calc(10 0);
 				border-bottom: 1px solid #ddd;
+			}
+			.info{
+				margin: rem-calc(15 0 10 8);
+				&:before{
+					color: #2b97df;
+				}
+			}
+			.evntDate{
+				margin-left: rem-calc(2);
+			}
+			.evntBuytckt{
+				position: relative;
+				margin: rem-calc(15 0 10 8);
+				@include buttonStyle(#2b97df, 275, #317eb1, 2, 5);
+				&:before{
+					margin-right: 5px;
+					color: #2A5B7C;
+					font-size: rem-calc(20);
+					position: relative;
+					top: 2px;
+					z-index: 2;
+				}
+				//Trick to fill the check mark
+				&:after{
+					content: "";
+					position: absolute;
+					width: rem-calc(15);
+					height: 16px;
+					background: #fff;
+					border-radius: 15px;
+					left: rem-calc(27);
+					z-index: 1;
+					top: 14px;
+					}
 			}
 		}
 	}
