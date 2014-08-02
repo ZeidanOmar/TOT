@@ -393,12 +393,22 @@ $inTitlesFontSize: rem-calc(16);
 			}
 			.info{
 				margin: rem-calc(15 0 10 8);
+				color: #444444;
 				&:before{
 					color: #2b97df;
 				}
 			}
+			.evntLocation{
+				&:before{
+					margin-right: 5px;
+				}
+			}
 			.evntDate{
-				margin-left: rem-calc(2);
+				&:before{
+					position: relative;
+					left: -3px;
+				}
+
 			}
 			.evntBuytckt{
 				position: relative;
@@ -411,6 +421,8 @@ $inTitlesFontSize: rem-calc(16);
 					position: relative;
 					top: 2px;
 					z-index: 2;
+					-webkit-transition: all .3s ease;
+							transition: all .3s ease;
 				}
 				//Trick to fill the check mark
 				&:after{
