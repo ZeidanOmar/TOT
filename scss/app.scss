@@ -401,12 +401,16 @@ $inTitlesFontSize: rem-calc(16);
 			.evntLocation{
 				&:before{
 					margin-right: 5px;
+					font-size: rem-calc(20);
+					top: 3px;
 				}
 			}
 			.evntDate{
 				&:before{
 					position: relative;
 					left: -3px;
+					font-size: rem-calc(20);
+					top: 3px;
 				}
 
 			}

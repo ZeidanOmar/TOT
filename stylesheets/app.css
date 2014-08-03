@@ -8510,13 +8510,17 @@ th.hide-for-touch {
 /* line 402, ../scss/app.scss */
 #content .bigEvnt .panel .evntLocation:before {
   margin-right: 5px;
+  font-size: 1.25rem;
+  top: 3px;
 }
-/* line 407, ../scss/app.scss */
+/* line 409, ../scss/app.scss */
 #content .bigEvnt .panel .evntDate:before {
   position: relative;
   left: -3px;
+  font-size: 1.25rem;
+  top: 3px;
 }
-/* line 413, ../scss/app.scss */
+/* line 417, ../scss/app.scss */
 #content .bigEvnt .panel .evntBuytckt {
   position: relative;
   margin: 0.9375rem 0 0.625rem 0.5rem;
@@ -8535,7 +8539,7 @@ th.hide-for-touch {
   box-shadow: 0 0 #317eb1;
   top: 5px;
 }
-/* line 417, ../scss/app.scss */
+/* line 421, ../scss/app.scss */
 #content .bigEvnt .panel .evntBuytckt:before {
   margin-right: 5px;
   color: #2A5B7C;
@@ -8546,7 +8550,7 @@ th.hide-for-touch {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
-/* line 428, ../scss/app.scss */
+/* line 432, ../scss/app.scss */
 #content .bigEvnt .panel .evntBuytckt:after {
   content: "";
   position: absolute;
@@ -8560,72 +8564,72 @@ th.hide-for-touch {
 }
 
 /**** FOOTER SECTION ****/
-/* line 446, ../scss/app.scss */
+/* line 450, ../scss/app.scss */
 footer {
   background: #1b1b1b;
   padding: 2.5rem 0;
 }
-/* line 449, ../scss/app.scss */
+/* line 453, ../scss/app.scss */
 footer ul {
   margin: 0;
   padding: 0;
 }
-/* line 452, ../scss/app.scss */
+/* line 456, ../scss/app.scss */
 footer ul li {
   list-style-type: none;
   margin-top: 0.3125rem;
   padding-bottom: 0.3125rem;
 }
-/* line 456, ../scss/app.scss */
+/* line 460, ../scss/app.scss */
 footer ul li a {
   color: #fff;
   font-family: "Open Sans", sans-serif;
   font-size: 0.75rem;
   text-transform: uppercase;
 }
-/* line 461, ../scss/app.scss */
+/* line 465, ../scss/app.scss */
 footer ul li a:hover {
   color: #fff;
   text-decoration: underline;
 }
-/* line 470, ../scss/app.scss */
+/* line 474, ../scss/app.scss */
 footer .social ul {
   margin-left: -0.4375rem;
 }
-/* line 472, ../scss/app.scss */
+/* line 476, ../scss/app.scss */
 footer .social ul li {
   margin-left: 0.3125rem;
 }
-/* line 475, ../scss/app.scss */
+/* line 479, ../scss/app.scss */
 footer .social ul a {
   background: url(../images/sprite-all.png) no-repeat 0 0;
   width: 2rem;
   height: 32px;
 }
-/* line 480, ../scss/app.scss */
+/* line 484, ../scss/app.scss */
 footer .social ul .twitter {
   background-position: -36px 0;
 }
-/* line 481, ../scss/app.scss */
+/* line 485, ../scss/app.scss */
 footer .social ul .ytube {
   background-position: -69px 0;
 }
-/* line 482, ../scss/app.scss */
+/* line 486, ../scss/app.scss */
 footer .social ul .gplus {
   background-position: -103px 0;
 }
-/* line 483, ../scss/app.scss */
+/* line 487, ../scss/app.scss */
 footer .social ul .in {
   background-position: -137px 0;
 }
-/* line 487, ../scss/app.scss */
+/* line 491, ../scss/app.scss */
 footer .footer-titles {
   color: #fff;
   font-size: 0.875rem;
   margin: 0 0 0.625rem 0;
   font-weight: bold;
 }
-/* line 494, ../scss/app.scss */
+/* line 498, ../scss/app.scss */
 footer .footer-sections,
 footer .preferSection {
   border-right-width: 0;
@@ -8634,32 +8638,32 @@ footer .preferSection {
   padding-top: 20px;
   margin-top: 20px;
 }
-/* line 502, ../scss/app.scss */
+/* line 506, ../scss/app.scss */
 footer .newsletter-form input[type="text"] {
   border: 1px solid #e74c3c;
 }
-/* line 505, ../scss/app.scss */
+/* line 509, ../scss/app.scss */
 footer .newsletter-form .subscribe {
   font-size: 0.75rem;
   font-weight: bold;
   background: #e74c3c;
 }
-/* line 513, ../scss/app.scss */
+/* line 517, ../scss/app.scss */
 footer .we-prefer ul li {
   width: 4rem;
   height: 40px;
   background: url(../images/sprite-all.png) no-repeat 0 -42px;
   margin: 0 0 0.625rem 0.3125rem;
 }
-/* line 519, ../scss/app.scss */
+/* line 523, ../scss/app.scss */
 footer .we-prefer ul .master-card {
   background-position: -202px -42px;
 }
-/* line 522, ../scss/app.scss */
+/* line 526, ../scss/app.scss */
 footer .we-prefer ul .paypal {
   background-position: -135px -42px;
 }
-/* line 525, ../scss/app.scss */
+/* line 529, ../scss/app.scss */
 footer .we-prefer ul .Xpress {
   background-position: -68px -42px;
 }
@@ -8667,7 +8671,7 @@ footer .we-prefer ul .Xpress {
 /***** Media Queries *****/
 @media only screen and (min-width: 64.063em) {
   /**** FOOTER ***/
-  /* line 538, ../scss/app.scss */
+  /* line 542, ../scss/app.scss */
   footer .footer-sections {
     border-right: 1px solid #fff;
     border-top-width: 0;
@@ -8675,7 +8679,7 @@ footer .we-prefer ul .Xpress {
     margin-top: 0;
     padding-top: 0;
   }
-  /* line 545, ../scss/app.scss */
+  /* line 549, ../scss/app.scss */
   footer .preferSection {
     border-top-width: 0;
     margin-top: 0;
@@ -8684,13 +8688,13 @@ footer .we-prefer ul .Xpress {
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /**** FOOTER ***/
-  /* line 557, ../scss/app.scss */
+  /* line 561, ../scss/app.scss */
   footer .footer-sections {
     border: 0 none;
     min-height: 0;
     margin-top: 0;
   }
-  /* line 562, ../scss/app.scss */
+  /* line 566, ../scss/app.scss */
   footer .connectedSection, footer .preferSection {
     margin-top: 20px;
     border-top: 1px solid #fff;
