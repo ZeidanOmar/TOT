@@ -138,6 +138,23 @@ $inTitlesFontSize: rem-calc(16);
 ::-moz-selection{
 	background: $topbar-bg-color;
 }
+.newsletter-form{
+	input[type="text"]{
+		border: 1px solid #e74c3c;
+	}
+	.subscribe{
+		font-size: rem-calc(12);
+		font-weight: bold;
+		background: #e74c3c;
+	}
+}
+.error{
+	background: transparent !important;
+	padding-left :0 !important;
+	margin-left: 0 !important;
+	margin-bottom: 0 !important;
+	padding-bottom: 0 !important;
+}
 /*====Functions and Mixins======*/
 @mixin getTicketsHover{
 	li, div{
@@ -443,7 +460,66 @@ $inTitlesFontSize: rem-calc(16);
 			}
 		}
 	}
-}//Content
+	.adEvnt{
+		padding: rem-calc(10);
+	}
+	.recommendedEvents{
+		.recommendedList{
+			@include getTicketsHover();
+			.inTitles{
+				font-weight: bold;
+				margin: rem-calc(10 0 0);
+				color: #333333;
+				text-transform: uppercase;
+				font-size: rem-calc(14);
+			}
+		}
+	}
+	.subscribeBox{
+		border: 1px solid #ccc;
+		padding: rem-calc(10);
+		position: relative;
+		margin: rem-calc(20 0);
+		h5{
+			text-transform: uppercase;
+		}
+		p{
+			color :#484848;
+			font-size: rem-calc(14);
+		}
+		&:before{
+			position: absolute;
+			top: -12%;
+			left: 14%;
+			color: #ccc;
+			font-size: rem-calc(190);
+			z-index: -1;
+			opacity: 0.5;			
+		}
+	}
+	.customerCareBox{
+		padding: rem-calc(10);
+		ul{
+			margin:0;
+			padding: 0;
+			list-style-type: none;
+		}
+		li{
+			color: #494949;
+			margin-bottom: rem-calc(10);
+			&:before{
+				position: relative;
+				top: 3px;
+				font-size: rem-calc(18);
+			}
+			a{
+				font-size: rem-calc(13);
+				margin-left: rem-calc(10);
+				text-transform: uppercase;
+			}
+		}
+	}
+}/*Content*/
 
 /**** FOOTER SECTION ****/
 
@@ -501,16 +577,6 @@ footer{
 		min-height: 0;	
 		padding-top: 20px;
 		margin-top: 20px;		
-	}
-	.newsletter-form{
-		input[type="text"]{
-			border: 1px solid #e74c3c;
-		}
-		.subscribe{
-			font-size: rem-calc(12);
-			font-weight: bold;
-			background: #e74c3c;
-		}
 	}
 	.we-prefer{
 		ul{
