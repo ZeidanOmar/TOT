@@ -120,6 +120,11 @@
 }
 
 /**** General ****/
+html, body{
+	@media #{$small-only} {
+		font-size: 75%;
+	}
+}
 $titleColor: #333;/*solid black*/
 $titleColorHover: #686868;/*kinda black*/
 $footerBg: #1b1b1b;
@@ -315,18 +320,12 @@ $inTitlesFontSize: rem-calc(16);
 		.orbit-caption{
 			font-weight: bold;
 			text-transform: uppercase;
-			@media #{$small-only} {
-				font-size: rem-calc(16);
-			}
 			.pupDate{
 				font-size: rem-calc(14);
 				display: block;
 				font-style: italic;
 				font-weight: normal;
 				text-transform: none;
-				@media #{$small-only} {
-					font-size: rem-calc(13);
-				}
 			} 
 		}		
 		.orbit-bullets-container{
