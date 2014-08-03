@@ -8445,42 +8445,42 @@ th.hide-for-touch {
 /**** General ****/
 /*solid black*/
 /*kinda black*/
-/* line 130, ../scss/app.scss */
+/* line 127, ../scss/app.scss */
 .top-bar-section .has-dropdown > a:after {
   border: 0 none;
 }
 
-/* line 131, ../scss/app.scss */
+/* line 128, ../scss/app.scss */
 .my-divider {
   height: 1px;
   background: black;
   background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #5f9f6f));
 }
 
-/* line 136, ../scss/app.scss */
+/* line 133, ../scss/app.scss */
 .inTitles {
   font-size: 1rem;
   text-transform: uppercase;
 }
 
-/* line 137, ../scss/app.scss */
+/* line 134, ../scss/app.scss */
 ::selection,
 ::-moz-selection {
   background: #333333;
 }
 
-/* line 142, ../scss/app.scss */
+/* line 139, ../scss/app.scss */
 .newsletter-form input[type="text"] {
   border: 1px solid #e74c3c;
 }
-/* line 145, ../scss/app.scss */
+/* line 142, ../scss/app.scss */
 .newsletter-form .subscribe {
   font-size: 0.75rem;
   font-weight: bold;
   background: #e74c3c;
 }
 
-/* line 151, ../scss/app.scss */
+/* line 148, ../scss/app.scss */
 .error {
   background: transparent !important;
   padding-left: 0 !important;
@@ -8492,15 +8492,15 @@ th.hide-for-touch {
 /*====Functions and Mixins======*/
 /*====Functions and Mixins======*/
 /**** OFF-CANVAS *****/
-/* line 217, ../scss/app.scss */
+/* line 214, ../scss/app.scss */
 .off-canvas-wrap .tab-bar .menu-icon span:after {
   left: 0.875rem;
 }
-/* line 224, ../scss/app.scss */
+/* line 221, ../scss/app.scss */
 .off-canvas-wrap .has-form #topSearch {
   top: 15px;
 }
-/* line 227, ../scss/app.scss */
+/* line 224, ../scss/app.scss */
 .off-canvas-wrap .has-form .icon-search {
   position: absolute;
   z-index: 999;
@@ -8512,24 +8512,24 @@ th.hide-for-touch {
 }
 
 /**** Top Header Section ****/
-/* line 239, ../scss/app.scss */
+/* line 236, ../scss/app.scss */
 .topHeader {
   padding: 0.9375rem 0;
   background: #1b1b1b;
 }
-/* line 242, ../scss/app.scss */
+/* line 239, ../scss/app.scss */
 .topHeader .logo {
   padding: 0 0 0 0;
   cursor: pointer;
 }
 
 /**** Top bar section / Menu and Search section ****/
-/* line 249, ../scss/app.scss */
+/* line 246, ../scss/app.scss */
 #top-barSection {
   background: #333333;
 }
 
-/* line 254, ../scss/app.scss */
+/* line 251, ../scss/app.scss */
 .top-bar-section .icon-arrow-down:before {
   position: absolute;
   top: 1.3125rem;
@@ -8538,16 +8538,16 @@ th.hide-for-touch {
   right: 0.6875rem;
   height: 100%;
 }
-/* line 263, ../scss/app.scss */
+/* line 260, ../scss/app.scss */
 .top-bar-section .has-form {
   width: 10.3125rem;
 }
-/* line 265, ../scss/app.scss */
+/* line 262, ../scss/app.scss */
 .top-bar-section .has-form #topSearch {
   top: 15px;
   width: 9.0625rem;
 }
-/* line 269, ../scss/app.scss */
+/* line 266, ../scss/app.scss */
 .top-bar-section .has-form .icon-search {
   position: absolute;
   z-index: 999;
@@ -8557,15 +8557,15 @@ th.hide-for-touch {
   font-size: 1.125rem;
   color: #e50000;
 }
-/* line 279, ../scss/app.scss */
+/* line 276, ../scss/app.scss */
 .top-bar-section .submit-press {
   position: relative;
 }
-/* line 281, ../scss/app.scss */
+/* line 278, ../scss/app.scss */
 .top-bar-section .submit-press a {
   padding: 0 1.25rem 0 2.5rem !important;
 }
-/* line 284, ../scss/app.scss */
+/* line 281, ../scss/app.scss */
 .top-bar-section .submit-press .icon-input-checked {
   position: absolute;
   color: #fff;
@@ -8575,25 +8575,25 @@ th.hide-for-touch {
 }
 
 /*** CopyRights ***/
-/* line 294, ../scss/app.scss */
+/* line 291, ../scss/app.scss */
 #copyright {
   background: #232323;
   color: #949495;
   border-top: 1px solid #131313;
 }
-/* line 298, ../scss/app.scss */
+/* line 295, ../scss/app.scss */
 #copyright h2 {
   color: #666666;
   text-transform: uppercase;
   margin-top: 1.875rem;
 }
-/* line 303, ../scss/app.scss */
+/* line 300, ../scss/app.scss */
 #copyright p {
   font-size: 0.75rem;
 }
 
 /**** CONTENT SECTION ****/
-/* line 309, ../scss/app.scss */
+/* line 306, ../scss/app.scss */
 #content {
   margin: 2.5rem 0;
   /*====Feautured Slider====*/
@@ -8602,19 +8602,25 @@ th.hide-for-touch {
   /*==== Latest Events ====*/
   /*==== Right Sider ==== */
 }
-/* line 311, ../scss/app.scss */
+/* line 308, ../scss/app.scss */
 #content .sectionTitle {
   text-transform: uppercase;
   margin: 1.25rem 0;
 }
-/* line 316, ../scss/app.scss */
+/* line 313, ../scss/app.scss */
 #content .orbit-container {
   max-width: 41.1875rem;
 }
-/* line 318, ../scss/app.scss */
+/* line 315, ../scss/app.scss */
 #content .orbit-container .orbit-caption {
   font-weight: bold;
   text-transform: uppercase;
+}
+@media only screen and (max-width: 40em) {
+  /* line 315, ../scss/app.scss */
+  #content .orbit-container .orbit-caption {
+    font-size: 1rem;
+  }
 }
 /* line 321, ../scss/app.scss */
 #content .orbit-container .orbit-caption .pupDate {
@@ -8624,46 +8630,58 @@ th.hide-for-touch {
   font-weight: normal;
   text-transform: none;
 }
-/* line 329, ../scss/app.scss */
+@media only screen and (max-width: 40em) {
+  /* line 321, ../scss/app.scss */
+  #content .orbit-container .orbit-caption .pupDate {
+    font-size: 0.8125rem;
+  }
+}
+/* line 332, ../scss/app.scss */
 #content .orbit-container .orbit-bullets-container {
   position: absolute;
   bottom: 1.25rem;
   right: 3%;
   z-index: 9;
 }
-/* line 334, ../scss/app.scss */
+/* line 337, ../scss/app.scss */
 #content .orbit-container .orbit-bullets-container .orbit-bullets {
   margin: 0 0 0.625rem 0;
 }
-/* line 336, ../scss/app.scss */
+/* line 339, ../scss/app.scss */
 #content .orbit-container .orbit-bullets-container .orbit-bullets li {
   width: 1.25rem;
   height: 10px;
   -webkit-transition: all .13s ease-in;
   transition: all .13s ease-in;
 }
-/* line 342, ../scss/app.scss */
+@media only screen and (max-width: 40em) {
+  /* line 339, ../scss/app.scss */
+  #content .orbit-container .orbit-bullets-container .orbit-bullets li {
+    width: 0.625rem;
+  }
+}
+/* line 348, ../scss/app.scss */
 #content .orbit-container .orbit-bullets-container .orbit-bullets .active {
   height: 20px;
 }
-/* line 161, ../scss/app.scss */
+/* line 158, ../scss/app.scss */
 #content .upcomingEvents .upcomingList li img, #content .upcomingEvents .upcomingList div img {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
-/* line 166, ../scss/app.scss */
+/* line 163, ../scss/app.scss */
 #content .upcomingEvents .upcomingList li:hover img, #content .upcomingEvents .upcomingList div:hover img {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
   z-index: -2;
 }
-/* line 172, ../scss/app.scss */
+/* line 169, ../scss/app.scss */
 #content .upcomingEvents .upcomingList li a, #content .upcomingEvents .upcomingList div a {
   display: block;
   position: relative;
   overflow: hidden;
 }
-/* line 176, ../scss/app.scss */
+/* line 173, ../scss/app.scss */
 #content .upcomingEvents .upcomingList li a:before, #content .upcomingEvents .upcomingList div a:before {
   position: absolute;
   content: "Get Tickets";
@@ -8679,11 +8697,11 @@ th.hide-for-touch {
   transition: all .3s ease .13s;
   z-index: 9;
 }
-/* line 191, ../scss/app.scss */
+/* line 188, ../scss/app.scss */
 #content .upcomingEvents .upcomingList li a:hover:before, #content .upcomingEvents .upcomingList div a:hover:before {
   bottom: 0;
 }
-/* line 353, ../scss/app.scss */
+/* line 359, ../scss/app.scss */
 #content .upcomingEvents .upcomingList .inTitles {
   font-weight: bold;
   margin: 0.625rem 0 0;
@@ -8691,41 +8709,41 @@ th.hide-for-touch {
   text-transform: uppercase;
   font-size: 1rem;
 }
-/* line 361, ../scss/app.scss */
+/* line 367, ../scss/app.scss */
 #content .upcomingEvents .button {
   background: #e74c3c;
   box-shadow: 0 6px #af3729;
   width: 16.875rem;
   padding: 0.625rem;
 }
-/* line 202, ../scss/app.scss */
+/* line 199, ../scss/app.scss */
 #content .upcomingEvents .button:hover {
   box-shadow: 0 4px #af3729;
   top: 2px;
 }
-/* line 206, ../scss/app.scss */
+/* line 203, ../scss/app.scss */
 #content .upcomingEvents .button:active {
   box-shadow: 0 0 #af3729;
   top: 5px;
 }
-/* line 161, ../scss/app.scss */
+/* line 158, ../scss/app.scss */
 #content .carouselSlider .slick-track li img, #content .carouselSlider .slick-track div img {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
-/* line 166, ../scss/app.scss */
+/* line 163, ../scss/app.scss */
 #content .carouselSlider .slick-track li:hover img, #content .carouselSlider .slick-track div:hover img {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
   z-index: -2;
 }
-/* line 172, ../scss/app.scss */
+/* line 169, ../scss/app.scss */
 #content .carouselSlider .slick-track li a, #content .carouselSlider .slick-track div a {
   display: block;
   position: relative;
   overflow: hidden;
 }
-/* line 176, ../scss/app.scss */
+/* line 173, ../scss/app.scss */
 #content .carouselSlider .slick-track li a:before, #content .carouselSlider .slick-track div a:before {
   position: absolute;
   content: "Get Tickets";
@@ -8741,33 +8759,33 @@ th.hide-for-touch {
   transition: all .3s ease .13s;
   z-index: 9;
 }
-/* line 191, ../scss/app.scss */
+/* line 188, ../scss/app.scss */
 #content .carouselSlider .slick-track li a:hover:before, #content .carouselSlider .slick-track div a:hover:before {
   bottom: 0;
 }
-/* line 373, ../scss/app.scss */
+/* line 379, ../scss/app.scss */
 #content .latestEvents .panel {
   position: relative;
   font-size: 0.875rem;
   color: #484848;
 }
-/* line 377, ../scss/app.scss */
+/* line 383, ../scss/app.scss */
 #content .latestEvents .panel img {
   margin-right: 0.625rem;
 }
-/* line 380, ../scss/app.scss */
+/* line 386, ../scss/app.scss */
 #content .latestEvents .panel span {
   font-style: italic;
   margin: 0.625rem 0;
   display: block;
 }
-/* line 385, ../scss/app.scss */
+/* line 391, ../scss/app.scss */
 #content .latestEvents .panel p {
   margin: 0;
   line-height: 1.3;
   font-size: 0.875rem;
 }
-/* line 390, ../scss/app.scss */
+/* line 396, ../scss/app.scss */
 #content .latestEvents .panel .button {
   position: absolute;
   top: 5px;
@@ -8777,53 +8795,53 @@ th.hide-for-touch {
   width: 9.0625rem;
   padding: 0.625rem;
 }
-/* line 202, ../scss/app.scss */
+/* line 199, ../scss/app.scss */
 #content .latestEvents .panel .button:hover {
   box-shadow: 0 4px #317eb1;
   top: 5px;
 }
-/* line 206, ../scss/app.scss */
+/* line 203, ../scss/app.scss */
 #content .latestEvents .panel .button:active {
   box-shadow: 0 0 #317eb1;
   top: 6px;
 }
-/* line 400, ../scss/app.scss */
+/* line 406, ../scss/app.scss */
 #content .bigEvnt {
   margin-top: 4.375rem;
 }
-/* line 403, ../scss/app.scss */
+/* line 409, ../scss/app.scss */
 #content .bigEvnt .panel img {
   margin: 0.625rem 0 0 0.375rem;
 }
-/* line 406, ../scss/app.scss */
+/* line 412, ../scss/app.scss */
 #content .bigEvnt .panel h5 {
   margin: 0.625rem 0 0.625rem 0.5rem;
   padding: 0.625rem 0;
   border-bottom: 1px solid #ddd;
 }
-/* line 411, ../scss/app.scss */
+/* line 417, ../scss/app.scss */
 #content .bigEvnt .panel .info {
   margin: 0.9375rem 0 0.625rem 0.5rem;
   color: #444444;
 }
-/* line 414, ../scss/app.scss */
+/* line 420, ../scss/app.scss */
 #content .bigEvnt .panel .info:before {
   color: #2b97df;
 }
-/* line 419, ../scss/app.scss */
+/* line 425, ../scss/app.scss */
 #content .bigEvnt .panel .evntLocation:before {
   margin-right: 5px;
   font-size: 1.25rem;
   top: 3px;
 }
-/* line 426, ../scss/app.scss */
+/* line 432, ../scss/app.scss */
 #content .bigEvnt .panel .evntDate:before {
   position: relative;
   left: -3px;
   font-size: 1.25rem;
   top: 3px;
 }
-/* line 434, ../scss/app.scss */
+/* line 440, ../scss/app.scss */
 #content .bigEvnt .panel .evntBuytckt {
   position: relative;
   margin: 0.9375rem 0 0.625rem 0.5rem;
@@ -8832,17 +8850,17 @@ th.hide-for-touch {
   width: 17.1875rem;
   padding: 0.625rem;
 }
-/* line 202, ../scss/app.scss */
+/* line 199, ../scss/app.scss */
 #content .bigEvnt .panel .evntBuytckt:hover {
   box-shadow: 0 4px #317eb1;
   top: 2px;
 }
-/* line 206, ../scss/app.scss */
+/* line 203, ../scss/app.scss */
 #content .bigEvnt .panel .evntBuytckt:active {
   box-shadow: 0 0 #317eb1;
   top: 5px;
 }
-/* line 438, ../scss/app.scss */
+/* line 444, ../scss/app.scss */
 #content .bigEvnt .panel .evntBuytckt:before {
   margin-right: 5px;
   color: #2A5B7C;
@@ -8853,7 +8871,7 @@ th.hide-for-touch {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
-/* line 449, ../scss/app.scss */
+/* line 455, ../scss/app.scss */
 #content .bigEvnt .panel .evntBuytckt:after {
   content: "";
   position: absolute;
@@ -8865,28 +8883,28 @@ th.hide-for-touch {
   z-index: 1;
   top: 14px;
 }
-/* line 463, ../scss/app.scss */
+/* line 469, ../scss/app.scss */
 #content .adEvnt {
   padding: 0.625rem;
 }
-/* line 161, ../scss/app.scss */
+/* line 158, ../scss/app.scss */
 #content .recommendedEvents .recommendedList li img, #content .recommendedEvents .recommendedList div img {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
-/* line 166, ../scss/app.scss */
+/* line 163, ../scss/app.scss */
 #content .recommendedEvents .recommendedList li:hover img, #content .recommendedEvents .recommendedList div:hover img {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
   z-index: -2;
 }
-/* line 172, ../scss/app.scss */
+/* line 169, ../scss/app.scss */
 #content .recommendedEvents .recommendedList li a, #content .recommendedEvents .recommendedList div a {
   display: block;
   position: relative;
   overflow: hidden;
 }
-/* line 176, ../scss/app.scss */
+/* line 173, ../scss/app.scss */
 #content .recommendedEvents .recommendedList li a:before, #content .recommendedEvents .recommendedList div a:before {
   position: absolute;
   content: "Get Tickets";
@@ -8902,11 +8920,11 @@ th.hide-for-touch {
   transition: all .3s ease .13s;
   z-index: 9;
 }
-/* line 191, ../scss/app.scss */
+/* line 188, ../scss/app.scss */
 #content .recommendedEvents .recommendedList li a:hover:before, #content .recommendedEvents .recommendedList div a:hover:before {
   bottom: 0;
 }
-/* line 469, ../scss/app.scss */
+/* line 475, ../scss/app.scss */
 #content .recommendedEvents .recommendedList .inTitles {
   font-weight: bold;
   margin: 0.625rem 0 0;
@@ -8914,23 +8932,23 @@ th.hide-for-touch {
   text-transform: uppercase;
   font-size: 0.875rem;
 }
-/* line 478, ../scss/app.scss */
+/* line 484, ../scss/app.scss */
 #content .subscribeBox {
   border: 1px solid #ccc;
   padding: 0.625rem;
   position: relative;
   margin: 1.25rem 0;
 }
-/* line 483, ../scss/app.scss */
+/* line 489, ../scss/app.scss */
 #content .subscribeBox h5 {
   text-transform: uppercase;
 }
-/* line 486, ../scss/app.scss */
+/* line 492, ../scss/app.scss */
 #content .subscribeBox p {
   color: #484848;
   font-size: 0.875rem;
 }
-/* line 490, ../scss/app.scss */
+/* line 496, ../scss/app.scss */
 #content .subscribeBox:before {
   position: absolute;
   top: -12%;
@@ -8940,28 +8958,28 @@ th.hide-for-touch {
   z-index: -1;
   opacity: 0.5;
 }
-/* line 500, ../scss/app.scss */
+/* line 506, ../scss/app.scss */
 #content .customerCareBox {
   padding: 0.625rem;
 }
-/* line 502, ../scss/app.scss */
+/* line 508, ../scss/app.scss */
 #content .customerCareBox ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-/* line 507, ../scss/app.scss */
+/* line 513, ../scss/app.scss */
 #content .customerCareBox li {
   color: #494949;
   margin-bottom: 0.625rem;
 }
-/* line 510, ../scss/app.scss */
+/* line 516, ../scss/app.scss */
 #content .customerCareBox li:before {
   position: relative;
   top: 3px;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
 }
-/* line 515, ../scss/app.scss */
+/* line 521, ../scss/app.scss */
 #content .customerCareBox li a {
   font-size: 0.8125rem;
   margin-left: 0.625rem;
@@ -8970,72 +8988,72 @@ th.hide-for-touch {
 
 /*Content*/
 /**** FOOTER SECTION ****/
-/* line 526, ../scss/app.scss */
+/* line 532, ../scss/app.scss */
 footer {
   background: #1b1b1b;
   padding: 2.5rem 0;
 }
-/* line 529, ../scss/app.scss */
+/* line 535, ../scss/app.scss */
 footer ul {
   margin: 0;
   padding: 0;
 }
-/* line 532, ../scss/app.scss */
+/* line 538, ../scss/app.scss */
 footer ul li {
   list-style-type: none;
   margin-top: 0.3125rem;
   padding-bottom: 0.3125rem;
 }
-/* line 536, ../scss/app.scss */
+/* line 542, ../scss/app.scss */
 footer ul li a {
   color: #fff;
   font-family: "Open Sans", sans-serif;
   font-size: 0.75rem;
   text-transform: uppercase;
 }
-/* line 541, ../scss/app.scss */
+/* line 547, ../scss/app.scss */
 footer ul li a:hover {
   color: #fff;
   text-decoration: underline;
 }
-/* line 550, ../scss/app.scss */
+/* line 556, ../scss/app.scss */
 footer .social ul {
   margin-left: -0.4375rem;
 }
-/* line 552, ../scss/app.scss */
+/* line 558, ../scss/app.scss */
 footer .social ul li {
   margin-left: 0.3125rem;
 }
-/* line 555, ../scss/app.scss */
+/* line 561, ../scss/app.scss */
 footer .social ul a {
   background: url(../images/sprite-all.png) no-repeat 0 0;
   width: 2rem;
   height: 32px;
 }
-/* line 560, ../scss/app.scss */
+/* line 566, ../scss/app.scss */
 footer .social ul .twitter {
   background-position: -36px 0;
 }
-/* line 561, ../scss/app.scss */
+/* line 567, ../scss/app.scss */
 footer .social ul .ytube {
   background-position: -69px 0;
 }
-/* line 562, ../scss/app.scss */
+/* line 568, ../scss/app.scss */
 footer .social ul .gplus {
   background-position: -103px 0;
 }
-/* line 563, ../scss/app.scss */
+/* line 569, ../scss/app.scss */
 footer .social ul .in {
   background-position: -137px 0;
 }
-/* line 567, ../scss/app.scss */
+/* line 573, ../scss/app.scss */
 footer .footer-titles {
   color: #fff;
   font-size: 0.875rem;
   margin: 0 0 0.625rem 0;
   font-weight: bold;
 }
-/* line 573, ../scss/app.scss */
+/* line 579, ../scss/app.scss */
 footer .footer-sections,
 footer .preferSection {
   border-right-width: 0;
@@ -9044,22 +9062,22 @@ footer .preferSection {
   padding-top: 20px;
   margin-top: 20px;
 }
-/* line 583, ../scss/app.scss */
+/* line 589, ../scss/app.scss */
 footer .we-prefer ul li {
   width: 4rem;
   height: 40px;
   background: url(../images/sprite-all.png) no-repeat 0 -42px;
   margin: 0 0 0.625rem 0.3125rem;
 }
-/* line 589, ../scss/app.scss */
+/* line 595, ../scss/app.scss */
 footer .we-prefer ul .master-card {
   background-position: -202px -42px;
 }
-/* line 592, ../scss/app.scss */
+/* line 598, ../scss/app.scss */
 footer .we-prefer ul .paypal {
   background-position: -135px -42px;
 }
-/* line 595, ../scss/app.scss */
+/* line 601, ../scss/app.scss */
 footer .we-prefer ul .Xpress {
   background-position: -68px -42px;
 }
@@ -9067,7 +9085,7 @@ footer .we-prefer ul .Xpress {
 /***** Media Queries *****/
 @media only screen and (min-width: 64.063em) {
   /**** FOOTER ***/
-  /* line 608, ../scss/app.scss */
+  /* line 613, ../scss/app.scss */
   footer .footer-sections {
     border-right: 1px solid #fff;
     border-top-width: 0;
@@ -9075,7 +9093,7 @@ footer .we-prefer ul .Xpress {
     margin-top: 0;
     padding-top: 0;
   }
-  /* line 615, ../scss/app.scss */
+  /* line 620, ../scss/app.scss */
   footer .preferSection {
     border-top-width: 0;
     margin-top: 0;
@@ -9084,13 +9102,13 @@ footer .we-prefer ul .Xpress {
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /**** FOOTER ***/
-  /* line 627, ../scss/app.scss */
+  /* line 632, ../scss/app.scss */
   footer .footer-sections {
     border: 0 none;
     min-height: 0;
     margin-top: 0;
   }
-  /* line 632, ../scss/app.scss */
+  /* line 637, ../scss/app.scss */
   footer .connectedSection, footer .preferSection {
     margin-top: 20px;
     border-top: 1px solid #fff;

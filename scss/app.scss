@@ -119,10 +119,7 @@
 	content: "\e60b";
 }
 
-
-
 /**** General ****/
-
 $titleColor: #333;/*solid black*/
 $titleColorHover: #686868;/*kinda black*/
 $footerBg: #1b1b1b;
@@ -239,10 +236,10 @@ $inTitlesFontSize: rem-calc(16);
 .topHeader{
 		padding: rem-calc(15 0);
 		background: $footerBg;
-	.logo{
-		padding: rem-calc(0 0 0 0);
-		cursor: pointer;
-	}
+		.logo{
+			padding: rem-calc(0 0 0 0);
+			cursor: pointer;
+		}
 }
 
 /**** Top bar section / Menu and Search section ****/
@@ -318,12 +315,18 @@ $inTitlesFontSize: rem-calc(16);
 		.orbit-caption{
 			font-weight: bold;
 			text-transform: uppercase;
+			@media #{$small-only} {
+				font-size: rem-calc(16);
+			}
 			.pupDate{
 				font-size: rem-calc(14);
 				display: block;
 				font-style: italic;
 				font-weight: normal;
 				text-transform: none;
+				@media #{$small-only} {
+					font-size: rem-calc(13);
+				}
 			} 
 		}		
 		.orbit-bullets-container{
@@ -338,6 +341,9 @@ $inTitlesFontSize: rem-calc(16);
 					height: 10px;
 					-webkit-transition: all .13s ease-in;
 							transition: all .13s ease-in;
+						@media #{$small-only} {
+							 width: rem-calc(10);	
+						}							
 				}
 				.active{
 					height: 20px;
@@ -510,7 +516,7 @@ $inTitlesFontSize: rem-calc(16);
 			&:before{
 				position: relative;
 				top: 3px;
-				font-size: rem-calc(18);
+				font-size: rem-calc(20);
 			}
 			a{
 				font-size: rem-calc(13);
@@ -598,7 +604,6 @@ footer{
 		}
 	}
 }
-
 
 /***** Media Queries *****/
 @media #{$large-up} { 
