@@ -122,7 +122,7 @@
 /**** General ****/
 html, body{
 	@media #{$small-only} {
-		font-size: 75%;
+		font-size: 85%;
 	}
 }
 $titleColor: #333;/*solid black*/
@@ -382,9 +382,10 @@ $inTitlesFontSize: rem-calc(16);
 			img{
 				margin-right: rem-calc(10);
 			}
+			h5{margin-bottom: 0}
 			span{
 				font-style: italic;
-				margin: rem-calc(10 0);
+				margin: rem-calc(5 0);
 				display: block;
 			}
 			p{
@@ -397,6 +398,13 @@ $inTitlesFontSize: rem-calc(16);
 				top: 5px;
 				right: 10px;
 				@include buttonStyle(#2b97df, 145, #317eb1, 5, 6);
+				@media #{$small-only} {
+					position: relative;
+					top: auto;
+					right: auto;
+					width: 100%;
+					margin: rem-calc(10 0);
+				}				
 			}
 		}
 	}
@@ -463,10 +471,29 @@ $inTitlesFontSize: rem-calc(16);
 					top: 14px;
 					}
 			}
+			@media #{$small-only} {
+				img{
+					border: 20px solid #fff;
+					margin-left: 0;
+				}
+				.evntBuytckt{
+					width: 100%;
+					margin:rem-calc(10 0);
+					&:after{
+						display: none;				
+					}
+				}
+			}
 		}
 	}
 	.adEvnt{
 		padding: rem-calc(10);
+		@media #{$small-only} {
+			img{
+				border: 20px solid #fff;
+				margin-left: 0;
+			}
+		}
 	}
 	.recommendedEvents{
 		.recommendedList{
@@ -500,6 +527,11 @@ $inTitlesFontSize: rem-calc(16);
 			font-size: rem-calc(190);
 			z-index: -1;
 			opacity: 0.5;			
+		}
+		@media #{$small-only} {
+			&:before{
+				display: none;
+			}
 		}
 	}
 	.customerCareBox{
