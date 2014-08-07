@@ -8,4 +8,14 @@ $(document).ready(function() {
         slidesToScroll: 1,
         infinite: false
     });
+
+    $('.StepsContent').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        draggable: true,
+        touchMove: true,
+        infinite: false
+    });
+
+
 })
