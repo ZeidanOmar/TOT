@@ -8,4 +8,9 @@ Due Date : 15-8-2014
   * [bower](http://bower.io)
   * SASS (Syntically Awesome Style Sheet)
 
+<<<<<<< HEAD
 Front end - Omar Zeidan
+=======
+Front end - Omar Zeidan.
+
+>>>>>>> c8728e682b5e2aaaa7580fa572169eee7c2dfd0a
