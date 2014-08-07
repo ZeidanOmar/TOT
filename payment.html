@@ -186,21 +186,26 @@
         </div> 
 <!--DELIVERY METHOD-->
         <div class="row">
-          <div class="featuredEvents columns large-12">
+          <div class="DeliveryMethod columns large-12">
             <h4 class="sectionTitle">delivery method</h4>
-            <div class="row">
-              <div class="large-12 columns">
-                DROPDOWN
+            <div class="row ">
+              <div class="large-7 columns deliveryMethodBox">
+                  <a href="#" data-dropdown="deliveryMethods" class="dropdownblk deliveryDropdown icon-arrow-down">Select a delivery method</a>
+                  <ul id="deliveryMethods" class="f-dropdown" data-dropdown-content>
+                    <li><a href="javascript:void(0)">Option 1</a></li>
+                    <li><a href="javascript:void(0)">Option 2</a></li>
+                    <li><a href="javascript:void(0)">Option 3</a></li>
+                  </ul> 
               </div>
               <div class="large-12 columns">
                 <p>
-                  *Service/Delivery fee is a one-off fee per transaction, not per ticket. <br /> <br />
+                  <span class="icon-arrow-right"></span>Service/Delivery fee is a one-off fee per transaction, not per ticket. <br /> <br />
 
-                  *The actual service/delivery fee may vary depending on the venue and method of delivery selected. <br /> <br />
+                  <span class="icon-arrow-right"></span>The actual service/delivery fee may vary depending on the venue and method of delivery selected. <br /> <br />
 
-                  *A payment processing fee from 1.95% will also apply for all purchases made by credit or debit card. A payment processing fee does not apply for purchases made through Ticketek agents or outlets when using cash, or when redeeming a Ticketek Gift Voucher. <br /> <br />
+                  <span class="icon-arrow-right"></span>A payment processing fee from 1.95% will also apply for all purchases made by credit or debit card. A payment processing fee does not apply for purchases made through Ticketek agents or outlets when using cash, or when redeeming a Ticketek Gift Voucher. <br /> <br />
 
-                  *Ticket orders purchased by credit/debit card are subject to credit/debit card approval and customer account verification.                  
+                  <span class="icon-arrow-right"></span>Ticket orders purchased by credit/debit card are subject to credit/debit card approval and customer account verification.                  
                 </p>
               </div>
             </div>
@@ -272,7 +277,7 @@
                   <div class="large-12 columns">
                     <div class="row collapse">
                       <div class="small-8 columns">
-                        <input type="text" placeholder="Type your email..." required>
+                        <input type="email" placeholder="Type your email..." required>
                         <small class="error">An email address is required.</small>
                       </div>
                       <div class="small-4 columns">

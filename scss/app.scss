@@ -795,5 +795,15 @@ footer{
 			}
 		}
 	}
+/* ==== DeliveryMethod ==== */
+	.DeliveryMethod{
+		@include DropDown();
+		.deliveryMethodBox{
+			margin-bottom: rem-calc(20);
+		}
+		p{
+			font-size: rem-calc(14);
+		}
+	}
 
 }/* Payment page */
