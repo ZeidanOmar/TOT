@@ -451,7 +451,7 @@ $inTitlesFontSize: rem-calc(16);
 		margin-top: rem-calc(70);
 		.panel{
 			img{
-				margin: rem-calc(10 0 0 6);
+				margin: 0;
 			}
 			h5{
 				margin: rem-calc(10 0 10 8);
@@ -503,7 +503,7 @@ $inTitlesFontSize: rem-calc(16);
 					height: 16px;
 					background: #fff;
 					border-radius: 15px;
-					left: rem-calc(35);
+					left: rem-calc(25);
 					z-index: 1;
 					top: 14px;
 					}
@@ -825,6 +825,28 @@ footer{
 					font-size: rem-calc(14);
 				}
 			}
+		}
+	}
+
+	.registerSignIn{
+		.registerBlock{
+			p{
+				font-size: rem-calc(14);
+			}
+		}
+		.button{
+			@include buttonStyle(#2b97df, #317eb1, 2, 6);
+			width: rem-calc(170);
+		}
+		.rgstrButon{
+			margin-top: rem-calc(46);
+		}
+		.signInBox{
+			margin-top: rem-calc(25);
+		}
+		.forgotPass{
+			font-size: rem-calc(13);
+			color: #2b97df;
 		}
 	}
 

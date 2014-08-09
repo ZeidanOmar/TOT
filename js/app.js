@@ -8,8 +8,6 @@ $(document).ready(function() {
         slidesToScroll: 1,
         infinite: false
     });
-<<<<<<< HEAD
-=======
 
     $('.StepsContent').slick({
         slidesToShow: 1,
@@ -18,7 +16,4 @@ $(document).ready(function() {
         touchMove: true,
         infinite: false
     });
-
-
->>>>>>> c8728e682b5e2aaaa7580fa572169eee7c2dfd0a
 })
