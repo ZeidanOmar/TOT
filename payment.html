@@ -344,75 +344,87 @@
 
             <div class="paymentBlocks row">
               <form>
+
                 <div class="large-12 columns payBlck">
                   <div class="panel">
-                    <h4>Protect your tickets </h4>
-                    <p><input type="radio" name="isprtkt" value="Yes" id="prtktYes"><label for="prtktYes">Yes</label></p>
-                    <p><input type="radio" name="isprtkt" value="No" id="prtktNo"><label for="prtktNo">No</label></p>
-                  </div>
-                </div>
-                <div class="large-12 columns payBlck">
-                  <div class="panel">
-                    <h4>payment details</h4>
+                    <h4 class="sectionTitle">Protect your tickets </h4>
                     <div class="row">
-                      <div class="large-3 columns"> <label for="voucherID" class="right">Redeem gift vouchers </label></div>
+                      <div class="large-12 columns">
+                        <input type="radio" name="isprtkt" value="Yes" id="prtktYes"><label for="prtktYes"><strong>YES</strong></label>
+                      </div>
+                      <div class="large-12 columns">
+                        <input type="radio" name="isprtkt" value="No" id="prtktNo"><label for="prtktNo"><strong>NO</strong></label>
+                      </div>
+                      <div class="large-12 columns">
+                        <p class="icon-arrow-right detailsTxt">
+                          Ticket Insurance will cover the cost of your ticket(s) (excluding service/delivery fees) if you are unable to attend the event due to illness, accident or other covered circumstances as outlined in the Combined Financial Services Guide and Product Disclosure Statement (PDS). Terms and conditions apply, you should read the PDS before choosing 'Yes' to decide if this insurance is right for you.
+                        </p>                      
+                      </div>                                            
+                    </div>
+                  </div>
+                </div> <!-- First -->
+
+                <div class="large-12 columns payBlck">
+                  <div class="panel">
+                    <h4 class="sectionTitle">payment details</h4>
+                    <div class="row">
+                      <div class="large-3 columns"> <label for="voucherID" ><strong> Redeem gift vouchers </strong></label></div>
                       <div class="large-5 columns left"> <input type="text" name="voucherID" id="voucherID" placeholder="Voucher ID" /> </div>
                       <div class="large-2 columns left"> <a href="javascript:void(0)" class="button radius">Redeem</a></div>
-                      <div class="large-2 columns left"> <a href="javascript:void(0)">Hide</a></div>
+                      <div class="large-2 columns left"> <a href="javascript:void(0)" class="hideVouchers">Hide</a></div>
                     </div>
-                    <p> Credit card information for <strong>JAmila Hyasat</strong> </p>
+
+                    <div class="row">
+                        <div class="large-12 columns">
+                          <p class="sectionTitle"> Credit card information for:  <strong>JAmila Hyasat</strong> </p>
+                        </div>
+                    </div>
 
                     <div class="row">
                           <div class="large-3 columns">
-                            <label for="cardType" class="right">Card Type:</label>
+                            <label for="cardType" ><strong>*Card Type:</strong></label>
                           </div>
                           <div class="large-9 columns">
-                            <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Red</label>
-                            <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Red</label>
-                            <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Red</label>
-                            <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Red</label>
+                            <input type="radio" name="payMethod" value="visa" id="visa"><label for="visa"><strong> VISA </strong></label>
+                            <input type="radio" name="payMethod" value="mastercard" id="mastercard"><label for="mastercard"><strong> MASTER CARD </strong></label>
+                            <input type="radio" name="payMethod" value="Diners" id="diners"><label for="diners"><strong> DINERS </strong></label>
+                            <input type="radio" name="payMethod" value="American Express" id="amercnxprs"><label for="amercnxprs"><strong> AMERICAN EXPRESS </strong></label>
                           </div>
                     </div> <!-- Card-Type -->
 
                     <div class="row">
                       <div class="large-3 columns">
-                        <label for="cardType" class="right">Card Type:</label>
+                        <label for="cardNumber" ><strong>*Card Number:</strong></label>
                       </div>
                       <div class="large-9 columns">
-                        <input type="text" placeholder= "tEXT" >
+                        <input type="text" placeholder= "Card Number" name="cardNumber" id="cardNumber" >
                       </div>
                     </div><!-- Card Number -->
 
                     <div class="row">
                       <div class="large-3 columns">
-                        <label for="cardType" class="right">Card Type:</label>
+                        <label for="nameonCard"><strong>*Name on Card:</strong></label>
                       </div>
                       <div class="large-9 columns">
-                        <input type="text" placeholder= "tEXT" >
+                        <input type="text" placeholder= "Name on Card" name="nameonCard" id="nameonCard">
                       </div>
                     </div><!-- Name on  Card --> 
 
                     <div class="row">
                       <div class="large-3 columns">
-                        <label for="cardType" class="right">Card Type:</label>
+                        <label for="expiryDate" ><strong>*Expiry Date:</strong></label>
                       </div>
                       <div class="large-4 columns">
-                        <label>Select Box
-                          <select>
-                            <option value="husker">Husker</option>
-                            <option value="starbuck">Starbuck</option>
-                            <option value="hotdog">Hot Dog</option>
-                            <option value="apollo">Apollo</option>
+                        <label>
+                          <select name="expiryMonth" id="expiryDate">
+                            <option value="MM">MM</option>
                           </select>
                         </label>
                       </div>
                       <div class="large-5 columns">
-                        <label>Select Box
-                          <select>
-                            <option value="husker">Husker</option>
-                            <option value="starbuck">Starbuck</option>
-                            <option value="hotdog">Hot Dog</option>
-                            <option value="apollo">Apollo</option>
+                        <label>
+                          <select name="expiryYear">
+                            <option value="YYYY">YYYY</option>
                           </select>
                         </label>
                       </div>                  
@@ -420,10 +432,10 @@
 
                     <div class="row">
                       <div class="large-3 columns">
-                        <label for="cardType" class="right">Card Type:</label>
+                        <label for="CVC" ><strong>*CVC:</strong></label>
                       </div>
                       <div class="large-3 columns">
-                        <input type="text" placeholder= "tEXT" >
+                        <input type="text" placeholder= "CVC Number" name="CVC" id="CVC">
                       </div>
                       <div class="large-6 columns">
                         ?
@@ -432,7 +444,7 @@
 
                     <div class="row">
                       <div class="large-3 columns">
-                        <label for="cardType" class="right">Card Type:</label>
+                        <label for="cardType" ><strong></strong></label>
                       </div>
                       <div class="large-9 columns">
                         <input id="checkbox1" type="checkbox">
@@ -446,10 +458,10 @@
 
                 <div class="large-12 columns payBlck">
                   <div class="panel">
-                    <h4>payment details</h4>
+                    <h4 class="sectionTitle">payment details</h4>
                     <div class="row">
                       <div class="large-4 columns">
-                        <label for="x" class="right"> Name: </label>
+                        <label for="x" > Name: </label>
                       </div>
                       <div class="large-8 columns">
                         <input type="text" placeholder="Change it"/>
@@ -457,7 +469,7 @@
                     </div>
                     <div class="row">
                       <div class="large-4 columns">
-                        <label for="x" class="right"> Name: </label>
+                        <label for="x" > Name: </label>
                       </div>
                       <div class="large-8 columns">
                         <input type="text" placeholder="Change it"/>
@@ -465,7 +477,7 @@
                     </div>
                     <div class="row">
                       <div class="large-4 columns">
-                        <label for="x" class="right"> Name: </label>
+                        <label for="x" > Name: </label>
                       </div>
                       <div class="large-8 columns">
                         <input type="text" placeholder="Change it"/>
@@ -473,7 +485,7 @@
                     </div>
                     <div class="row">
                       <div class="large-4 columns">
-                        <label for="x" class="right"> Name: </label>
+                        <label for="x" > Name: </label>
                       </div>
                       <div class="large-8 columns">
                         <input type="text" placeholder="Change it"/>
@@ -481,7 +493,7 @@
                     </div>
                     <div class="row">
                       <div class="large-4 columns">
-                        <label for="x" class="right"> Name: </label>
+                        <label for="x" > Name: </label>
                       </div>
                       <div class="large-8 columns">
                         <input type="text" placeholder="Change it"/>
@@ -489,7 +501,7 @@
                     </div>
                     <div class="row">
                       <div class="large-4 columns">
-                        <label for="x" class="right"> Name: </label>
+                        <label for="x" > Name: </label>
                       </div>
                       <div class="large-8 columns">
                         <input type="text" placeholder="Change it"/>
@@ -501,7 +513,7 @@
 
                 <div class="large-12 columns payBlck">
                   <div class="panel">
-                    <h4>Protect your tickets </h4>
+                    <h4 class="sectionTitle">Protect your tickets </h4>
                     <p>  
                       <label>                      
                       <input id="checkbox1" type="checkbox">
@@ -512,7 +524,7 @@
                 </div>    
                 <div class="large-12 columns payBlck">
                   <div class="panel">
-                    <h4>Protect your tickets </h4>
+                    <h4 class="sectionTitle">Protect your tickets </h4>
                     <div class="row">  
                       <div class="large-5 columns">
                         <label>                      

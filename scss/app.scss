@@ -136,6 +136,7 @@ $inTitlesFontSize: rem-calc(16);
     background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #5f9f6f));
 }
 .inTitles{font-size: $inTitlesFontSize; text-transform: uppercase;}
+.detailsTxt{font-size: rem-calc(13);font-style: italic;}
 ::selection,
 ::-moz-selection{
 	background: $topbar-bg-color;
@@ -850,4 +851,11 @@ footer{
 		}
 	}
 
+	/** STEP 4 **/
+	.paymentBlocks{
+		.button{
+			@include buttonStyle(#2b97df, #317eb1, 2, 6);
+		}
+		.hideVouchers{color: #2b97df; text-decoration: underline;}
+	}
 }/* Payment page */ 
