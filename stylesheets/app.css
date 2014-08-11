@@ -9182,6 +9182,7 @@ footer .we-prefer ul .Xpress {
   /* ==== DeliveryMethod ==== */
   /*** STEP 2***/
   /** STEP 4 **/
+  /** STEP 5 **/
 }
 /* line 728, ../scss/app.scss */
 .payment .paySteps {
@@ -9414,9 +9415,36 @@ footer .we-prefer ul .Xpress {
   top: 6px;
 }
 /* line 859, ../scss/app.scss */
-.payment .paymentBlocks .hideVouchers {
+.payment .paymentBlocks .hideVouchers, .payment .paymentBlocks .tcktsName {
   color: #2b97df;
   text-decoration: underline;
+}
+/* line 861, ../scss/app.scss */
+.payment .paymentBlocks .paymentlastDetails div {
+  margin-top: 0.625rem;
+}
+/* line 870, ../scss/app.scss */
+.payment .billingAddrsInfoBlk .button-group li {
+  float: right;
+  width: 8.75rem;
+  margin-left: 0.625rem;
+}
+/* line 876, ../scss/app.scss */
+.payment .billingAddrsInfoBlk .button {
+  background: #2b97df;
+  box-shadow: 0 6px #317eb1;
+  width: 100%;
+  padding: 0.625rem;
+}
+/* line 206, ../scss/app.scss */
+.payment .billingAddrsInfoBlk .button:hover {
+  box-shadow: 0 4px #317eb1;
+  top: 2px;
+}
+/* line 210, ../scss/app.scss */
+.payment .billingAddrsInfoBlk .button:active {
+  box-shadow: 0 0 #317eb1;
+  top: 6px;
 }
 
 /* Payment page */

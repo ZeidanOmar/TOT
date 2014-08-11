@@ -856,6 +856,25 @@ footer{
 		.button{
 			@include buttonStyle(#2b97df, #317eb1, 2, 6);
 		}
-		.hideVouchers{color: #2b97df; text-decoration: underline;}
+		.hideVouchers,.tcktsName{color: #2b97df; text-decoration: underline;}
+		.paymentlastDetails{
+			div{
+				margin-top: rem-calc(10);
+			}
+		}
+
+	}
+	/** STEP 5 **/
+	.billingAddrsInfoBlk{
+		.button-group{
+			li{
+				float: right;
+				width: rem-calc(140);
+				margin-left: rem-calc(10);
+			}	
+		}
+		.button{
+			@include buttonStyle(#2b97df, #317eb1, 2, 6);
+		}
 	}
 }/* Payment page */ 

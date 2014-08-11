@@ -14,6 +14,7 @@ $(document).ready(function() {
         slidesToScroll: 1,
         draggable: true,
         touchMove: true,
+        arrows: false,
         infinite: false
     });
 })
