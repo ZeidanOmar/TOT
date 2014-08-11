@@ -17,4 +17,7 @@ $(document).ready(function() {
         arrows: false,
         infinite: false
     });
-})
+    $(".next").click(function(){
+    	$('.StepsContent').slickNext();
+    });
+});
