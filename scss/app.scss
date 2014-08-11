@@ -862,6 +862,57 @@ footer{
 				margin-top: rem-calc(10);
 			}
 		}
+		.paymentInformation{
+			margin: rem-calc(20 0);
+		}
+		input[type="radio"],
+		input[type="checkbox"]{
+			opacity: 0;
+			+label{
+				position: relative;
+				margin-left: rem-calc(30);
+				&:before, &:after{
+					position: absolute;
+					content: "";
+					background: #fff;
+					width: rem-calc(45);
+					height: 20px;
+					border-radius: 15px;
+					left: rem-calc(-50);
+					top: 2px;
+					box-shadow: 0 0 1px #000;
+					-webkit-transition: all .2s ease;
+					transition: all .2s ease;			
+				}
+				&:after{
+					left: rem-calc(-45);
+					top: 5px;
+					opacity: 1;
+					width: rem-calc(15);
+					height: 15px;
+					background: #DADADA;
+				}
+			}
+			&:checked{
+				+label{
+					&:before{
+						background: #2b97df;
+					}
+					&:after{
+						background: #fff;
+						left:rem-calc(-22);
+						top:4px;					
+					}
+				}
+			}
+		}
+		input[type="checkbox"]{
+			+label{
+				&:before, &:after{
+					border-radius: 0;
+				}
+			}
+		}
 
 	}
 	/** STEP 5 **/
