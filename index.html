@@ -1,0 +1,439 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TimeOut Tickets</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'> 
+    <link rel="stylesheet" href="stylesheets/slick.css" />
+    <link rel="stylesheet" href="stylesheets/app.css" />
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+      <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+      <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+    <![endif]-->    
+  </head>
+  <body>
+    <div class="off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+        <nav class="tab-bar hidden-for-large-up">
+          <section class="left-small">
+            <a class="left-off-canvas-toggle menu-icon" href="javascript:void(0)"><span></span></a>
+          </section>       
+          
+          <section class="right-small">
+            <a class="right-off-canvas-toggle menu-icon" href="javascript:void(0)"><span></span></a>
+          </section>           
+        </nav>
+        <!-- Off Canvas Menu -->
+        <aside class="left-off-canvas-menu">
+            <!-- whatever you want goes here -->
+            <ul class="off-canvas-list">    
+              <li><label> MENU </label></li>
+              <li class="active"><a href="javascript:void(0)">HOME</a></li>
+              <li><a href="javascript:void(0)">CONCERTS</a></li>
+              <li><a href="javascript:void(0)">SPORTS</a></li>
+              <li><a href="javascript:void(0)">THEATRE</a></li>
+              <li><a href="javascript:void(0)">EXHIBITIONS & EXPERIENCES</a></li>
+              <li><a href="javascript:void(0)">FAMILY</a></li>
+              <li><a href="javascript:void(0)">COMEDY</a></li>
+            </ul>
+        </aside>
+
+        <!-- Off Canvas Right Menu -->
+        <aside class="right-off-canvas-menu">
+          <ul class="off-canvas-list">
+            <li><label>Search</label></li>
+              <li class="has-form">
+                <div class="row collapse">
+                  <div class="large-12 columns">
+                    <span class="icon-search"></span>
+                    <input id="topSearch" class="radius" type="text" placeholder="SEARCH">
+                  </div>
+                </div>
+              </li> 
+              <li><label>Country</label></li>
+              <li><a href="javascript:void(0)">DUBAI</a></li> 
+              <li><a href="javascript:void(0)">QATAR</a></li>
+              <li><a href="javascript:void(0)">DUBAI</a></li> 
+          </ul>
+        </aside>        
+      <!-- close the off-canvas menu -->
+      <a class="exit-off-canvas"></a>
+ 
+      <!-- Top Header -->
+      <div class="topHeader">
+        <div class="row">
+          <div class="large-4 columns medium-text-center small-text-center  logo wobble-horizontal">
+            <a href="javascript:void(0)"> <img src="images/logo.png" width="135" height="90" alt="" /> </a>
+          </div>
+          <div class="large-8 columns medium-text-center ">
+            <img class="visible-for-medium-up " src="images/AdImage.jpg" width="728" height="90" alt="AdArea" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Top Bar -->
+      <section id="top-barSection">  
+        <div class="row visible-for-large-up" >
+          <div class="large-12">
+            <nav class="top-bar" data-topbar>
+                  <ul class="title-area">
+                   <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                    <li class="toggle-topbar menu-icon"><a href="javascript:void(0)"><span>Menu</span></a></li>
+                  </ul>
+
+                  <div class="top-bar-section">
+                    <!-- Left Nav Section -->
+                    <ul>
+                      <li class="active"><a href="javascript:void(0)">HOME</a></li>
+                      <li><a href="javascript:void(0)">CONCERTS</a></li>
+                      <li><a href="javascript:void(0)">SPORTS</a></li>
+                      <li><a href="javascript:void(0)">THEATRE</a></li>
+                      <li><a href="javascript:void(0)">EXHIBITIONS & EXPERIENCES</a></li>
+                      <li><a href="javascript:void(0)">FAMILY</a></li>
+                      <li><a href="javascript:void(0)">COMEDY</a></li>
+
+                      <li class="has-form">
+                        <div class="row collapse">
+                          <div class="large-12 columns">
+                            <span class="icon-search"></span>
+                            <input id="topSearch" class="radius" type="text" placeholder="SEARCH">
+                          </div>
+                        </div>
+                      </li>  
+                      <li class="has-dropdown icon-arrow-down"><a href="javascript:void(0)">DUBAI</a>
+                        <ul class="dropdown">
+                          <li><a href="javascript:void(0)"> Item 1 </a></li>
+                          <li><a href="javascript:void(0)"> Item 2 </a></li>
+                          <li><a href="javascript:void(0)"> Item 3 </a></li>
+                        </ul>
+                      </li>                          
+                    </ul>
+                  </div>
+            </nav> <!-- top-bar -->
+          </div>
+        </div>
+      </section>
+      <section id="content">
+        
+        <div class="row">
+
+          <!-- LEFT SIDE -->
+          <div class="large-8 medium-8 columns">
+            <!-- FEATURED EVENTS SLIDER -->
+            <div class="featuredEvents">
+              <h4 class="sectionTitle"> Featured Events </h4>
+              <ul class="featuredSlider" data-orbit  data-options=" timer_speed: 4000;navigation_arrows:false;slide_number: false;pause_on_hover: true;resume_on_mouseout: true;">
+                <li>
+                  <img src="images/slider1.jpg" alt="slide 1" /> 
+                   <div class="orbit-caption">
+                       One Direction
+                      <span class="pupDate"> May 25th 2015, 8:00 pm </span>
+                    </div>                              
+                </li>
+                <li>
+                  <img src="images/slider2.jpg" alt="slide 2" /> 
+                   <div class="orbit-caption">
+                      Three Direction
+                      <span class="pupDate"> July 25th 2015, 8:00 pm </span>
+                    </div>                  
+                </li>
+                <li>
+                  <img src="images/slider1.jpg" alt="slide 1" /> 
+                   <div class="orbit-caption">
+                       One Direction
+                      <span class="pupDate"> May 25th 2015, 8:00 pm </span>
+                    </div>                              
+                </li>
+                <li>
+                  <img src="images/slider2.jpg" alt="slide 2" /> 
+                   <div class="orbit-caption">
+                      Three Direction
+                      <span class="pupDate"> July 25th 2015, 8:00 pm </span>
+                    </div>                  
+                </li>
+                <li>
+                  <img src="images/slider1.jpg" alt="slide 1" /> 
+                   <div class="orbit-caption">
+                       One Direction
+                      <span class="pupDate"> May 25th 2015, 8:00 pm </span>
+                    </div>                              
+                </li>
+                <li>
+                  <img src="images/slider2.jpg" alt="slide 2" /> 
+                   <div class="orbit-caption">
+                      Three Direction
+                      <span class="pupDate"> July 25th 2015, 8:00 pm </span>
+                    </div>                  
+                </li>
+              </ul>
+            </div>
+
+            <!-- UPCOMING EVENTS -->
+            <div class="upcomingEvents clearfix">
+              <h4 class="sectionTitle"> Upcoming Events </h4>
+              <ul class="upcomingList large-block-grid-3 small-block-grid-3">
+                <li>
+                  <a href="javascript:void(0)"><img src="images/upslider1.jpg" alt="Upslider1"></a>
+                  <div class="inTitles"> deep house fiesta </div>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"><img src="images/upslider2.jpg" alt="Upslider2"></a>
+                  <div class="inTitles"> deep house fiesta</div>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"><img src="images/upslider1.jpg" alt="Upslider3"></a>
+                  <div class="inTitles"> deep house fiesta </div>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"><img src="images/upslider1.jpg" alt="Upslider1"></a>
+                  <div class="inTitles"> deep house fiesta </div>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"><img src="images/upslider2.jpg" alt="Upslider2"></a>
+                  <div class="inTitles"> deep house fiesta</div>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"><img src="images/upslider1.jpg" alt="Upslider3"></a>
+                  <div class="inTitles"> deep house fiesta </div>
+                </li>
+              </ul>
+              <a href="javascript:void(0)" class="button radius right"> SEE ALL EVENTS </a>
+            </div>
+            <!-- CAROUSEL FEATURED SLIDER -->
+            <div class="carouselFeautured">
+              <h4 class="sectionTitle"> Featured Events </h4>
+              <div class="carouselSlider">
+                <div><a href="javscript:void(0)"><img src="images/carou1.jpg" alt="" /></a></div>
+                <div><a href="javscript:void(0)"><img src="images/carou2.jpg" alt="" /></a></div>
+                <div><a href="javscript:void(0)"><img src="images/carou3.jpg" alt="" /></a></div>
+                <div><a href="javscript:void(0)"><img src="images/carou4.jpg" alt="" /></a></div>
+                <div><a href="javscript:void(0)"><img src="images/carou1.jpg" alt="" /></a></div>
+                <div><a href="javscript:void(0)"><img src="images/carou2.jpg" alt="" /></a></div>
+                <div><a href="javscript:void(0)"><img src="images/carou3.jpg" alt="" /></a></div>
+                <div><a href="javscript:void(0)"><img src="images/carou4.jpg" alt="" /></a></div>
+                <div><a href="javscript:void(0)"><img src="images/carou1.jpg" alt="" /></a></div>
+                <div><a href="javscript:void(0)"><img src="images/carou2.jpg" alt="" /></a></div>
+              </div>
+            </div>
+            <!-- Latest Events -->
+            <div class="latestEvents">
+              <h4 class="sectionTitle"> Latest Events </h4>
+              <div class="panel clearfix">
+                <img src="images/latest.jpg" alt="Latest" class="left" />
+                <div class="latestInfo">
+                  <h5 class="inTitles"> deep house fiesta </h5>
+                  <span> May 15th, 8:00 pm </span>
+                  <p> Ozzy’s first career ambition wasn’t in the 
+                  realm of music. Allegedly, when Ozzy was a youngster of around fifteen years old, he became a plumber’s apprentice, as that was the profession he was interested in at the time. Obviously, it didn’t pan out – and we’re not complaining. 
+                  </p>
+                </div>
+                <a href="javascript:void(0)" class="button radius right">Get Tickets</a>
+              </div> <!-- One Panel -->
+              <div class="panel clearfix">
+                <img src="images/latest.jpg" alt="Latest" class="left" />
+                <div class="latestInfo">
+                  <h5 class="inTitles"> deep house fiesta </h5>
+                  <span> May 15th, 8:00 pm </span>
+                  <p> Ozzy’s first career ambition wasn’t in the 
+                  realm of music. Allegedly, when Ozzy was a youngster of around fifteen years old, he became a plumber’s apprentice, as that was the profession he was interested in at the time. Obviously, it didn’t pan out – and we’re not complaining. 
+                  </p>
+                </div>
+                <a href="javascript:void(0)" class="button radius right">Get Tickets</a>
+              </div> <!-- One Panel -->
+              <div class="panel clearfix">
+                <img src="images/latest.jpg" alt="Latest" class="left" />
+                <div class="latestInfo">
+                  <h5 class="inTitles"> deep house fiesta </h5>
+                  <span> May 15th, 8:00 pm </span>
+                  <p> Ozzy’s first career ambition wasn’t in the 
+                  realm of music. Allegedly, when Ozzy was a youngster of around fifteen years old, he became a plumber’s apprentice, as that was the profession he was interested in at the time. Obviously, it didn’t pan out – and we’re not complaining. 
+                  </p>
+                </div>
+                <a href="javascript:void(0)" class="button radius right">Get Tickets</a>
+              </div> <!-- One Panel -->
+            </div>
+          </div> <!-- Large-8 -->
+
+          <!-- RIGHT SIDE -->
+          <div class="large-4 medium-4 columns">
+            <div class="bigEvnt">
+              <div class="panel">
+                <img src="images/rightEvnt.jpg" alt="BigEvent" />
+                <h5> Kevin Bridges </h5>
+                <div class="info evntLocation icon-map-marker"> Dubai World Trade Center </div>
+                <div class="info evntDate icon-uniE607 "> Friday, 12th Dec 2014 </div>
+                <a href="javascript:void(0)" class="button radius evntBuytckt icon-check-circle">BUY YOUR TICKETS TODAY</a>
+              </div>
+            </div>
+
+            <!-- Ad Event -->
+            <div class="adEvnt panel">
+              <a href="javascript:void(0)"><img src="images/adEvnt.jpg" alt="AdEvent" /></a>
+            </div>
+            <!-- UPCOMING EVENTS -->
+            <div class="recommendedEvents clearfix">
+              <h4 class="sectionTitle"> recommended events </h4>
+              <ul class="recommendedList large-block-grid-2 small-block-grid-2">
+                <li>
+                  <a href="javascript:void(0)"><img src="images/upslider1.jpg" alt="Upslider1"></a>
+                  <div class="inTitles"> deep house fiesta </div>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"><img src="images/upslider2.jpg" alt="Upslider2"></a>
+                  <div class="inTitles"> deep house fiesta</div>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"><img src="images/upslider1.jpg" alt="Upslider3"></a>
+                  <div class="inTitles"> deep house fiesta </div>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"><img src="images/upslider1.jpg" alt="Upslider1"></a>
+                  <div class="inTitles"> deep house fiesta </div>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"><img src="images/upslider2.jpg" alt="Upslider2"></a>
+                  <div class="inTitles"> deep house fiesta</div>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"><img src="images/upslider1.jpg" alt="Upslider3"></a>
+                  <div class="inTitles"> deep house fiesta </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- NEWSLETTER -->
+            <div class="subscribeBox icon-envelope">
+              <h5> subscribe to newsletter </h5>
+              <p>News, reviews, photos and features sent directly to your inbox.</p>
+              <form action="javascrip:void(0)" class="newsletter-form" data-abide>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <div class="row collapse">
+                      <div class="small-8 columns">
+                            <input type="email"  placeholder="Type your email..." required />
+                            <small class="error">An email address is required.</small>
+                      </div>
+                      <div class="small-4 columns">
+                        <button type="submit" class="button postfix subscribe">Subscribe</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- Customer Care -->
+            <div class="customerCareBox panel">
+                <h5>Customer Care</h5>
+                <ul>
+                  <li class="icon-phone"><a href="javascript:void(0)">Within uae: 800 4669</a></li>
+                  <li class="icon-phone"><a href="javascript:void(0)">outside uae: 800 4669</a> </li>
+                  <li class="icon-envelope"><a href="javascript:void(0)">email us: hotline@itp.com</a></li>
+                  <li class="icon-clock"><a href="javascript:void(0)">timings: Sat - Thu 9:00 am - 9:00 pm</a></li>
+                  <li class="icon-social-twitter"><a href="javascript:void(0)">Follow us on Twitter</a></li>
+                </ul>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div id="footer" class="row">
+
+          <div class="large-2 medium-6 columns otherITPsites">
+            <ul>
+              <li><a href="javascript:void(0)">About us</a></li>         
+              <li><a href="javascript:void(0)">retail sales outlets</a></li>         
+              <li><a href="javascript:void(0)">delivery methods</a></li>         
+              <li><a href="javascript:void(0)">utilities-me.com</a></li>         
+              <li><a href="javascript:void(0)">purchase policy</a></li>         
+              <li><a href="javascript:void(0)">terms of use</a></li>         
+              <li><a href="javascript:void(0)">contact us</a></li>         
+            </ul>
+          </div>
+
+          <div class="large-4 medium-6 columns footer-sections">
+            <div class="row">
+              <div class="large-12 columns"> <p class="footer-titles"> WHAT'S ON </p> </div>
+                <div class="large-6 medium-6 columns">              
+                  <ul>
+                    <li><a href="javascript:void(0)">comedy tickets</a></li>             
+                    <li><a href="javascript:void(0)">concerts tickets</a></li>             
+                    <li><a href="javascript:void(0)">exhibition tickets</a></li>
+                    <li><a href="javascript:void(0)">experience tickets</a></li>             
+                    <li><a href="javascript:void(0)">family and kids tickets</a></li>             
+                    <li><a href="javascript:void(0)">festival tickets</a></li>                
+                  </ul>           
+                </div>
+                <div class="large-6 medium-6 columns">
+                  <ul>
+                    <li><a href="javascript:void(0)">lifestyle tickets</a></li>             
+                    <li><a href="javascript:void(0)">Music tickets</a></li>             
+                    <li><a href="javascript:void(0)">sports tickets</a></li>
+                    <li><a href="javascript:void(0)">theatre & arts tickets</a></li>             
+                    <li><a href="javascript:void(0)">waitlist events</a></li>             
+                    <li><a href="javascript:void(0)">group entertainment</a></li>   
+                  </ul>                
+                </div>          
+            </div>
+          </div>
+
+          <div class="large-4 medium-6 columns footer-sections connectedSection">
+            <div><p class="footer-titles"> STAY CONNECTED </p></div>
+            <div class="social">
+              <ul class="inline-list">
+                <li><a class="facebook" href="javascript:void(0)"></a></li>
+                <li><a class="twitter" href="javascript:void(0)"></a></li>
+                <li><a  class="ytube" href="javascript:void(0)"></a></li>
+                <li><a class="gplus" href="javascript:void(0)"></a></li>
+                <li><a class="in" href="javascript:void(0)"></a></li>
+              </ul>
+            </div>
+            <div><p class="footer-titles"> SUBSCRIBE TO NEWSLETTER </p></div>
+            <div>
+              <form class="newsletter-form" data-abide>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <div class="row collapse">
+                      <div class="small-8 columns">
+
+                        <input type="email" placeholder="Type your email..." required>
+                        <small class="error">An email address is required.</small>
+                      </div>
+                      <div class="small-4 columns">
+                        <button type="submit" class="button postfix subscribe">Subscribe</button>
+                      </div>
+                    </div>
+                  </div>  
+                </div>        
+              </form>
+            </div>
+          </div>
+
+          <div class="large-2 medium-6 columns preferSection">
+           <div><p class="footer-titles"> WE PREFER </p></div>
+           <div class="we-prefer">
+            <ul class="small-block-grid-4 medium-block-grid-4 large-block-grid-2">
+              <li></li>
+              <li class="master-card"></li>
+              <li class="Xpress"></li>
+              <li class="paypal"></li>
+            </ul>
+           </div>
+          </div>
+        </div>               
+      </footer>
+
+      </div> <!-- Inner wrap -->
+    </div><!-- OFF-canvas-->    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/app.js"></script>
+    <!--[if lt IE 9]>
+      <script src="js/rem.min.js"></script>
+    <![endif]--> 
+  </body>
+</html>
