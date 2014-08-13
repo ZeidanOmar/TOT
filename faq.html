@@ -1,0 +1,335 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TimeOut Tickets</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'> 
+    <link rel="stylesheet" href="stylesheets/slick.css" />
+    <link rel="stylesheet" href="stylesheets/app.css" />
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+      <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+      <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+    <![endif]-->    
+  </head>
+  <body>
+    <div class="off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+        <nav class="tab-bar hidden-for-large-up">
+          <section class="left-small">
+            <a class="left-off-canvas-toggle menu-icon" href="javascript:void(0)"><span></span></a>
+          </section>       
+          
+          <section class="right-small">
+            <a class="right-off-canvas-toggle menu-icon" href="javascript:void(0)"><span></span></a>
+          </section>           
+        </nav>
+        <!-- Off Canvas Menu -->
+        <aside class="left-off-canvas-menu">
+            <!-- whatever you want goes here -->
+            <ul class="off-canvas-list">    
+              <li><label> MENU </label></li>
+              <li class="active"><a href="javascript:void(0)">HOME</a></li>
+              <li><a href="javascript:void(0)">CONCERTS</a></li>
+              <li><a href="javascript:void(0)">SPORTS</a></li>
+              <li><a href="javascript:void(0)">THEATRE</a></li>
+              <li><a href="javascript:void(0)">EXHIBITIONS & EXPERIENCES</a></li>
+              <li><a href="javascript:void(0)">FAMILY</a></li>
+              <li><a href="javascript:void(0)">COMEDY</a></li>
+            </ul>
+        </aside>
+
+        <!-- Off Canvas Right Menu -->
+        <aside class="right-off-canvas-menu">
+          <ul class="off-canvas-list">
+            <li><label>Search</label></li>
+              <li class="has-form">
+                <div class="row collapse">
+                  <div class="large-12 columns">
+                    <span class="icon-search"></span>
+                    <input id="topSearch" class="radius" type="text" placeholder="SEARCH">
+                  </div>
+                </div>
+              </li> 
+              <li><label>Country</label></li>
+              <li><a href="javascript:void(0)">DUBAI</a></li> 
+              <li><a href="javascript:void(0)">QATAR</a></li>
+              <li><a href="javascript:void(0)">DUBAI</a></li> 
+          </ul>
+        </aside>        
+      <!-- close the off-canvas menu -->
+      <a class="exit-off-canvas"></a>
+ 
+      <!-- Top Header -->
+      <div class="topHeader">
+        <div class="row">
+          <div class="large-4 columns medium-text-center small-text-center  logo wobble-horizontal">
+            <a href="javascript:void(0)"> <img src="images/logo.png" width="135" height="90" alt="" /> </a>
+          </div>
+          <div class="large-8 columns medium-text-center ">
+            <img class="visible-for-medium-up " src="images/AdImage.jpg" width="728" height="90" alt="AdArea" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Top Bar -->
+      <section id="top-barSection">  
+        <div class="row visible-for-large-up" >
+          <div class="large-12">
+            <nav class="top-bar" data-topbar>
+                  <ul class="title-area">
+                   <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                    <li class="toggle-topbar menu-icon"><a href="javascript:void(0)"><span>Menu</span></a></li>
+                  </ul>
+
+                  <div class="top-bar-section">
+                    <!-- Left Nav Section -->
+                    <ul>
+                      <li class="active"><a href="javascript:void(0)">HOME</a></li>
+                      <li><a href="javascript:void(0)">CONCERTS</a></li>
+                      <li><a href="javascript:void(0)">SPORTS</a></li>
+                      <li><a href="javascript:void(0)">THEATRE</a></li>
+                      <li><a href="javascript:void(0)">EXHIBITIONS & EXPERIENCES</a></li>
+                      <li><a href="javascript:void(0)">FAMILY</a></li>
+                      <li><a href="javascript:void(0)">COMEDY</a></li>
+
+                      <li class="has-form">
+                        <div class="row collapse">
+                          <div class="large-12 columns">
+                            <span class="icon-search"></span>
+                            <input id="topSearch" class="radius" type="text" placeholder="SEARCH">
+                          </div>
+                        </div>
+                      </li>  
+                      <li class="has-dropdown icon-arrow-down"><a href="javascript:void(0)">DUBAI</a>
+                        <ul class="dropdown">
+                          <li><a href="javascript:void(0)"> Item 1 </a></li>
+                          <li><a href="javascript:void(0)"> Item 2 </a></li>
+                          <li><a href="javascript:void(0)"> Item 3 </a></li>
+                        </ul>
+                      </li>                          
+                    </ul>
+                  </div>
+            </nav> <!-- top-bar -->
+          </div>
+        </div>
+      </section>
+      <section id="content" class="purchasePolicyPage pages">
+        <div class="row">
+          <div class="large-12 columns">
+            <h4 class="sectionTitle">Frequently Asked Questions</h4>
+<p><em>Last updated on 24 September 2012</em></p>
+            <p><strong>Ticket Availability</strong>                        
+            </p><ol>
+              <li><strong style="color:#000">Why do tickets sell out so quickly for popular events?</strong> <br>
+                When a popular event goes on sale there are literally hundreds, and sometimes thousands, of customers simultaneously attempting to purchase tickets across all distribution channels. Like any limited commodity, tickets are sold as long as seats are available, and sometimes they go quickly. If 500 fans are simultaneously buying four tickets each, 2,000 tickets can be sold in a matter of seconds! It's the same reason why a typical 18,000-seat arena can sell out in a few minutes. <br>
+                <br>
+              Also, in many cases, tickets are held by The Promoter or have been pre-sold to season-ticket holders for the entire run of the season, reducing the quantity of tickets available for purchase through TimeOutTickets.com by the general public.</li>
+              <li><strong style="color:#000">Why are "better" tickets sometimes available a few minutes after the event goes on sale?</strong><br>
+                When customers find tickets either online or through any of the other distribution channels, those tickets are reserved to the customer while the customer considers the purchase. During that period, which lasts for only a few minutes, no one else can view or purchase those tickets. If the customer decides not to buy the tickets, they are "released" and become available to other purchasers. </li>
+              <li><strong style="color:#000">Why are "better" tickets sometimes available days after the event goes on sale?</strong> <br>
+                The Promoter may release more tickets for TimeOutTickets.com to sell as the event date approaches. This happens for several reasons:<br>
+                <br>
+<ul>
+  <li>The artist may no longer need the tickets that were held when the event originally went on sale</li>
+                <li>Once the stage or event area is set up, the venue has a better idea about which seats are obstructed. Sometimes events are so popular that even seats with obstructed views are released for sale! </li>
+                <li>Sometimes a customer attempts to buy tickets but their credit card is declined. If TimeOutTickets.com is unable to contact the customer to secure a valid credit card or billing address, TimeOutTickets.com may cancel the order and release the tickets for sale. Tickets may also be released if a customer does not follow TimeOutTickets.com's <a href="/tickets/terms">Terms of Use</a> or <a href="/tickets/purchasepolicy">Purchase Policy</a>.</li>
+            </ul> </li>
+              <li><strong style="color:#000">May I exchange my tickets if better seats become available later, or if a second show is announced?</strong><br>
+                We and The Promoters regret any inconvenience, but, as with all TimeOutTickets.com ticket sales, there are no refunds, exchanges or cancellations.</li>
+            </ol>
+            <p><strong>Buying Tickets</strong></p>
+            <ol>
+              <li><strong style="color:#000">How do I buy tickets and what methods of payment do you accept?<br>
+              </strong>You can buy tickets from TimeOutTickets.com and through the <a href="http://www.itp.net/tickets/locations.php">TimeOutTickets.com Box Office</a>. TimeOutTickets.com accepts valid Visa, MasterCard and JCB credit cards only. TimeOutTickets.com Box Office accepts valid Visa, MasterCard, JCB and CUP credit cards, Visa Electron and Maestro debit cards and cash.</li>
+              <li><strong style="color:#000">Do you accept American Express or Diners Club as a form of payment?<br>
+              </strong>No, TimeOutTickets.com does not accept American Express or Diners Club. TimeOutTickets.com accepts valid Visa, MasterCard and JCB credit cards only. <a href="http://www.itp.net/tickets/locations.php">TimeOutTickets.com Box Office</a> accepts valid Visa, MasterCard, JCB and CUP credit cards, Visa Electron and Maestro debit cards and cash.</li>
+              <li><strong style="color:#000">Can I buy tickets online without using my credit card? </strong><br>
+                No. You can purchase only with a valid Visa, MasterCard and JCB credit card. <a href="http://www.itp.net/tickets/locations.php">TimeOutTickets.com Box Office</a> accepts valid Visa, MasterCard, JCB and CUP credit cards, Visa Electron and Maestro debit cards and cash.</li>
+              <li><strong style="color:#000">How secure is it to make a payment online with my credit card?<br>
+              </strong>To ensure the security of your payment card and personal information for your ticket request, we use the latest Secure Socket Layer (SSL) technology. SSL technology securely transfers credit card and other sensitive data over the internet. </li>
+              <li><strong style="color:#000">Why do I have to register in order to buy tickets?<br>
+              </strong>We are always striving to make your online experience better. By signing up for a TimeOutTickets.com account, you can access information and resources to help you plan and expedite your ticket purchase. As a TimeOutTickets.com member, you'll have access to information about upcoming tours and events, special ticket offers, exclusive presales and more! By registering, your purchase process is made simpler as all your information is already stored. <a href="/tickets/userlogin.php">Simply register for a TimeOutTickets.com account</a>.</li>
+              <li><strong style="color:#000">My credit card has not been approved. Why?</strong><br>
+              There are various reasons why your credit card may not be approved:<br>
+              <br>
+<ul>
+  <li>Insufficient funds</li>
+              <li>Credit Card number / expiry date / CCV may be incorrect</li>
+              <li>Your card may be blocked from making internet transactions. Some international credit cards do not work for internet transactions in UAE based on rules imposed by various banks. </li>
+            </ul>
+              </li><li><strong style="color:#000">Can I make a reservation? </strong><br>
+                No. You cannot make a reservation through TimeOutTickets.com. </li>
+              <li><strong style="color:#000">When will I know if my purchase was successful?<br>
+              </strong>After you make your payment, you will receive an Order Confirmation in the form of an email and on screen.</li>
+              <li><strong style="color:#000">I have provided my credit card information but received no confirmation? What do I do?<br>
+              </strong>In this case, please contact <a href="/tickets/contacts.php">Time Out Tickets Call Centre</a> immediately to confirm the status of your transaction. Please do not try to make another booking: you may end up with double the number of tickets you require and with no recourse to a refund.</li>
+              <li><strong style="color:#000">Can I correct my order details after I made a purchase?<br>
+                </strong>Once you've received your Order Confirmation Number, the information you have submitted will be processed as shown on your order form. Should you discover an error has been made or that you need to make a change to your information, please contact <a href="/tickets/contacts.php">Time Out Tickets Call Centre</a> immediately. <br>
+                <br>
+                <strong style="color:#000">Note:</strong> When contacting Time Out Tickets Customer Service, please have your Order Confirmation Number ready to quote.<br>
+                <br>
+                <strong style="color:#000">Please bear in mind that as with all TimeOutTickets.com ticket orders and sales, and as confirmed at the time of purchase, there are no refunds, exchanges, or cancellations.</strong></li>
+              <li><strong style="color:#000">Can I re-sell my tickets to someone else?<br>
+              </strong>In accordance to our <a href="/tickets/purchasepolicy">Purchase Policy</a>, re-sale of tickets (or attempted resale) is grounds for seizure and cancellation without compensation. </li>
+              <li><strong style="color:#000">What if my ticket is lost, destroyed or stolen?<br>
+              </strong>Treat your tickets with care and keep them safe at all times. We cannot replace or issue duplicate tickets for security reasons. </li>
+            </ol>
+            <p><strong>Delivery Methods</strong></p>
+            <ol>
+              <li><strong style="color:#000">What delivery option does TimeOutTickets.com offers?<br>
+              </strong>A variety of delivery options are available for most events. For more detailed information on the delivery of tickets, please see <a href="/tickets/delivery">Delivery Methods</a>. Delivery prices will be displayed during the purchase process at the point where you select the delivery method. Please note that while we will endeavor to make it as easy as possible for you to collect your tickets we recommend that you opt for the courier delivery option to avoid the long queues generally seen at large events.</li>
+              <li><strong style="color:#000">I haven’t received my tickets by courier yet. What do I do?<br>
+              </strong>If you do not receive your tickets three business days prior to an event, contact <a href="/tickets/contacts.php">Time Out Tickets Call Centre</a> immediately. Be prepared to quote the Order Confirmation Number. The agent will determine the nature of the problem and assist you in every way possible.<strong> </strong></li>
+              <li><strong style="color:#000">Where can tickets be delivered to?</strong><br>
+              Delivery is limited to UAE only. Visit ‘<a href="/delivery/out-of-delivery.php">Out of Delivery Areas</a>’ to view a list of non-deliverable areas.</li>
+              <li><strong style="color:#000">Where do I pickup tickets if I opted for Box Office?<br>
+                </strong>The Box Office should be easy to find - it's usually near the venue's main entrance. Please check your Order Confirmation for the Box Office timings.<br>
+                <br>
+                Please don't leave home without these two things - you'll need them to claim your tickets! <br>
+                <br>
+                <ul>
+                  <li>Order Confirmation Number</li>
+                  <li>One of the following valid original government photo identification documents:</li>
+                  <ul>
+                    <li>Labour Card</li>
+                    <li>Driving Licence</li>
+                    <li>National ID</li>
+                    <li>Passport.</li>
+                  </ul>
+                </ul>
+                <br>
+                If you prefer to pick up your tickets before the day of the event, it is possible. Please contact <a href="/tickets/contacts.php">Time Out Tickets Call Centre</a>.<br>
+              </li>
+              <li><strong style="color:#000">Can someone else pick up my tickets at the Box Office?<br>
+                </strong>No. Not even a family member who has your identification. To collect your tickets, you will need the following:<br>
+                <br>
+                <ul>
+                  <li>Order Confirmation Number</li>
+                  <li>One of the following valid original government photo identification documents:</li>
+                  <ul>
+                    <li>Labour Card</li>
+                    <li>Driving Licence</li>
+                    <li>National ID</li>
+                    <li>Passport.</li>
+                  </ul>
+                </ul>
+              </li>
+              <li><strong style="color:#000">Can I enter the venue using the electronic confirmation of the tickets bought online? </strong><br>
+                No. You need to exchange the electronic confirmation of the tickets purchased online with a physical ticket as per the rules set by The Promoter and in accordance with UAE/Dubai Regulations.</li>
+            </ol>
+            <p><strong>Customer Service</strong></p>
+            <ol>
+              <li><strong style="color:#000">Who handles refunds?</strong> <br>
+                If a refund is issued by Promoter, (See <a href="/tickets/purchasepolicy#cancelled_postponed">Cancelled or Postponed Events</a>) TimeOutTickets.com will processes the refunds for the tickets it sold online or through call centers and ticket outlets. Please note that delivery fees and certain other fees associated with a ticket order will not be refunded. Please see <a href="/tickets/purchasepolicy">Purchase Policy</a> for more details. Refunds are made to the credit card used to make the purchase.</li>
+              <li><strong style="color:#000">My event was canceled or rescheduled. Can I get a refund?<br>
+                </strong>We're fans too, and when The Promoter cancels or postpones an event we feel your pain! However, the decision of whether or not to allow refunds is made by the Promoter not TimeOutTickets.com and we are usually contractually bound to reflect The Promoters’ refund policy. However, in most cases, the Promoter will authorize us to refund. So, if your event was canceled, in most cases you won't need to do a thing: we'll inform you of the cancellation and refund the amount you paid for your tickets (Delivery fees and other charges are non-refundable). If you bought your tickets at a retail outlet, please return them to the same location. <br>
+                <br>
+                If your event was rescheduled, we'll contact you with the new date and time ASAP. Can't make it? The decision to issue refunds for rescheduled events is up to The Promoter and final, but we'll do everything we can to help!</li>
+              <li><strong style="color:#000">I bought tickets but I can't go to the event. Can I get a refund?<br>
+              </strong>Although some Promoters let us take tickets back and issue refunds under some circumstances, unfortunately "No Refunds" is standard policy for most. We'll do everything we can to help you but we cannot guarantee that you will get your money back.<strong> </strong></li>
+            </ol>
+          </div>
+        </div> 
+      </section>
+      <footer>
+        <div id="footer" class="row">
+
+          <div class="large-2 medium-6 columns otherITPsites">
+            <ul>
+              <li><a href="javascript:void(0)">About us</a></li>         
+              <li><a href="javascript:void(0)">retail sales outlets</a></li>         
+              <li><a href="javascript:void(0)">delivery methods</a></li>         
+              <li><a href="javascript:void(0)">utilities-me.com</a></li>         
+              <li><a href="javascript:void(0)">purchase policy</a></li>         
+              <li><a href="javascript:void(0)">terms of use</a></li>         
+              <li><a href="javascript:void(0)">contact us</a></li>         
+            </ul>
+          </div>
+
+          <div class="large-4 medium-6 columns footer-sections">
+            <div class="row">
+              <div class="large-12 columns"> <p class="footer-titles"> WHAT'S ON </p> </div>
+                <div class="large-6 medium-6 columns">              
+                  <ul>
+                    <li><a href="javascript:void(0)">comedy tickets</a></li>             
+                    <li><a href="javascript:void(0)">concerts tickets</a></li>             
+                    <li><a href="javascript:void(0)">exhibition tickets</a></li>
+                    <li><a href="javascript:void(0)">experience tickets</a></li>             
+                    <li><a href="javascript:void(0)">family and kids tickets</a></li>             
+                    <li><a href="javascript:void(0)">festival tickets</a></li>                
+                  </ul>           
+                </div>
+                <div class="large-6 medium-6 columns">
+                  <ul>
+                    <li><a href="javascript:void(0)">lifestyle tickets</a></li>             
+                    <li><a href="javascript:void(0)">Music tickets</a></li>             
+                    <li><a href="javascript:void(0)">sports tickets</a></li>
+                    <li><a href="javascript:void(0)">theatre & arts tickets</a></li>             
+                    <li><a href="javascript:void(0)">waitlist events</a></li>             
+                    <li><a href="javascript:void(0)">group entertainment</a></li>   
+                  </ul>                
+                </div>          
+            </div>
+          </div>
+
+          <div class="large-4 medium-6 columns footer-sections connectedSection">
+            <div><p class="footer-titles"> STAY CONNECTED </p></div>
+            <div class="social">
+              <ul class="inline-list">
+                <li><a class="facebook" href="javascript:void(0)"></a></li>
+                <li><a class="twitter" href="javascript:void(0)"></a></li>
+                <li><a  class="ytube" href="javascript:void(0)"></a></li>
+                <li><a class="gplus" href="javascript:void(0)"></a></li>
+                <li><a class="in" href="javascript:void(0)"></a></li>
+              </ul>
+            </div>
+            <div><p class="footer-titles"> SUBSCRIBE TO NEWSLETTER </p></div>
+            <div>
+              <form class="newsletter-form" data-abide>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <div class="row collapse">
+                      <div class="small-8 columns">
+
+                        <input type="email" placeholder="Type your email..." required>
+                        <small class="error">An email address is required.</small>
+                      </div>
+                      <div class="small-4 columns">
+                        <button type="submit" class="button postfix subscribe">Subscribe</button>
+                      </div>
+                    </div>
+                  </div>  
+                </div>        
+              </form>
+            </div>
+          </div>
+
+          <div class="large-2 medium-6 columns preferSection">
+           <div><p class="footer-titles"> WE PREFER </p></div>
+           <div class="we-prefer">
+            <ul class="small-block-grid-4 medium-block-grid-4 large-block-grid-2">
+              <li></li>
+              <li class="master-card"></li>
+              <li class="Xpress"></li>
+              <li class="paypal"></li>
+            </ul>
+           </div>
+          </div>
+        </div>               
+      </footer>
+
+      </div> <!-- Inner wrap -->
+    </div><!-- OFF-canvas-->    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/app.js"></script>
+    <!--[if lt IE 9]>
+      <script src="js/rem.min.js"></script>
+    <![endif]--> 
+  </body>
+</html>
+        

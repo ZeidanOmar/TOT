@@ -1,0 +1,321 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TimeOut Tickets</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'> 
+    <link rel="stylesheet" href="stylesheets/slick.css" />
+    <link rel="stylesheet" href="stylesheets/app.css" />
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+      <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+      <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+    <![endif]-->    
+  </head>
+  <body>
+    <div class="off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+        <nav class="tab-bar hidden-for-large-up">
+          <section class="left-small">
+            <a class="left-off-canvas-toggle menu-icon" href="javascript:void(0)"><span></span></a>
+          </section>       
+          
+          <section class="right-small">
+            <a class="right-off-canvas-toggle menu-icon" href="javascript:void(0)"><span></span></a>
+          </section>           
+        </nav>
+        <!-- Off Canvas Menu -->
+        <aside class="left-off-canvas-menu">
+            <!-- whatever you want goes here -->
+            <ul class="off-canvas-list">    
+              <li><label> MENU </label></li>
+              <li class="active"><a href="javascript:void(0)">HOME</a></li>
+              <li><a href="javascript:void(0)">CONCERTS</a></li>
+              <li><a href="javascript:void(0)">SPORTS</a></li>
+              <li><a href="javascript:void(0)">THEATRE</a></li>
+              <li><a href="javascript:void(0)">EXHIBITIONS & EXPERIENCES</a></li>
+              <li><a href="javascript:void(0)">FAMILY</a></li>
+              <li><a href="javascript:void(0)">COMEDY</a></li>
+            </ul>
+        </aside>
+
+        <!-- Off Canvas Right Menu -->
+        <aside class="right-off-canvas-menu">
+          <ul class="off-canvas-list">
+            <li><label>Search</label></li>
+              <li class="has-form">
+                <div class="row collapse">
+                  <div class="large-12 columns">
+                    <span class="icon-search"></span>
+                    <input id="topSearch" class="radius" type="text" placeholder="SEARCH">
+                  </div>
+                </div>
+              </li> 
+              <li><label>Country</label></li>
+              <li><a href="javascript:void(0)">DUBAI</a></li> 
+              <li><a href="javascript:void(0)">QATAR</a></li>
+              <li><a href="javascript:void(0)">DUBAI</a></li> 
+          </ul>
+        </aside>        
+      <!-- close the off-canvas menu -->
+      <a class="exit-off-canvas"></a>
+ 
+      <!-- Top Header -->
+      <div class="topHeader">
+        <div class="row">
+          <div class="large-4 columns medium-text-center small-text-center  logo wobble-horizontal">
+            <a href="javascript:void(0)"> <img src="images/logo.png" width="135" height="90" alt="" /> </a>
+          </div>
+          <div class="large-8 columns medium-text-center ">
+            <img class="visible-for-medium-up " src="images/AdImage.jpg" width="728" height="90" alt="AdArea" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Top Bar -->
+      <section id="top-barSection">  
+        <div class="row visible-for-large-up" >
+          <div class="large-12">
+            <nav class="top-bar" data-topbar>
+                  <ul class="title-area">
+                   <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                    <li class="toggle-topbar menu-icon"><a href="javascript:void(0)"><span>Menu</span></a></li>
+                  </ul>
+
+                  <div class="top-bar-section">
+                    <!-- Left Nav Section -->
+                    <ul>
+                      <li class="active"><a href="javascript:void(0)">HOME</a></li>
+                      <li><a href="javascript:void(0)">CONCERTS</a></li>
+                      <li><a href="javascript:void(0)">SPORTS</a></li>
+                      <li><a href="javascript:void(0)">THEATRE</a></li>
+                      <li><a href="javascript:void(0)">EXHIBITIONS & EXPERIENCES</a></li>
+                      <li><a href="javascript:void(0)">FAMILY</a></li>
+                      <li><a href="javascript:void(0)">COMEDY</a></li>
+
+                      <li class="has-form">
+                        <div class="row collapse">
+                          <div class="large-12 columns">
+                            <span class="icon-search"></span>
+                            <input id="topSearch" class="radius" type="text" placeholder="SEARCH">
+                          </div>
+                        </div>
+                      </li>  
+                      <li class="has-dropdown icon-arrow-down"><a href="javascript:void(0)">DUBAI</a>
+                        <ul class="dropdown">
+                          <li><a href="javascript:void(0)"> Item 1 </a></li>
+                          <li><a href="javascript:void(0)"> Item 2 </a></li>
+                          <li><a href="javascript:void(0)"> Item 3 </a></li>
+                        </ul>
+                      </li>                          
+                    </ul>
+                  </div>
+            </nav> <!-- top-bar -->
+          </div>
+        </div>
+      </section>
+      <section id="content" class="purchasePolicyPage pages">
+        <div class="row">
+          <div class="large-12 columns">
+            <h4 class="sectionTitle">Purchase Policy</h4>
+            <p><em>Last updated on 06 May 2013</em></p>
+            <p>  Our goal at TimeOutTickets.com is to make your purchasing experience easy, efficient and equitable, so that we can get you on your way to the event as smoothly as possible. The following purchase policies are designed to ensure your satisfaction and understanding of the purchase process. This Purchase Policy incorporates our <a href="/tickets/terms">Terms of Use</a> by this reference. Each ticket that you purchase is a licence to attend a particular event, and is subject to the additional terms set forth on that ticket or as stated by The Promoter of the event.</p>
+            <p><a href="#currency">Currency</a><br>
+              <a href="#payment_methods">Payment Methods</a><br>
+              <a href="#pricing_availability">Pricing and Availability</a><br>
+              <a href="#student_discounts">Student Discounts</a><br>
+              <a href="#order_confirmation">Order Confirmation</a><br>
+              <a href="#ticket_limits">Ticket Limits</a><br>
+              <a href="#delivery_methods">Delivery Methods</a><br>
+              <a href="#opening_acts">Opening Acts / Festival Acts</a><br>
+              <a href="#seat_allocations">Seat Allocations</a><br>
+              <a href="#refunds_exchanges">Refunds and Exchanges</a><br>
+              <a href="#cancelled_postponed">Cancelled and Postponed Events</a><br>
+              <a href="#pricing_errors">Pricing and Other Errors</a><br>
+              <a href="#multiple_browser">Multiple Browser Windows</a><br>
+              <a href="#promoter_terms">Promoter’s Ticket Terms and Conditions</a><br>
+              <a href="#resale">Unlawful Re-Sale of Tickets; Commercial Purposes</a><br>
+              <a href="#uae_law">UAE Law/Custom and Practice</a><br>
+              <a href="#liability">Liability Release</a><br>
+              <a href="#more_info">More Information</a></p>
+            <p><strong><a name="currency" id="currency"></a>Currency<br>
+              </strong>All ticket prices are stated in United Arab Emirates Dirhams. All purchases are made in United Arab Emirates Dirhams. </p>
+            <p><strong><a name="payment_methods" id="payment_methods"></a>Payment Methods<br>
+              </strong>Tickets can be purchased online using valid Visa, MasterCard and JCB credit cards only. Your bank might charge you an additional amount if you are using an international credit card.</p>
+            <p><strong><a name="pricing_availability" id="pricing_availability"></a>Pricing and Availability<br>
+              </strong>TimeOutTickets.com acts as the ticketing agent to The Promoter of an event, the person or entity that is responsible for organizing and running the event for which you purchase tickets. This means TimeOutTickets.com does not set the ticket prices or determine seating allocations, except under limited circumstances.<br>
+              <br>
+              Tickets are generally sold through several distribution points, including online,  Retail Locations and Box Offices. All distribution points generally access the same ticketing system and inventory. Therefore, tickets for popular events may sell out quickly. Occasionally, additional tickets may become available prior to the event. However, TimeOutTickets.com does not control this inventory or its availability.</p>
+            <p><strong><a name="student_discounts" id="student_discounts"></a>Student Discounts<br>
+              </strong>At times, The Promoter might offer discounted rates for students. Student discounts are only available to students with valid original student photo identification documents.. To collect your tickets, you will need:</p>
+            <ol>
+              <li>Order Confirmation Number</li>
+              <li>Valid original student identification documents</li>
+            </ol>
+            <p><strong style="color:#000">Note:</strong> If you fail to produce a valid original student photo identification document, TimeOutTickets.com, in its sole discretion will ask you to pay the full price of the tickets. </p>
+            <p><strong><a name="order_confirmation" id="order_confirmation"></a>Order Confirmation<br>
+              </strong>Once you have submitted payment information online and your ticket purchase is successful, you will see an Order Confirmation page online. You will also receive an Order Confirmation via email to the email address you supplied on the online booking form. <br>
+              <br>
+              The information contained in the Order Confirmation is important and you should keep it safely. The Order Confirmation contains a unique Order Confirmation Number which should be quoted in any correspondence and it will be required for you to collect your tickets when they become available.<br>
+              <br>
+              If you do not receive an Order Confirmation (in the form of an Order Confirmation page or email) after submitting payment information for any reason (but especially if you experience an error message or service interruption after submitting payment information), you must <a href="/tickets/contacts.php">contact us</a> to confirm that your order has been placed. If it has, we will ensure you get your Order Confirmation. If we confirm that the order was not placed, you may safely reorder online.<br>
+              <br>
+              TimeOutTickets.com is not responsible for any loss you may incur if you fail to contact us before the event and in due time to remedy the situation.</p>
+            <p><strong><a name="ticket_limits" id="ticket_limits"></a>Ticket Limits<br>
+              </strong>When purchasing tickets on TimeOutTickets.com, you may be limited to a specified number of tickets for each event. This limit is posted during the purchasing process and is verified with every transaction. We do this to discourage unfair ticket buying practices. If you manage to buy more tickets than the ticket limit in any way, and in our sole discretion, TimeOutTickets.com will cancel the purchase and refund the ticket value to the credit card used for the transaction.</p><p>
+            When you place an order online, so that we can reduce the instances of fraud, we may contact you for verification and request photo identification. If we suspect fraud for any reason, and in our sole discretion, TimeOutTickets.com will cancel the purchase and refund the ticket value to the credit card used for the transaction.
+            </p>
+            <p><strong><a name="delivery_methods" id="delivery_methods"></a>Delivery Methods<br>
+              </strong>Please see <a href="/tickets/delivery">Delivery Methods</a> for our ticket delivery policies, which are hereby incorporated into this Purchase Policy.</p>
+            <p><strong><a name="opening_acts" id="opening_acts"></a>Opening Acts / Festival Acts<br>
+              </strong>If Opening acts or guests accompany headline performers, the Promoter does not, and we cannot, guarantee either who is to open or guest at a performance. Both opener, guest and timings are subject to change and cancellation at any time and there is no refund if this happens.</p><p>Also at festival events there are often many individual performers and no particular headline performer. Both the Promoter and we cannot guarantee that any individual performer will appear or the associated timings of their performance. Individual performers at festivals are subject to change or cancellation at any time and there is no refund if this happens.</p>
+            <p><strong><a name="seat_allocations" id="seat_allocations"></a>Seat Allocations<br>
+              </strong>At this time, it is not possible to allow you to choose your own seats. If seat allocation is required for a particular event, it will be done manually for you by TimeOutTickets.com or The Promoter after you have purchased your tickets on a first come first served basis for each transaction (online order).</p><p>
+              This means that the earlier you buy your tickets, the better your seats are likely to be. It also means that, to ensure that your party sits together; you must order all the tickets you require in one transaction. Your seat number will be printed on your ticket upon collection. Once seats have been assigned, they cannot be changed.</p><p>
+              Before you make your purchase, you may either call TimeOutTickets.com or The Promoter for more information.
+               </p>
+            <p><strong><a name="refunds_exchanges" id="refunds_exchanges"></a>Refunds and Exchanges</strong><br>
+              <strong style="color:#000">As a condition of sale, tickets are not refundable, and cannot be returned or exchanged for any reason. By making your purchase, you agree to this condition. Please carefully review your event before you buy. </strong><br>
+              <br>
+              Once you have your tickets, keep them safe. The above condition of sale means that lost, stolen, damaged or destroyed tickets cannot be replaced or refunded and you may not gain admittance to the event.<br>
+              <br>
+              By purchasing the ticket, you agree that you will not attempt to evade, avoid or circumvent the above condition of sale in any way. You also agree that you will not contact TimeOutTickets.com to seek a refund, return or exchange. Nor will you dispute or otherwise seek a “chargeback” from the credit card company used to make the purchase. Should you do so, your tickets may be cancelled and TimeOutTickets.com may, in its sole discretion, take any measures necessary to ensure that any pending ticket sales are cancelled and that you are prevented from buying tickets in the future. The only possible exception to this policy is if an event is postponed or cancelled. See <a href="#cancelled_postponed">Cancelled and Postponed Events</a> below. </p>
+            <p><strong><a name="cancelled_postponed" id="cancelled_postponed"></a>Cancelled and Postponed Events<br>
+              </strong>Special conditions apply if an event is postponed or cancelled. These conditions are set by The Promoter and vary from event to event. TimeOutTickets.com will contact you either by phone or email to explain the procedures and conditions required by The Promoter for a refund or exchange if it is due. When we contact you, we will use the contact details you provided at the time of booking. To get any refund or exchange due you must adhere to the procedures and conditions.</p>
+            <p>  Please note that refunds, when made by TimeOutTickets.com, are made only to the credit card that was used in the online ticket purchase for the value paid for the ticket.<br>
+              <br>
+              Delivery charges, order processing charges, and other bank charges associated with your credit card are not refundable.<br>
+              <br>
+            TimeOutTickets.com will not be liable for travel or any other expenses that you or anyone else incurs in connection with a cancelled or postponed event.<strong></strong></p>
+            <p><strong><a name="pricing_errors" id="pricing_errors"></a>Pricing and Other Errors</strong><br>
+            If the amount you paid for a ticket is incorrect for any reason, regardless of that reason, TimeOutTickets.com will compensate you if you overpaid; require you to pay the difference if you underpaid, or cancel the ticket. If the ticket is cancelled, a refund will be made at TimeOutTickets.com’s sole discretion.<br>
+            <br>
+            If you are able to purchase tickets before the scheduled sale of tickets start, TimeOutTickets.com reserves the right to cancel the tickets. If the ticket is cancelled, a refund will be made at TimeOutTickets.com’s sole discretion.</p>
+            <p><strong><a name="multiple_browser" id="multiple_browser"></a>Multiple Browser Windows</strong><br>
+            Please ensure that you use only one browser window to look for tickets and place an order online on TimeOutTickets.com. Using multiple browser windows can cause your session to time out and other errors that could mean that you lose your tickets.</p>
+            <p><strong><a name="promoter_terms" id="promoter_terms"></a>Promoter’s Ticket Terms and Conditions<br>
+            </strong>Every Promoter has its own set of terms and conditions that also apply to your purchase. We strongly advise that you check The Promoter’s Terms and Conditions. What follows is commonly included:</p>
+            <ol>
+              <li>The Promoter reserves the right, without refund of any amount paid, to refuse admission to, or eject, any person whose conduct management deems disorderly or is not dressed according to <a href="#uae_law">UAE Law/Custom and Practice</a>.</li>
+              <li>You agree not to record or transmit, or aid in recording or transmitting, any description, account, picture, or reproduction of the event. You agree that the event for which you purchase tickets is a public event, that your appearance and actions inside and outside the venue where the event occurs are public in nature, and that you have no expectation of privacy with regard to your actions or conduct at the event.</li>
+              <li>You and your belongings may be searched on entry to the event. You consent to such searches and waive any related claims that may arise. If you elect not to consent to such searches, you may be denied entry to the event without refund or other compensation. </li>
+              <li>It is the responsibility of the ticket holder to ensure that they meet any age restrictions set by The Promoter. No refunds will be made to purchasers who are refused entry due to not meeting the age limit.</li>
+              <li>Every effort to admit latecomers will be made at a suitable break in the event, but admission cannot always be guaranteed.</li>
+            </ol>
+            <p><strong><a name="resale" id="resale"></a>Unlawful Re-Sale of Tickets; Commercial Purposes</strong><br>
+            Unlawful resale of tickets (or attempted resale) is grounds for seizure and cancellation without compensation. A ticket shall not be used for advertising, promotions, contests or sweepstakes, unless formal written authorization is given by The Promoter. </p>
+            <p><strong><a name="uae_law" id="uae_law"></a>UAE Law/Custom and Practice</strong><br>
+            </p><ul>
+              <li>UAE custom and practice does not permit the wearing of the Arab Gulf Cooperation Council national dress (hijab, burqaa, kandora, ghutra or eqal) to events where alcohol is on sale. There is no refund if you fail to gain admission to the event.</li>
+              <li>UAE law does not permit the sale of alcohol to anyone under the age of 21.</li>
+            </ul>
+            <p><strong><a name="liability" id="liability"></a>Liability Release</strong><br>
+            By purchasing a ticket for an event through this website, you agree that you attend the event at your own risk. You and your heirs also agree to release, waive and discharge TimeOutTickets.com and any of its associated and affiliated companies, their officers and staff (beneficiaries), from any liability that arises from your attendance of the event and agree that you and your heirs shall not sue or make any claim against the beneficiaries for any loss, damage or injury you incur attending the event howsoever caused.
+            </p>
+            <p><strong><a name="more_info" id="more_info"></a>More Information</strong><br>
+              For more information about a purchase you have made, email us at <a href="mailto:hotline@itp.com">hotline@itp.com</a>, quoting your Order Confirmation Number.</p>
+
+          </div>
+        </div> 
+      </section>
+      <footer>
+        <div id="footer" class="row">
+
+          <div class="large-2 medium-6 columns otherITPsites">
+            <ul>
+              <li><a href="javascript:void(0)">About us</a></li>         
+              <li><a href="javascript:void(0)">retail sales outlets</a></li>         
+              <li><a href="javascript:void(0)">delivery methods</a></li>         
+              <li><a href="javascript:void(0)">utilities-me.com</a></li>         
+              <li><a href="javascript:void(0)">purchase policy</a></li>         
+              <li><a href="javascript:void(0)">terms of use</a></li>         
+              <li><a href="javascript:void(0)">contact us</a></li>         
+            </ul>
+          </div>
+
+          <div class="large-4 medium-6 columns footer-sections">
+            <div class="row">
+              <div class="large-12 columns"> <p class="footer-titles"> WHAT'S ON </p> </div>
+                <div class="large-6 medium-6 columns">              
+                  <ul>
+                    <li><a href="javascript:void(0)">comedy tickets</a></li>             
+                    <li><a href="javascript:void(0)">concerts tickets</a></li>             
+                    <li><a href="javascript:void(0)">exhibition tickets</a></li>
+                    <li><a href="javascript:void(0)">experience tickets</a></li>             
+                    <li><a href="javascript:void(0)">family and kids tickets</a></li>             
+                    <li><a href="javascript:void(0)">festival tickets</a></li>                
+                  </ul>           
+                </div>
+                <div class="large-6 medium-6 columns">
+                  <ul>
+                    <li><a href="javascript:void(0)">lifestyle tickets</a></li>             
+                    <li><a href="javascript:void(0)">Music tickets</a></li>             
+                    <li><a href="javascript:void(0)">sports tickets</a></li>
+                    <li><a href="javascript:void(0)">theatre & arts tickets</a></li>             
+                    <li><a href="javascript:void(0)">waitlist events</a></li>             
+                    <li><a href="javascript:void(0)">group entertainment</a></li>   
+                  </ul>                
+                </div>          
+            </div>
+          </div>
+
+          <div class="large-4 medium-6 columns footer-sections connectedSection">
+            <div><p class="footer-titles"> STAY CONNECTED </p></div>
+            <div class="social">
+              <ul class="inline-list">
+                <li><a class="facebook" href="javascript:void(0)"></a></li>
+                <li><a class="twitter" href="javascript:void(0)"></a></li>
+                <li><a  class="ytube" href="javascript:void(0)"></a></li>
+                <li><a class="gplus" href="javascript:void(0)"></a></li>
+                <li><a class="in" href="javascript:void(0)"></a></li>
+              </ul>
+            </div>
+            <div><p class="footer-titles"> SUBSCRIBE TO NEWSLETTER </p></div>
+            <div>
+              <form class="newsletter-form" data-abide>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <div class="row collapse">
+                      <div class="small-8 columns">
+
+                        <input type="email" placeholder="Type your email..." required>
+                        <small class="error">An email address is required.</small>
+                      </div>
+                      <div class="small-4 columns">
+                        <button type="submit" class="button postfix subscribe">Subscribe</button>
+                      </div>
+                    </div>
+                  </div>  
+                </div>        
+              </form>
+            </div>
+          </div>
+
+          <div class="large-2 medium-6 columns preferSection">
+           <div><p class="footer-titles"> WE PREFER </p></div>
+           <div class="we-prefer">
+            <ul class="small-block-grid-4 medium-block-grid-4 large-block-grid-2">
+              <li></li>
+              <li class="master-card"></li>
+              <li class="Xpress"></li>
+              <li class="paypal"></li>
+            </ul>
+           </div>
+          </div>
+        </div>               
+      </footer>
+
+      </div> <!-- Inner wrap -->
+    </div><!-- OFF-canvas-->    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/app.js"></script>
+    <!--[if lt IE 9]>
+      <script src="js/rem.min.js"></script>
+    <![endif]--> 
+  </body>
+</html>
+        
