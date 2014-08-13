@@ -8342,7 +8342,7 @@ th.hide-for-touch {
   font-weight: normal;
   font-style: normal;
 }
-/* line 56, ../scss/app.scss */
+/* line 14, ../scss/_icoFonts.scss */
 [class^="icon-"]:before, [class*=" icon-"]:before,
 .slick-prev:before, .slick-next:before {
   font-family: 'icomoon';
@@ -8357,94 +8357,94 @@ th.hide-for-touch {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 70, ../scss/app.scss */
+/* line 28, ../scss/_icoFonts.scss */
 .icon-uniE607:before {
   content: "\e607";
 }
 
-/* line 73, ../scss/app.scss */
+/* line 31, ../scss/_icoFonts.scss */
 .icon-map-marker:before {
   content: "\f041";
 }
 
-/* line 76, ../scss/app.scss */
+/* line 34, ../scss/_icoFonts.scss */
 .icon-check-circle:before {
   content: "\f058";
 }
 
-/* line 79, ../scss/app.scss */
+/* line 37, ../scss/_icoFonts.scss */
 .icon-phone:before {
   content: "\f095";
 }
 
-/* line 82, ../scss/app.scss */
+/* line 40, ../scss/_icoFonts.scss */
 .icon-envelope:before {
   content: "\f0e0";
 }
 
-/* line 85, ../scss/app.scss */
+/* line 43, ../scss/_icoFonts.scss */
 .icon-clock:before {
   content: "\e60c";
 }
 
-/* line 88, ../scss/app.scss */
+/* line 46, ../scss/_icoFonts.scss */
 .icon-menu:before {
   content: "\e600";
 }
 
-/* line 91, ../scss/app.scss */
+/* line 49, ../scss/_icoFonts.scss */
 .icon-star:before {
   content: "\e601";
 }
 
-/* line 94, ../scss/app.scss */
+/* line 52, ../scss/_icoFonts.scss */
 .icon-star2:before {
   content: "\e602";
 }
 
-/* line 97, ../scss/app.scss */
+/* line 55, ../scss/_icoFonts.scss */
 .icon-search:before {
   content: "\e603";
 }
 
-/* line 100, ../scss/app.scss */
+/* line 58, ../scss/_icoFonts.scss */
 .icon-arrow-left:before {
   content: "\e604";
 }
 
-/* line 103, ../scss/app.scss */
+/* line 61, ../scss/_icoFonts.scss */
 .icon-arrow-down:before {
   content: "\e605";
 }
 
-/* line 106, ../scss/app.scss */
+/* line 64, ../scss/_icoFonts.scss */
 .icon-arrow-right:before {
   content: "\e606";
 }
 
-/* line 109, ../scss/app.scss */
+/* line 67, ../scss/_icoFonts.scss */
 .icon-rss:before {
   content: "\e60a";
 }
 
-/* line 112, ../scss/app.scss */
+/* line 70, ../scss/_icoFonts.scss */
 .icon-input-checked:before {
   content: "\e608";
 }
 
-/* line 115, ../scss/app.scss */
+/* line 73, ../scss/_icoFonts.scss */
 .icon-social-twitter:before {
   content: "\e609";
 }
 
-/* line 118, ../scss/app.scss */
+/* line 76, ../scss/_icoFonts.scss */
 .icon-social-facebook:before {
   content: "\e60b";
 }
 
 /**** General ****/
 @media only screen and (max-width: 40em) {
-  /* line 123, ../scss/app.scss */
+  /* line 3, ../scss/_global.scss */
   html, body {
     font-size: 85%;
   }
@@ -8452,48 +8452,48 @@ th.hide-for-touch {
 
 /*solid black*/
 /*kinda black*/
-/* line 132, ../scss/app.scss */
+/* line 12, ../scss/_global.scss */
 .top-bar-section .has-dropdown > a:after {
   border: 0 none;
 }
 
-/* line 133, ../scss/app.scss */
+/* line 13, ../scss/_global.scss */
 .my-divider {
   height: 1px;
   background: black;
   background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #5f9f6f));
 }
 
-/* line 138, ../scss/app.scss */
+/* line 18, ../scss/_global.scss */
 .inTitles {
   font-size: 1rem;
   text-transform: uppercase;
 }
 
-/* line 139, ../scss/app.scss */
+/* line 19, ../scss/_global.scss */
 .detailsTxt {
   font-size: 0.8125rem;
   font-style: italic;
 }
 
-/* line 140, ../scss/app.scss */
+/* line 20, ../scss/_global.scss */
 ::selection,
 ::-moz-selection {
   background: #333333;
 }
 
-/* line 145, ../scss/app.scss */
+/* line 25, ../scss/_global.scss */
 .newsletter-form input[type="text"] {
   border: 1px solid #e74c3c;
 }
-/* line 148, ../scss/app.scss */
+/* line 28, ../scss/_global.scss */
 .newsletter-form .subscribe {
   font-size: 0.75rem;
   font-weight: bold;
   background: #e74c3c;
 }
 
-/* line 154, ../scss/app.scss */
+/* line 34, ../scss/_global.scss */
 .error {
   background: transparent !important;
   padding-left: 0 !important;
@@ -8502,12 +8502,12 @@ th.hide-for-touch {
   padding-bottom: 0 !important;
 }
 
-/* line 161, ../scss/app.scss */
+/* line 41, ../scss/_global.scss */
 .upper {
   text-transform: uppercase;
 }
 
-/* line 162, ../scss/app.scss */
+/* line 42, ../scss/_global.scss */
 .panel {
   box-shadow: 4px 3px 6px -2px #d6d6d6;
 }
@@ -8515,15 +8515,15 @@ th.hide-for-touch {
 /*====Functions and Mixins======*/
 /*====Functions and Mixins======*/
 /**** OFF-CANVAS *****/
-/* line 255, ../scss/app.scss */
+/* line 52, ../scss/app.scss */
 .off-canvas-wrap .tab-bar .menu-icon span:after {
   left: 0.875rem;
 }
-/* line 262, ../scss/app.scss */
+/* line 59, ../scss/app.scss */
 .off-canvas-wrap .has-form #topSearch {
   top: 15px;
 }
-/* line 265, ../scss/app.scss */
+/* line 62, ../scss/app.scss */
 .off-canvas-wrap .has-form .icon-search {
   position: absolute;
   z-index: 999;
@@ -8535,24 +8535,24 @@ th.hide-for-touch {
 }
 
 /**** Top Header Section ****/
-/* line 277, ../scss/app.scss */
+/* line 74, ../scss/app.scss */
 .topHeader {
   padding: 0.9375rem 0;
   background: #1b1b1b;
 }
-/* line 280, ../scss/app.scss */
+/* line 77, ../scss/app.scss */
 .topHeader .logo {
   padding: 0 0 0 0;
   cursor: pointer;
 }
 
 /**** Top bar section / Menu and Search section ****/
-/* line 287, ../scss/app.scss */
+/* line 84, ../scss/app.scss */
 #top-barSection {
   background: #333333;
 }
 
-/* line 292, ../scss/app.scss */
+/* line 89, ../scss/app.scss */
 .top-bar-section .icon-arrow-down:before {
   position: absolute;
   top: 1.3125rem;
@@ -8561,16 +8561,16 @@ th.hide-for-touch {
   right: 0.6875rem;
   height: 100%;
 }
-/* line 301, ../scss/app.scss */
+/* line 98, ../scss/app.scss */
 .top-bar-section .has-form {
   width: 10.3125rem;
 }
-/* line 303, ../scss/app.scss */
+/* line 100, ../scss/app.scss */
 .top-bar-section .has-form #topSearch {
   top: 15px;
   width: 9.0625rem;
 }
-/* line 307, ../scss/app.scss */
+/* line 104, ../scss/app.scss */
 .top-bar-section .has-form .icon-search {
   position: absolute;
   z-index: 999;
@@ -8580,15 +8580,15 @@ th.hide-for-touch {
   font-size: 1.125rem;
   color: #e50000;
 }
-/* line 317, ../scss/app.scss */
+/* line 114, ../scss/app.scss */
 .top-bar-section .submit-press {
   position: relative;
 }
-/* line 319, ../scss/app.scss */
+/* line 116, ../scss/app.scss */
 .top-bar-section .submit-press a {
   padding: 0 1.25rem 0 2.5rem !important;
 }
-/* line 322, ../scss/app.scss */
+/* line 119, ../scss/app.scss */
 .top-bar-section .submit-press .icon-input-checked {
   position: absolute;
   color: #fff;
@@ -8598,25 +8598,25 @@ th.hide-for-touch {
 }
 
 /*** CopyRights ***/
-/* line 332, ../scss/app.scss */
+/* line 129, ../scss/app.scss */
 #copyright {
   background: #232323;
   color: #949495;
   border-top: 1px solid #131313;
 }
-/* line 336, ../scss/app.scss */
+/* line 133, ../scss/app.scss */
 #copyright h2 {
   color: #666666;
   text-transform: uppercase;
   margin-top: 1.875rem;
 }
-/* line 341, ../scss/app.scss */
+/* line 138, ../scss/app.scss */
 #copyright p {
   font-size: 0.75rem;
 }
 
 /**** CONTENT SECTION ****/
-/* line 347, ../scss/app.scss */
+/* line 144, ../scss/app.scss */
 #content {
   margin: 2.5rem 0;
   /*====Feautured Slider====*/
@@ -8625,21 +8625,21 @@ th.hide-for-touch {
   /*==== Latest Events ====*/
   /*==== Right Sider ==== */
 }
-/* line 349, ../scss/app.scss */
+/* line 146, ../scss/app.scss */
 #content .sectionTitle {
   text-transform: uppercase;
   margin: 1.25rem 0;
 }
-/* line 354, ../scss/app.scss */
+/* line 151, ../scss/app.scss */
 #content .orbit-container {
   max-width: 41.1875rem;
 }
-/* line 356, ../scss/app.scss */
+/* line 153, ../scss/app.scss */
 #content .orbit-container .orbit-caption {
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 359, ../scss/app.scss */
+/* line 156, ../scss/app.scss */
 #content .orbit-container .orbit-caption .pupDate {
   font-size: 0.875rem;
   display: block;
@@ -8647,18 +8647,18 @@ th.hide-for-touch {
   font-weight: normal;
   text-transform: none;
 }
-/* line 367, ../scss/app.scss */
+/* line 164, ../scss/app.scss */
 #content .orbit-container .orbit-bullets-container {
   position: absolute;
   bottom: 1.25rem;
   right: 3%;
   z-index: 9;
 }
-/* line 372, ../scss/app.scss */
+/* line 169, ../scss/app.scss */
 #content .orbit-container .orbit-bullets-container .orbit-bullets {
   margin: 0 0 0.625rem 0;
 }
-/* line 374, ../scss/app.scss */
+/* line 171, ../scss/app.scss */
 #content .orbit-container .orbit-bullets-container .orbit-bullets li {
   width: 1.25rem;
   height: 10px;
@@ -8666,33 +8666,33 @@ th.hide-for-touch {
   transition: all .13s ease-in;
 }
 @media only screen and (max-width: 40em) {
-  /* line 374, ../scss/app.scss */
+  /* line 171, ../scss/app.scss */
   #content .orbit-container .orbit-bullets-container .orbit-bullets li {
     width: 0.625rem;
   }
 }
-/* line 383, ../scss/app.scss */
+/* line 180, ../scss/app.scss */
 #content .orbit-container .orbit-bullets-container .orbit-bullets .active {
   height: 20px;
 }
-/* line 166, ../scss/app.scss */
+/* line 4, ../scss/_mixinsFunctions.scss */
 #content .upcomingEvents .upcomingList li img, #content .upcomingEvents .upcomingList div img {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
-/* line 171, ../scss/app.scss */
+/* line 9, ../scss/_mixinsFunctions.scss */
 #content .upcomingEvents .upcomingList li:hover img, #content .upcomingEvents .upcomingList div:hover img {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
   z-index: -2;
 }
-/* line 177, ../scss/app.scss */
+/* line 15, ../scss/_mixinsFunctions.scss */
 #content .upcomingEvents .upcomingList li a, #content .upcomingEvents .upcomingList div a {
   display: block;
   position: relative;
   overflow: hidden;
 }
-/* line 181, ../scss/app.scss */
+/* line 19, ../scss/_mixinsFunctions.scss */
 #content .upcomingEvents .upcomingList li a:before, #content .upcomingEvents .upcomingList div a:before {
   position: absolute;
   content: "Get Tickets";
@@ -8708,11 +8708,11 @@ th.hide-for-touch {
   transition: all .3s ease .13s;
   z-index: 9;
 }
-/* line 196, ../scss/app.scss */
+/* line 34, ../scss/_mixinsFunctions.scss */
 #content .upcomingEvents .upcomingList li a:hover:before, #content .upcomingEvents .upcomingList div a:hover:before {
   bottom: 0;
 }
-/* line 394, ../scss/app.scss */
+/* line 191, ../scss/app.scss */
 #content .upcomingEvents .upcomingList .inTitles {
   font-weight: bold;
   margin: 0.625rem 0 0;
@@ -8720,41 +8720,41 @@ th.hide-for-touch {
   text-transform: uppercase;
   font-size: 1rem;
 }
-/* line 402, ../scss/app.scss */
+/* line 199, ../scss/app.scss */
 #content .upcomingEvents .button {
   background: #e74c3c;
   box-shadow: 0 6px #af3729;
   width: 100%;
   padding: 0.625rem;
 }
-/* line 207, ../scss/app.scss */
+/* line 45, ../scss/_mixinsFunctions.scss */
 #content .upcomingEvents .button:hover {
   box-shadow: 0 4px #af3729;
   top: 2px;
 }
-/* line 211, ../scss/app.scss */
+/* line 49, ../scss/_mixinsFunctions.scss */
 #content .upcomingEvents .button:active {
   box-shadow: 0 0 #af3729;
   top: 5px;
 }
-/* line 166, ../scss/app.scss */
+/* line 4, ../scss/_mixinsFunctions.scss */
 #content .carouselSlider .slick-track li img, #content .carouselSlider .slick-track div img {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
-/* line 171, ../scss/app.scss */
+/* line 9, ../scss/_mixinsFunctions.scss */
 #content .carouselSlider .slick-track li:hover img, #content .carouselSlider .slick-track div:hover img {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
   z-index: -2;
 }
-/* line 177, ../scss/app.scss */
+/* line 15, ../scss/_mixinsFunctions.scss */
 #content .carouselSlider .slick-track li a, #content .carouselSlider .slick-track div a {
   display: block;
   position: relative;
   overflow: hidden;
 }
-/* line 181, ../scss/app.scss */
+/* line 19, ../scss/_mixinsFunctions.scss */
 #content .carouselSlider .slick-track li a:before, #content .carouselSlider .slick-track div a:before {
   position: absolute;
   content: "Get Tickets";
@@ -8770,39 +8770,39 @@ th.hide-for-touch {
   transition: all .3s ease .13s;
   z-index: 9;
 }
-/* line 196, ../scss/app.scss */
+/* line 34, ../scss/_mixinsFunctions.scss */
 #content .carouselSlider .slick-track li a:hover:before, #content .carouselSlider .slick-track div a:hover:before {
   bottom: 0;
 }
-/* line 414, ../scss/app.scss */
+/* line 211, ../scss/app.scss */
 #content .latestEvents .panel {
   position: relative;
   font-size: 0.875rem;
   color: #484848;
 }
-/* line 418, ../scss/app.scss */
+/* line 215, ../scss/app.scss */
 #content .latestEvents .panel img {
   margin-right: 0.625rem;
   border-right: 1px dashed #B1ACAC;
   padding-right: 0.625rem;
 }
-/* line 423, ../scss/app.scss */
+/* line 220, ../scss/app.scss */
 #content .latestEvents .panel h5 {
   margin-bottom: 0;
 }
-/* line 424, ../scss/app.scss */
+/* line 221, ../scss/app.scss */
 #content .latestEvents .panel span {
   font-style: italic;
   margin: 0.3125rem 0;
   display: block;
 }
-/* line 429, ../scss/app.scss */
+/* line 226, ../scss/app.scss */
 #content .latestEvents .panel p {
   margin: 0;
   line-height: 1.3;
   font-size: 0.875rem;
 }
-/* line 434, ../scss/app.scss */
+/* line 231, ../scss/app.scss */
 #content .latestEvents .panel .button {
   position: absolute;
   top: 5px;
@@ -8813,18 +8813,18 @@ th.hide-for-touch {
   padding: 0.625rem;
   width: 9.6875rem;
 }
-/* line 207, ../scss/app.scss */
+/* line 45, ../scss/_mixinsFunctions.scss */
 #content .latestEvents .panel .button:hover {
   box-shadow: 0 4px #317eb1;
   top: 5px;
 }
-/* line 211, ../scss/app.scss */
+/* line 49, ../scss/_mixinsFunctions.scss */
 #content .latestEvents .panel .button:active {
   box-shadow: 0 0 #317eb1;
   top: 6px;
 }
 @media only screen and (min-width: 0em) and (max-width: 64em) {
-  /* line 434, ../scss/app.scss */
+  /* line 231, ../scss/app.scss */
   #content .latestEvents .panel .button {
     position: relative;
     top: auto;
@@ -8833,43 +8833,43 @@ th.hide-for-touch {
     margin: 0.625rem 0;
   }
 }
-/* line 452, ../scss/app.scss */
+/* line 249, ../scss/app.scss */
 #content .bigEvnt {
   margin-top: 4.375rem;
 }
-/* line 455, ../scss/app.scss */
+/* line 252, ../scss/app.scss */
 #content .bigEvnt .panel img {
   margin: 0;
 }
-/* line 458, ../scss/app.scss */
+/* line 255, ../scss/app.scss */
 #content .bigEvnt .panel h5 {
   margin: 0.625rem 0 0.625rem 0.5rem;
   padding: 0.625rem 0;
   border-bottom: 1px solid #ddd;
 }
-/* line 463, ../scss/app.scss */
+/* line 260, ../scss/app.scss */
 #content .bigEvnt .panel .info {
   margin: 0.9375rem 0 0.625rem 0.5rem;
   color: #444444;
 }
-/* line 466, ../scss/app.scss */
+/* line 263, ../scss/app.scss */
 #content .bigEvnt .panel .info:before {
   color: #2b97df;
 }
-/* line 471, ../scss/app.scss */
+/* line 268, ../scss/app.scss */
 #content .bigEvnt .panel .evntLocation:before {
   margin-right: 5px;
   font-size: 1.25rem;
   top: 3px;
 }
-/* line 478, ../scss/app.scss */
+/* line 275, ../scss/app.scss */
 #content .bigEvnt .panel .evntDate:before {
   position: relative;
   left: -3px;
   font-size: 1.25rem;
   top: 3px;
 }
-/* line 486, ../scss/app.scss */
+/* line 283, ../scss/app.scss */
 #content .bigEvnt .panel .evntBuytckt {
   position: relative;
   margin: 0.625rem 0;
@@ -8878,17 +8878,17 @@ th.hide-for-touch {
   width: 100%;
   padding: 0.625rem;
 }
-/* line 207, ../scss/app.scss */
+/* line 45, ../scss/_mixinsFunctions.scss */
 #content .bigEvnt .panel .evntBuytckt:hover {
   box-shadow: 0 4px #317eb1;
   top: 2px;
 }
-/* line 211, ../scss/app.scss */
+/* line 49, ../scss/_mixinsFunctions.scss */
 #content .bigEvnt .panel .evntBuytckt:active {
   box-shadow: 0 0 #317eb1;
   top: 5px;
 }
-/* line 490, ../scss/app.scss */
+/* line 287, ../scss/app.scss */
 #content .bigEvnt .panel .evntBuytckt:before {
   margin-right: 5px;
   color: #2A5B7C;
@@ -8899,7 +8899,7 @@ th.hide-for-touch {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
-/* line 501, ../scss/app.scss */
+/* line 298, ../scss/app.scss */
 #content .bigEvnt .panel .evntBuytckt:after {
   content: "";
   position: absolute;
@@ -8912,56 +8912,56 @@ th.hide-for-touch {
   top: 14px;
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  /* line 515, ../scss/app.scss */
+  /* line 312, ../scss/app.scss */
   #content .bigEvnt .panel .evntBuytckt:after {
     left: 1.8125rem;
   }
 }
 @media only screen and (max-width: 40em) {
-  /* line 521, ../scss/app.scss */
+  /* line 318, ../scss/app.scss */
   #content .bigEvnt .panel img {
     border: 20px solid #fff;
     margin-left: 0;
   }
-  /* line 525, ../scss/app.scss */
+  /* line 322, ../scss/app.scss */
   #content .bigEvnt .panel .evntBuytckt {
     width: 100%;
     margin: 0.625rem 0;
   }
-  /* line 528, ../scss/app.scss */
+  /* line 325, ../scss/app.scss */
   #content .bigEvnt .panel .evntBuytckt:after {
     display: none;
   }
 }
-/* line 535, ../scss/app.scss */
+/* line 332, ../scss/app.scss */
 #content .adEvnt {
   padding: 0.625rem;
 }
 @media only screen and (max-width: 40em) {
-  /* line 538, ../scss/app.scss */
+  /* line 335, ../scss/app.scss */
   #content .adEvnt img {
     border: 20px solid #fff;
     margin-left: 0;
   }
 }
-/* line 166, ../scss/app.scss */
+/* line 4, ../scss/_mixinsFunctions.scss */
 #content .recommendedEvents .recommendedList li img, #content .recommendedEvents .recommendedList div img {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
-/* line 171, ../scss/app.scss */
+/* line 9, ../scss/_mixinsFunctions.scss */
 #content .recommendedEvents .recommendedList li:hover img, #content .recommendedEvents .recommendedList div:hover img {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
   z-index: -2;
 }
-/* line 177, ../scss/app.scss */
+/* line 15, ../scss/_mixinsFunctions.scss */
 #content .recommendedEvents .recommendedList li a, #content .recommendedEvents .recommendedList div a {
   display: block;
   position: relative;
   overflow: hidden;
 }
-/* line 181, ../scss/app.scss */
+/* line 19, ../scss/_mixinsFunctions.scss */
 #content .recommendedEvents .recommendedList li a:before, #content .recommendedEvents .recommendedList div a:before {
   position: absolute;
   content: "Get Tickets";
@@ -8977,11 +8977,11 @@ th.hide-for-touch {
   transition: all .3s ease .13s;
   z-index: 9;
 }
-/* line 196, ../scss/app.scss */
+/* line 34, ../scss/_mixinsFunctions.scss */
 #content .recommendedEvents .recommendedList li a:hover:before, #content .recommendedEvents .recommendedList div a:hover:before {
   bottom: 0;
 }
-/* line 547, ../scss/app.scss */
+/* line 344, ../scss/app.scss */
 #content .recommendedEvents .recommendedList .inTitles {
   font-weight: bold;
   margin: 0.625rem 0 0;
@@ -8989,23 +8989,23 @@ th.hide-for-touch {
   text-transform: uppercase;
   font-size: 0.875rem;
 }
-/* line 556, ../scss/app.scss */
+/* line 353, ../scss/app.scss */
 #content .subscribeBox {
   border: 1px solid #ccc;
   padding: 0.625rem;
   position: relative;
   margin: 1.25rem 0;
 }
-/* line 561, ../scss/app.scss */
+/* line 358, ../scss/app.scss */
 #content .subscribeBox h5 {
   text-transform: uppercase;
 }
-/* line 564, ../scss/app.scss */
+/* line 361, ../scss/app.scss */
 #content .subscribeBox p {
   color: #484848;
   font-size: 0.875rem;
 }
-/* line 568, ../scss/app.scss */
+/* line 365, ../scss/app.scss */
 #content .subscribeBox:before {
   position: absolute;
   top: -12%;
@@ -9016,33 +9016,33 @@ th.hide-for-touch {
   opacity: 0.5;
 }
 @media only screen and (max-width: 40em) {
-  /* line 578, ../scss/app.scss */
+  /* line 375, ../scss/app.scss */
   #content .subscribeBox:before {
     display: none;
   }
 }
-/* line 583, ../scss/app.scss */
+/* line 380, ../scss/app.scss */
 #content .customerCareBox {
   padding: 0.625rem;
 }
-/* line 585, ../scss/app.scss */
+/* line 382, ../scss/app.scss */
 #content .customerCareBox ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-/* line 590, ../scss/app.scss */
+/* line 387, ../scss/app.scss */
 #content .customerCareBox li {
   color: #494949;
   margin-bottom: 0.625rem;
 }
-/* line 593, ../scss/app.scss */
+/* line 390, ../scss/app.scss */
 #content .customerCareBox li:before {
   position: relative;
   top: 3px;
   font-size: 1.25rem;
 }
-/* line 598, ../scss/app.scss */
+/* line 395, ../scss/app.scss */
 #content .customerCareBox li a {
   font-size: 0.8125rem;
   margin-left: 0.625rem;
@@ -9051,72 +9051,72 @@ th.hide-for-touch {
 
 /*Content*/
 /**** FOOTER SECTION ****/
-/* line 608, ../scss/app.scss */
+/* line 405, ../scss/app.scss */
 footer {
   background: #1b1b1b;
   padding: 2.5rem 0;
 }
-/* line 611, ../scss/app.scss */
+/* line 408, ../scss/app.scss */
 footer ul {
   margin: 0;
   padding: 0;
 }
-/* line 614, ../scss/app.scss */
+/* line 411, ../scss/app.scss */
 footer ul li {
   list-style-type: none;
   margin-top: 0.3125rem;
   padding-bottom: 0.3125rem;
 }
-/* line 618, ../scss/app.scss */
+/* line 415, ../scss/app.scss */
 footer ul li a {
   color: #fff;
   font-family: "Open Sans", sans-serif;
   font-size: 0.75rem;
   text-transform: uppercase;
 }
-/* line 623, ../scss/app.scss */
+/* line 420, ../scss/app.scss */
 footer ul li a:hover {
   color: #fff;
   text-decoration: underline;
 }
-/* line 632, ../scss/app.scss */
+/* line 429, ../scss/app.scss */
 footer .social ul {
   margin-left: -0.4375rem;
 }
-/* line 634, ../scss/app.scss */
+/* line 431, ../scss/app.scss */
 footer .social ul li {
   margin-left: 0.3125rem;
 }
-/* line 637, ../scss/app.scss */
+/* line 434, ../scss/app.scss */
 footer .social ul a {
   background: url(../images/sprite-all.png) no-repeat 0 0;
   width: 2rem;
   height: 32px;
 }
-/* line 642, ../scss/app.scss */
+/* line 439, ../scss/app.scss */
 footer .social ul .twitter {
   background-position: -36px 0;
 }
-/* line 643, ../scss/app.scss */
+/* line 440, ../scss/app.scss */
 footer .social ul .ytube {
   background-position: -69px 0;
 }
-/* line 644, ../scss/app.scss */
+/* line 441, ../scss/app.scss */
 footer .social ul .gplus {
   background-position: -103px 0;
 }
-/* line 645, ../scss/app.scss */
+/* line 442, ../scss/app.scss */
 footer .social ul .in {
   background-position: -137px 0;
 }
-/* line 649, ../scss/app.scss */
+/* line 446, ../scss/app.scss */
 footer .footer-titles {
   color: #fff;
   font-size: 0.875rem;
   margin: 0 0 0.625rem 0;
   font-weight: bold;
 }
-/* line 655, ../scss/app.scss */
+/* line 452, ../scss/app.scss */
 footer .footer-sections,
 footer .preferSection {
   border-right-width: 0;
@@ -9125,22 +9125,22 @@ footer .preferSection {
   padding-top: 20px;
   margin-top: 20px;
 }
-/* line 665, ../scss/app.scss */
+/* line 462, ../scss/app.scss */
 footer .we-prefer ul li {
   width: 4rem;
   height: 40px;
   background: url(../images/sprite-all.png) no-repeat 0 -42px;
   margin: 0 0 0.625rem 0.3125rem;
 }
-/* line 671, ../scss/app.scss */
+/* line 468, ../scss/app.scss */
 footer .we-prefer ul .master-card {
   background-position: -202px -42px;
 }
-/* line 674, ../scss/app.scss */
+/* line 471, ../scss/app.scss */
 footer .we-prefer ul .paypal {
   background-position: -135px -42px;
 }
-/* line 677, ../scss/app.scss */
+/* line 474, ../scss/app.scss */
 footer .we-prefer ul .Xpress {
   background-position: -68px -42px;
 }
@@ -9148,7 +9148,7 @@ footer .we-prefer ul .Xpress {
 /***** Media Queries *****/
 @media only screen and (min-width: 64.063em) {
   /**** FOOTER ***/
-  /* line 689, ../scss/app.scss */
+  /* line 486, ../scss/app.scss */
   footer .footer-sections {
     border-right: 1px solid #fff;
     border-top-width: 0;
@@ -9156,7 +9156,7 @@ footer .we-prefer ul .Xpress {
     margin-top: 0;
     padding-top: 0;
   }
-  /* line 696, ../scss/app.scss */
+  /* line 493, ../scss/app.scss */
   footer .preferSection {
     border-top-width: 0;
     margin-top: 0;
@@ -9165,13 +9165,13 @@ footer .we-prefer ul .Xpress {
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /**** FOOTER ***/
-  /* line 708, ../scss/app.scss */
+  /* line 505, ../scss/app.scss */
   footer .footer-sections {
     border: 0 none;
     min-height: 0;
     margin-top: 0;
   }
-  /* line 713, ../scss/app.scss */
+  /* line 510, ../scss/app.scss */
   footer .connectedSection, footer .preferSection {
     margin-top: 20px;
     border-top: 1px solid #fff;
@@ -9179,7 +9179,7 @@ footer .we-prefer ul .Xpress {
   }
 }
 /********* Payment **************/
-/* line 728, ../scss/app.scss */
+/* line 525, ../scss/app.scss */
 .payment {
   /* ==== Overview ==== */
   /* ==== Choose your country ==== */
@@ -9189,25 +9189,25 @@ footer .we-prefer ul .Xpress {
   /** STEP 4 **/
   /** STEP 5 **/
 }
-/* line 729, ../scss/app.scss */
+/* line 526, ../scss/app.scss */
 .payment .paySteps {
   border-bottom: 10px solid #dddddd;
   margin-bottom: 1.25rem;
 }
-/* line 732, ../scss/app.scss */
+/* line 529, ../scss/app.scss */
 .payment .paySteps ul {
   overflow: visible;
 }
-/* line 734, ../scss/app.scss */
+/* line 531, ../scss/app.scss */
 .payment .paySteps ul li {
   margin-left: 5rem;
   position: relative;
 }
-/* line 735, ../scss/app.scss */
+/* line 532, ../scss/app.scss */
 .payment .paySteps ul li:first-child {
   margin-left: 1.375rem;
 }
-/* line 742, ../scss/app.scss */
+/* line 539, ../scss/app.scss */
 .payment .paySteps ul .done:after {
   position: absolute;
   content: "";
@@ -9217,38 +9217,38 @@ footer .we-prefer ul .Xpress {
   top: 42px;
   left: 0;
 }
-/* line 758, ../scss/app.scss */
+/* line 555, ../scss/app.scss */
 .payment .overView img {
   margin-right: 0.625rem;
   border-right: 1px dashed #B1ACAC;
   padding-right: 0.625rem;
 }
-/* line 763, ../scss/app.scss */
+/* line 560, ../scss/app.scss */
 .payment .overView p, .payment .overView .evntPlace {
   font-size: 14px;
 }
-/* line 764, ../scss/app.scss */
+/* line 561, ../scss/app.scss */
 .payment .overView small {
   font-size: 0.75rem;
 }
-/* line 765, ../scss/app.scss */
+/* line 562, ../scss/app.scss */
 .payment .overView .evntPlace {
   color: #686868;
   font-weight: bold;
 }
-/* line 768, ../scss/app.scss */
+/* line 565, ../scss/app.scss */
 .payment .overView .evntPlace:before {
   margin-right: 0.1875rem;
   font-size: 1.0625rem;
 }
-/* line 775, ../scss/app.scss */
+/* line 572, ../scss/app.scss */
 .payment .sectionTitle {
   border-bottom: 1px solid #bbbbbb;
   padding-bottom: 0.3125rem;
   margin-bottom: 0.3125rem;
   position: relative;
 }
-/* line 780, ../scss/app.scss */
+/* line 577, ../scss/app.scss */
 .payment .sectionTitle:after {
   position: absolute;
   content: "";
@@ -9260,15 +9260,15 @@ footer .we-prefer ul .Xpress {
   -webkit-transition: height .1s ease;
   transition: height .1s ease;
 }
-/* line 791, ../scss/app.scss */
+/* line 588, ../scss/app.scss */
 .payment .sectionTitle:hover:after {
   height: 5px;
 }
-/* line 798, ../scss/app.scss */
+/* line 595, ../scss/app.scss */
 .payment .chooseUrTckt .selectCat {
   margin-bottom: 70px;
 }
-/* line 217, ../scss/app.scss */
+/* line 55, ../scss/_mixinsFunctions.scss */
 .payment .chooseUrTckt .dropdownblk {
   position: relative;
   display: block;
@@ -9276,7 +9276,7 @@ footer .we-prefer ul .Xpress {
   box-shadow: 0 0 1px #333;
   padding: 0.3125rem 0.3125rem 0.3125rem 1.25rem;
 }
-/* line 223, ../scss/app.scss */
+/* line 61, ../scss/_mixinsFunctions.scss */
 .payment .chooseUrTckt .dropdownblk:before {
   right: 0.9375rem;
   position: absolute;
@@ -9285,31 +9285,31 @@ footer .we-prefer ul .Xpress {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
-/* line 232, ../scss/app.scss */
+/* line 70, ../scss/_mixinsFunctions.scss */
 .payment .chooseUrTckt .open {
   border-left: 4px solid #2b97df !important;
 }
-/* line 234, ../scss/app.scss */
+/* line 72, ../scss/_mixinsFunctions.scss */
 .payment .chooseUrTckt .open:before {
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
-/* line 239, ../scss/app.scss */
+/* line 77, ../scss/_mixinsFunctions.scss */
 .payment .chooseUrTckt .f-dropdown {
   max-width: 100%;
   margin: 0;
   border: 0 none;
   box-shadow: 0 0 1px #333;
 }
-/* line 244, ../scss/app.scss */
+/* line 82, ../scss/_mixinsFunctions.scss */
 .payment .chooseUrTckt .f-dropdown:before, .payment .chooseUrTckt .f-dropdown:after {
   display: none;
 }
-/* line 803, ../scss/app.scss */
+/* line 600, ../scss/app.scss */
 .payment .chooseUrTckt .tcktType p, .payment .chooseUrTckt .tcktType .quantityDropdown {
   margin-top: 0.9375rem;
 }
-/* line 217, ../scss/app.scss */
+/* line 55, ../scss/_mixinsFunctions.scss */
 .payment .DeliveryMethod .dropdownblk {
   position: relative;
   display: block;
@@ -9317,7 +9317,7 @@ footer .we-prefer ul .Xpress {
   box-shadow: 0 0 1px #333;
   padding: 0.3125rem 0.3125rem 0.3125rem 1.25rem;
 }
-/* line 223, ../scss/app.scss */
+/* line 61, ../scss/_mixinsFunctions.scss */
 .payment .DeliveryMethod .dropdownblk:before {
   right: 0.9375rem;
   position: absolute;
@@ -9326,52 +9326,52 @@ footer .we-prefer ul .Xpress {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
-/* line 232, ../scss/app.scss */
+/* line 70, ../scss/_mixinsFunctions.scss */
 .payment .DeliveryMethod .open {
   border-left: 4px solid #2b97df !important;
 }
-/* line 234, ../scss/app.scss */
+/* line 72, ../scss/_mixinsFunctions.scss */
 .payment .DeliveryMethod .open:before {
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
-/* line 239, ../scss/app.scss */
+/* line 77, ../scss/_mixinsFunctions.scss */
 .payment .DeliveryMethod .f-dropdown {
   max-width: 100%;
   margin: 0;
   border: 0 none;
   box-shadow: 0 0 1px #333;
 }
-/* line 244, ../scss/app.scss */
+/* line 82, ../scss/_mixinsFunctions.scss */
 .payment .DeliveryMethod .f-dropdown:before, .payment .DeliveryMethod .f-dropdown:after {
   display: none;
 }
-/* line 811, ../scss/app.scss */
+/* line 608, ../scss/app.scss */
 .payment .DeliveryMethod .deliveryMethodBox {
   margin-bottom: 1.25rem;
 }
-/* line 814, ../scss/app.scss */
+/* line 611, ../scss/app.scss */
 .payment .DeliveryMethod p {
   font-size: 0.875rem;
 }
-/* line 822, ../scss/app.scss */
+/* line 619, ../scss/app.scss */
 .payment .evntInfoBrief .evntInfos .evntInfoDetails {
   margin-top: 0.625rem;
 }
-/* line 824, ../scss/app.scss */
+/* line 621, ../scss/app.scss */
 .payment .evntInfoBrief .evntInfos .evntInfoDetails strong {
   font-size: 0.9375rem;
 }
-/* line 825, ../scss/app.scss */
+/* line 622, ../scss/app.scss */
 .payment .evntInfoBrief .evntInfos .evntInfoDetails p {
   margin-bottom: 0.3125rem;
   font-size: 0.875rem;
 }
-/* line 835, ../scss/app.scss */
+/* line 632, ../scss/app.scss */
 .payment .registerSignIn .registerBlock p {
   font-size: 0.875rem;
 }
-/* line 839, ../scss/app.scss */
+/* line 636, ../scss/app.scss */
 .payment .registerSignIn .button {
   background: #2b97df;
   box-shadow: 0 6px #317eb1;
@@ -9379,71 +9379,71 @@ footer .we-prefer ul .Xpress {
   padding: 0.625rem;
   width: 10.625rem;
 }
-/* line 207, ../scss/app.scss */
+/* line 45, ../scss/_mixinsFunctions.scss */
 .payment .registerSignIn .button:hover {
   box-shadow: 0 4px #317eb1;
   top: 2px;
 }
-/* line 211, ../scss/app.scss */
+/* line 49, ../scss/_mixinsFunctions.scss */
 .payment .registerSignIn .button:active {
   box-shadow: 0 0 #317eb1;
   top: 6px;
 }
-/* line 843, ../scss/app.scss */
+/* line 640, ../scss/app.scss */
 .payment .registerSignIn .rgstrButon {
   margin-top: 2.875rem;
 }
-/* line 846, ../scss/app.scss */
+/* line 643, ../scss/app.scss */
 .payment .registerSignIn .signInBox {
   margin-top: 1.5625rem;
 }
-/* line 849, ../scss/app.scss */
+/* line 646, ../scss/app.scss */
 .payment .registerSignIn .forgotPass {
   font-size: 0.8125rem;
   color: #2b97df;
 }
-/* line 857, ../scss/app.scss */
+/* line 654, ../scss/app.scss */
 .payment .paymentBlocks .button {
   background: #2b97df;
   box-shadow: 0 6px #317eb1;
   width: 100%;
   padding: 0.625rem;
 }
-/* line 207, ../scss/app.scss */
+/* line 45, ../scss/_mixinsFunctions.scss */
 .payment .paymentBlocks .button:hover {
   box-shadow: 0 4px #317eb1;
   top: 2px;
 }
-/* line 211, ../scss/app.scss */
+/* line 49, ../scss/_mixinsFunctions.scss */
 .payment .paymentBlocks .button:active {
   box-shadow: 0 0 #317eb1;
   top: 6px;
 }
-/* line 860, ../scss/app.scss */
+/* line 657, ../scss/app.scss */
 .payment .paymentBlocks .hideVouchers, .payment .paymentBlocks .tcktsName {
   color: #2b97df;
   text-decoration: underline;
 }
-/* line 862, ../scss/app.scss */
+/* line 659, ../scss/app.scss */
 .payment .paymentBlocks .paymentlastDetails div {
   margin-top: 0.625rem;
 }
-/* line 866, ../scss/app.scss */
+/* line 663, ../scss/app.scss */
 .payment .paymentBlocks .paymentInformation {
   margin: 1.25rem 0;
 }
-/* line 869, ../scss/app.scss */
+/* line 666, ../scss/app.scss */
 .payment .paymentBlocks input[type="radio"],
 .payment .paymentBlocks input[type="checkbox"] {
   opacity: 0;
 }
-/* line 872, ../scss/app.scss */
+/* line 669, ../scss/app.scss */
 .payment .paymentBlocks input[type="radio"] + label,
 .payment .paymentBlocks input[type="checkbox"] + label {
   position: relative;
   margin-left: 2.625rem;
 }
-/* line 875, ../scss/app.scss */
+/* line 672, ../scss/app.scss */
 .payment .paymentBlocks input[type="radio"] + label:before, .payment .paymentBlocks input[type="radio"] + label:after,
 .payment .paymentBlocks input[type="checkbox"] + label:before,
 .payment .paymentBlocks input[type="checkbox"] + label:after {
@@ -9459,7 +9459,7 @@ footer .we-prefer ul .Xpress {
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 888, ../scss/app.scss */
+/* line 685, ../scss/app.scss */
 .payment .paymentBlocks input[type="radio"] + label:after,
 .payment .paymentBlocks input[type="checkbox"] + label:after {
   left: -2.8125rem;
@@ -9470,43 +9470,43 @@ footer .we-prefer ul .Xpress {
   background: #e0e0e0;
   box-shadow: 0 0 0;
 }
-/* line 900, ../scss/app.scss */
+/* line 697, ../scss/app.scss */
 .payment .paymentBlocks input[type="radio"]:checked + label:before,
 .payment .paymentBlocks input[type="checkbox"]:checked + label:before {
   background: #2b97df;
 }
-/* line 903, ../scss/app.scss */
+/* line 700, ../scss/app.scss */
 .payment .paymentBlocks input[type="radio"]:checked + label:after,
 .payment .paymentBlocks input[type="checkbox"]:checked + label:after {
   background: #fff;
   left: -1.375rem;
   top: 4px;
 }
-/* line 913, ../scss/app.scss */
+/* line 710, ../scss/app.scss */
 .payment .paymentBlocks input[type="checkbox"] + label:before, .payment .paymentBlocks input[type="checkbox"] + label:after {
   border-radius: 0;
 }
-/* line 923, ../scss/app.scss */
+/* line 720, ../scss/app.scss */
 .payment .billingAddrsInfoBlk .button-group li {
   float: right;
   width: 8.75rem;
   margin-left: 0.625rem;
 }
-/* line 929, ../scss/app.scss */
+/* line 726, ../scss/app.scss */
 .payment .billingAddrsInfoBlk .button {
   background: #2b97df;
-  box-shadow: 0 6px #317eb1;
+  box-shadow: 0 6px #165e8e;
   width: 100%;
   padding: 0.625rem;
 }
-/* line 207, ../scss/app.scss */
+/* line 45, ../scss/_mixinsFunctions.scss */
 .payment .billingAddrsInfoBlk .button:hover {
-  box-shadow: 0 4px #317eb1;
+  box-shadow: 0 4px #165e8e;
   top: 2px;
 }
-/* line 211, ../scss/app.scss */
+/* line 49, ../scss/_mixinsFunctions.scss */
 .payment .billingAddrsInfoBlk .button:active {
-  box-shadow: 0 0 #317eb1;
+  box-shadow: 0 0 #165e8e;
   top: 6px;
 }
 
