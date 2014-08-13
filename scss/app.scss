@@ -64,7 +64,6 @@
 			z-index: 999;
 			top: 5px;
 			right: rem-calc(5);
-			color: #5f9f6f;
 			font-size: rem-calc(18);
 			color: #e50000;
 		}		
@@ -570,24 +569,7 @@ footer{
 	}
 /* ==== Choose your country ==== */
 	.sectionTitle{
-		border-bottom: 1px solid #bbbbbb;
-		padding-bottom: rem-calc(5);
-		margin-bottom: rem-calc(5);
-		position: relative;
-		&:after{
-			position: absolute;
-			content: "";
-			width: rem-calc(255);
-			height: 3px;
-			background: #e74c3c;
-			bottom: 0;
-			left: 0;
-			-webkit-transition: height .1s ease;
-					transition: height .1s ease;		
-		}
-		&:hover:after{
-			height: 5px;
-		}
+		@include fancyTitle;
 
 	}
 /* ==== selectCategory ==== */
@@ -728,3 +710,37 @@ footer{
 		}
 	}
 }/* Payment page */ 
+
+
+/* Static pages */
+	//Common
+.pages{
+	h4{
+		@include fancyTitle;
+	}
+	p{
+		font-size: rem-calc(14);
+	}
+	strong{
+		color: #CC0000;
+	}
+	a{
+		text-decoration: underline;
+		font-style: italic;
+		font-weight: bold;
+		font-size: rem-calc(14);
+	}
+}
+// 1- About Us page
+
+.aboutPage{
+}
+
+
+
+
+
+
+
+
+
