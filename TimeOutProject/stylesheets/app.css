@@ -9518,6 +9518,20 @@ footer .we-prefer ul .Xpress {
 /* Payment page */
 /* Static pages */
 /* line 718, ../scss/app.scss */
+.pages .large-12 {
+  position: relative;
+  border: 10px solid #F3F3F3;
+}
+/* line 721, ../scss/app.scss */
+.pages .large-12:after {
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: -10px;
+  border: 15px solid #F3F3F3;
+  border-color: #fff #fff #F3F3F3 #F3F3F3;
+}
+/* line 730, ../scss/app.scss */
 .pages h4 {
   border-bottom: 1px solid #bbbbbb;
   padding-bottom: 0.3125rem;
@@ -9540,15 +9554,15 @@ footer .we-prefer ul .Xpress {
 .pages h4:hover:after {
   height: 5px;
 }
-/* line 721, ../scss/app.scss */
+/* line 733, ../scss/app.scss */
 .pages p {
   font-size: 0.875rem;
 }
-/* line 724, ../scss/app.scss */
+/* line 736, ../scss/app.scss */
 .pages strong {
   color: #CC0000;
 }
-/* line 727, ../scss/app.scss */
+/* line 739, ../scss/app.scss */
 .pages a {
   text-decoration: underline;
   font-style: italic;

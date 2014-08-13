@@ -715,6 +715,18 @@ footer{
 /* Static pages */
 	//Common
 .pages{
+	.large-12{
+		position: relative;
+		border: 10px solid #F3F3F3;
+		&:after{
+			position: absolute;
+			content: "";
+			top:-10px;
+			right:-10px;
+			border: 15px solid #F3F3F3;
+			border-color: #fff #fff #F3F3F3 #F3F3F3;
+		}
+	}
 	h4{
 		@include fancyTitle;
 	}
@@ -731,11 +743,6 @@ footer{
 		font-size: rem-calc(14);
 	}
 }
-// 1- About Us page
-
-.aboutPage{
-}
-
 
 
 
