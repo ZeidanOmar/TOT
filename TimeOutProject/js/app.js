@@ -22,18 +22,16 @@ $(document).ready(function() {
     });
 
 
- $('.slider-for').slick({
+ $('.topSlider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    fade: true,
-    asNavFor: '.slider-nav'
+    asNavFor: '.navSlider'
 });
-$('.slider-nav').slick({
+$('.navSlider').slick({
     slidesToShow: 2,
     slidesToScroll: 1,
-    asNavFor: '.slider-for',
-    dots: true,
+    asNavFor: '.topSlider',
     centerMode: true,
     focusOnSelect: true
 });

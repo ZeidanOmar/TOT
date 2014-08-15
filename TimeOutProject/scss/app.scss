@@ -731,7 +731,7 @@ footer{
 		@include fancyTitle;
 	}
 	p{
-		font-size: rem-calc(14);
+		font-size: rem-calc(14);	
 	}
 	strong{
 		color: #CC0000;
@@ -741,6 +741,33 @@ footer{
 		font-style: italic;
 		font-weight: bold;
 		font-size: rem-calc(14);
+	}
+}
+
+.eventDetailspage{
+	h4{
+		@include fancyTitle;
+	}
+	p{
+		font-size: rem-calc(14);	
+	}
+	strong{
+		color: #CC0000;
+	}
+	.bigEvnt{
+		h5{
+			margin-top: 0 !important;
+			padding: 0 0 rem-calc(10) !important;
+			line-height: rem-calc(30);
+		}
+		.pricing-table{
+			.bullet-item{
+				padding-bottom: rem-calc(20);
+				span.tktClass{
+					font-weight: bold;
+				}
+			}
+		}
 	}
 }
 

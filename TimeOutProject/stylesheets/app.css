@@ -5064,7 +5064,7 @@ ul.pagination li {
 }
 /* line 142, ../bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .title {
-  background-color: #333333;
+  background-color: #2b97df;
   padding: 0.9375rem 1.25rem;
   text-align: center;
   color: #eeeeee;
@@ -9568,4 +9568,50 @@ footer .we-prefer ul .Xpress {
   font-style: italic;
   font-weight: bold;
   font-size: 0.875rem;
+}
+
+/* line 748, ../scss/app.scss */
+.eventDetailspage h4 {
+  border-bottom: 1px solid #bbbbbb;
+  padding-bottom: 0.3125rem;
+  margin-bottom: 0.3125rem;
+  position: relative;
+}
+/* line 92, ../scss/_mixinsFunctions.scss */
+.eventDetailspage h4:after {
+  position: absolute;
+  content: "";
+  width: 15.9375rem;
+  height: 3px;
+  background: #e74c3c;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: height .1s ease;
+  transition: height .1s ease;
+}
+/* line 103, ../scss/_mixinsFunctions.scss */
+.eventDetailspage h4:hover:after {
+  height: 5px;
+}
+/* line 751, ../scss/app.scss */
+.eventDetailspage p {
+  font-size: 0.875rem;
+}
+/* line 754, ../scss/app.scss */
+.eventDetailspage strong {
+  color: #CC0000;
+}
+/* line 758, ../scss/app.scss */
+.eventDetailspage .bigEvnt h5 {
+  margin-top: 0 !important;
+  padding: 0 0 0.625rem !important;
+  line-height: 1.875rem;
+}
+/* line 764, ../scss/app.scss */
+.eventDetailspage .bigEvnt .pricing-table .bullet-item {
+  padding-bottom: 1.25rem;
+}
+/* line 766, ../scss/app.scss */
+.eventDetailspage .bigEvnt .pricing-table .bullet-item span.tktClass {
+  font-weight: bold;
 }
