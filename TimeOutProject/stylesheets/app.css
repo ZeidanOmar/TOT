@@ -9126,26 +9126,25 @@ footer .footer-sections,
 footer .preferSection {
   border-right-width: 0;
   border-top: 1px solid #fff;
-  min-height: 0;
   padding-top: 20px;
   margin-top: 20px;
 }
-/* line 461, ../scss/app.scss */
+/* line 460, ../scss/app.scss */
 footer .we-prefer ul li {
   width: 4rem;
   height: 40px;
   background: url(../images/sprite-all.png) no-repeat 0 -42px;
   margin: 0 0 0.625rem 0.3125rem;
 }
-/* line 467, ../scss/app.scss */
+/* line 466, ../scss/app.scss */
 footer .we-prefer ul .master-card {
   background-position: -202px -42px;
 }
-/* line 470, ../scss/app.scss */
+/* line 469, ../scss/app.scss */
 footer .we-prefer ul .paypal {
   background-position: -135px -42px;
 }
-/* line 473, ../scss/app.scss */
+/* line 472, ../scss/app.scss */
 footer .we-prefer ul .Xpress {
   background-position: -68px -42px;
 }
@@ -9153,15 +9152,14 @@ footer .we-prefer ul .Xpress {
 /***** Media Queries *****/
 @media only screen and (min-width: 64.063em) {
   /**** FOOTER ***/
-  /* line 485, ../scss/app.scss */
+  /* line 484, ../scss/app.scss */
   footer .footer-sections {
     border-right: 1px solid #fff;
     border-top-width: 0;
-    min-height: 260px;
     margin-top: 0;
     padding-top: 0;
   }
-  /* line 492, ../scss/app.scss */
+  /* line 490, ../scss/app.scss */
   footer .preferSection {
     border-top-width: 0;
     margin-top: 0;
@@ -9170,13 +9168,12 @@ footer .we-prefer ul .Xpress {
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   /**** FOOTER ***/
-  /* line 504, ../scss/app.scss */
+  /* line 502, ../scss/app.scss */
   footer .footer-sections {
     border: 0 none;
-    min-height: 0;
     margin-top: 0;
   }
-  /* line 509, ../scss/app.scss */
+  /* line 506, ../scss/app.scss */
   footer .connectedSection, footer .preferSection {
     margin-top: 20px;
     border-top: 1px solid #fff;
@@ -9184,7 +9181,7 @@ footer .we-prefer ul .Xpress {
   }
 }
 /********* Payment **************/
-/* line 524, ../scss/app.scss */
+/* line 521, ../scss/app.scss */
 .payment {
   /* ==== Overview ==== */
   /* ==== Choose your country ==== */
@@ -9194,25 +9191,25 @@ footer .we-prefer ul .Xpress {
   /** STEP 4 **/
   /** STEP 5 **/
 }
-/* line 525, ../scss/app.scss */
+/* line 522, ../scss/app.scss */
 .payment .paySteps {
   border-bottom: 10px solid #dddddd;
   margin-bottom: 1.25rem;
 }
-/* line 528, ../scss/app.scss */
+/* line 525, ../scss/app.scss */
 .payment .paySteps ul {
   overflow: visible;
 }
-/* line 530, ../scss/app.scss */
+/* line 527, ../scss/app.scss */
 .payment .paySteps ul li {
   margin-left: 5rem;
   position: relative;
 }
-/* line 531, ../scss/app.scss */
+/* line 528, ../scss/app.scss */
 .payment .paySteps ul li:first-child {
   margin-left: 1.375rem;
 }
-/* line 538, ../scss/app.scss */
+/* line 535, ../scss/app.scss */
 .payment .paySteps ul .done:after {
   position: absolute;
   content: "";
@@ -9222,31 +9219,31 @@ footer .we-prefer ul .Xpress {
   top: 42px;
   left: 0;
 }
-/* line 554, ../scss/app.scss */
+/* line 551, ../scss/app.scss */
 .payment .overView img {
   margin-right: 0.625rem;
   border-right: 1px dashed #B1ACAC;
   padding-right: 0.625rem;
 }
-/* line 559, ../scss/app.scss */
+/* line 556, ../scss/app.scss */
 .payment .overView p, .payment .overView .evntPlace {
   font-size: 14px;
 }
-/* line 560, ../scss/app.scss */
+/* line 557, ../scss/app.scss */
 .payment .overView small {
   font-size: 0.75rem;
 }
-/* line 561, ../scss/app.scss */
+/* line 558, ../scss/app.scss */
 .payment .overView .evntPlace {
   color: #686868;
   font-weight: bold;
 }
-/* line 564, ../scss/app.scss */
+/* line 561, ../scss/app.scss */
 .payment .overView .evntPlace:before {
   margin-right: 0.1875rem;
   font-size: 1.0625rem;
 }
-/* line 571, ../scss/app.scss */
+/* line 568, ../scss/app.scss */
 .payment .sectionTitle {
   border-bottom: 1px solid #bbbbbb;
   padding-bottom: 0.3125rem;
@@ -9269,7 +9266,7 @@ footer .we-prefer ul .Xpress {
 .payment .sectionTitle:hover:after {
   height: 5px;
 }
-/* line 577, ../scss/app.scss */
+/* line 574, ../scss/app.scss */
 .payment .chooseUrTckt .selectCat {
   margin-bottom: 70px;
 }
@@ -9310,7 +9307,7 @@ footer .we-prefer ul .Xpress {
 .payment .chooseUrTckt .f-dropdown:before, .payment .chooseUrTckt .f-dropdown:after {
   display: none;
 }
-/* line 582, ../scss/app.scss */
+/* line 579, ../scss/app.scss */
 .payment .chooseUrTckt .tcktType p, .payment .chooseUrTckt .tcktType .quantityDropdown {
   margin-top: 0.9375rem;
 }
@@ -9351,32 +9348,32 @@ footer .we-prefer ul .Xpress {
 .payment .DeliveryMethod .f-dropdown:before, .payment .DeliveryMethod .f-dropdown:after {
   display: none;
 }
-/* line 590, ../scss/app.scss */
+/* line 587, ../scss/app.scss */
 .payment .DeliveryMethod .deliveryMethodBox {
   margin-bottom: 1.25rem;
 }
-/* line 593, ../scss/app.scss */
+/* line 590, ../scss/app.scss */
 .payment .DeliveryMethod p {
   font-size: 0.875rem;
 }
-/* line 601, ../scss/app.scss */
+/* line 598, ../scss/app.scss */
 .payment .evntInfoBrief .evntInfos .evntInfoDetails {
   margin-top: 0.625rem;
 }
-/* line 603, ../scss/app.scss */
+/* line 600, ../scss/app.scss */
 .payment .evntInfoBrief .evntInfos .evntInfoDetails strong {
   font-size: 0.9375rem;
 }
-/* line 604, ../scss/app.scss */
+/* line 601, ../scss/app.scss */
 .payment .evntInfoBrief .evntInfos .evntInfoDetails p {
   margin-bottom: 0.3125rem;
   font-size: 0.875rem;
 }
-/* line 614, ../scss/app.scss */
+/* line 611, ../scss/app.scss */
 .payment .registerSignIn .registerBlock p {
   font-size: 0.875rem;
 }
-/* line 618, ../scss/app.scss */
+/* line 615, ../scss/app.scss */
 .payment .registerSignIn .button {
   background: #2b97df;
   box-shadow: 0 6px #317eb1;
@@ -9394,20 +9391,20 @@ footer .we-prefer ul .Xpress {
   box-shadow: 0 0 #317eb1;
   top: 6px;
 }
-/* line 622, ../scss/app.scss */
+/* line 619, ../scss/app.scss */
 .payment .registerSignIn .rgstrButon {
   margin-top: 2.875rem;
 }
-/* line 625, ../scss/app.scss */
+/* line 622, ../scss/app.scss */
 .payment .registerSignIn .signInBox {
   margin-top: 1.5625rem;
 }
-/* line 628, ../scss/app.scss */
+/* line 625, ../scss/app.scss */
 .payment .registerSignIn .forgotPass {
   font-size: 0.8125rem;
   color: #2b97df;
 }
-/* line 636, ../scss/app.scss */
+/* line 633, ../scss/app.scss */
 .payment .paymentBlocks .button {
   background: #2b97df;
   box-shadow: 0 6px #317eb1;
@@ -9424,31 +9421,31 @@ footer .we-prefer ul .Xpress {
   box-shadow: 0 0 #317eb1;
   top: 6px;
 }
-/* line 639, ../scss/app.scss */
+/* line 636, ../scss/app.scss */
 .payment .paymentBlocks .hideVouchers, .payment .paymentBlocks .tcktsName {
   color: #2b97df;
   text-decoration: underline;
 }
-/* line 641, ../scss/app.scss */
+/* line 638, ../scss/app.scss */
 .payment .paymentBlocks .paymentlastDetails div {
   margin-top: 0.625rem;
 }
-/* line 645, ../scss/app.scss */
+/* line 642, ../scss/app.scss */
 .payment .paymentBlocks .paymentInformation {
   margin: 1.25rem 0;
 }
-/* line 649, ../scss/app.scss */
+/* line 646, ../scss/app.scss */
 .payment .paymentBlocks input[type="radio"],
 .payment .paymentBlocks input[type="checkbox"] {
   opacity: 0;
 }
-/* line 651, ../scss/app.scss */
+/* line 648, ../scss/app.scss */
 .payment .paymentBlocks input[type="radio"] + label,
 .payment .paymentBlocks input[type="checkbox"] + label {
   position: relative;
   margin-left: 2.625rem;
 }
-/* line 654, ../scss/app.scss */
+/* line 651, ../scss/app.scss */
 .payment .paymentBlocks input[type="radio"] + label:before, .payment .paymentBlocks input[type="radio"] + label:after,
 .payment .paymentBlocks input[type="checkbox"] + label:before,
 .payment .paymentBlocks input[type="checkbox"] + label:after {
@@ -9464,7 +9461,7 @@ footer .we-prefer ul .Xpress {
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
-/* line 667, ../scss/app.scss */
+/* line 664, ../scss/app.scss */
 .payment .paymentBlocks input[type="radio"] + label:after,
 .payment .paymentBlocks input[type="checkbox"] + label:after {
   left: -2.8125rem;
@@ -9475,29 +9472,29 @@ footer .we-prefer ul .Xpress {
   background: #e0e0e0;
   box-shadow: 0 0 0;
 }
-/* line 679, ../scss/app.scss */
+/* line 676, ../scss/app.scss */
 .payment .paymentBlocks input[type="radio"]:checked + label:before,
 .payment .paymentBlocks input[type="checkbox"]:checked + label:before {
   background: #2b97df;
 }
-/* line 682, ../scss/app.scss */
+/* line 679, ../scss/app.scss */
 .payment .paymentBlocks input[type="radio"]:checked + label:after,
 .payment .paymentBlocks input[type="checkbox"]:checked + label:after {
   background: #fff;
   left: -1.375rem;
   top: 4px;
 }
-/* line 692, ../scss/app.scss */
+/* line 689, ../scss/app.scss */
 .payment .paymentBlocks input[type="checkbox"] + label:before, .payment .paymentBlocks input[type="checkbox"] + label:after {
   border-radius: 0;
 }
-/* line 702, ../scss/app.scss */
+/* line 699, ../scss/app.scss */
 .payment .billingAddrsInfoBlk .button-group li {
   float: right;
   width: 8.75rem;
   margin-left: 0.625rem;
 }
-/* line 708, ../scss/app.scss */
+/* line 705, ../scss/app.scss */
 .payment .billingAddrsInfoBlk .button {
   background: #2b97df;
   box-shadow: 0 6px #165e8e;
@@ -9517,12 +9514,12 @@ footer .we-prefer ul .Xpress {
 
 /* Payment page */
 /* Static pages */
-/* line 718, ../scss/app.scss */
+/* line 715, ../scss/app.scss */
 .pages .large-12 {
   position: relative;
   border: 10px solid #F3F3F3;
 }
-/* line 721, ../scss/app.scss */
+/* line 718, ../scss/app.scss */
 .pages .large-12:after {
   position: absolute;
   content: "";
@@ -9531,7 +9528,7 @@ footer .we-prefer ul .Xpress {
   border: 15px solid #F3F3F3;
   border-color: #fff #fff #F3F3F3 #F3F3F3;
 }
-/* line 730, ../scss/app.scss */
+/* line 727, ../scss/app.scss */
 .pages h4 {
   border-bottom: 1px solid #bbbbbb;
   padding-bottom: 0.3125rem;
@@ -9554,15 +9551,15 @@ footer .we-prefer ul .Xpress {
 .pages h4:hover:after {
   height: 5px;
 }
-/* line 733, ../scss/app.scss */
+/* line 730, ../scss/app.scss */
 .pages p {
   font-size: 0.875rem;
 }
-/* line 736, ../scss/app.scss */
+/* line 733, ../scss/app.scss */
 .pages strong {
   color: #CC0000;
 }
-/* line 739, ../scss/app.scss */
+/* line 736, ../scss/app.scss */
 .pages a {
   text-decoration: underline;
   font-style: italic;
@@ -9570,7 +9567,7 @@ footer .we-prefer ul .Xpress {
   font-size: 0.875rem;
 }
 
-/* line 748, ../scss/app.scss */
+/* line 745, ../scss/app.scss */
 .eventDetailspage h4 {
   border-bottom: 1px solid #bbbbbb;
   padding-bottom: 0.3125rem;
@@ -9593,25 +9590,72 @@ footer .we-prefer ul .Xpress {
 .eventDetailspage h4:hover:after {
   height: 5px;
 }
-/* line 751, ../scss/app.scss */
+/* line 748, ../scss/app.scss */
 .eventDetailspage p {
   font-size: 0.875rem;
 }
-/* line 754, ../scss/app.scss */
+/* line 751, ../scss/app.scss */
 .eventDetailspage strong {
   color: #CC0000;
 }
-/* line 758, ../scss/app.scss */
+/* line 755, ../scss/app.scss */
 .eventDetailspage .bigEvnt h5 {
   margin-top: 0 !important;
   padding: 0 0 0.625rem !important;
   line-height: 1.875rem;
 }
-/* line 764, ../scss/app.scss */
+/* line 761, ../scss/app.scss */
 .eventDetailspage .bigEvnt .pricing-table .bullet-item {
   padding-bottom: 1.25rem;
 }
-/* line 766, ../scss/app.scss */
+/* line 763, ../scss/app.scss */
 .eventDetailspage .bigEvnt .pricing-table .bullet-item span.tktClass {
   font-weight: bold;
+}
+
+/* line 773, ../scss/app.scss */
+.whatsOnPage .whatsListContainer .whatsTitles {
+  border-bottom: 1px solid #bbb;
+  margin-bottom: 1.25rem;
+}
+/* line 777, ../scss/app.scss */
+.whatsOnPage .whatsListContainer .whatsTitles li strong {
+  border-bottom: 2px solid #e74c3c;
+  padding-bottom: 1.25rem;
+}
+/* line 783, ../scss/app.scss */
+.whatsOnPage .whatsListContainer * {
+  font-size: 0.8125rem;
+}
+/* line 786, ../scss/app.scss */
+.whatsOnPage .whatsListContainer .button {
+  background: #2b97df;
+  box-shadow: 0 6px #165e8e;
+  width: 100%;
+  padding: 0.625rem;
+}
+/* line 45, ../scss/_mixinsFunctions.scss */
+.whatsOnPage .whatsListContainer .button:hover {
+  box-shadow: 0 4px #165e8e;
+  top: 2px;
+}
+/* line 49, ../scss/_mixinsFunctions.scss */
+.whatsOnPage .whatsListContainer .button:active {
+  box-shadow: 0 0 #165e8e;
+  top: 6px;
+}
+/* line 790, ../scss/app.scss */
+.whatsOnPage .whatsListContainer .eventItems ul:not(:first-child) {
+  border-top: 1px solid #bbb;
+  margin-top: 0.625rem;
+  padding-top: 0.9375rem;
+}
+/* line 799, ../scss/app.scss */
+.whatsOnPage .whatsOn h5 {
+  margin: 0 0 0.625rem 0 !important;
+  padding: 0 0 0.625rem 0 !important;
+}
+/* line 805, ../scss/app.scss */
+.whatsOnPage .whatsOn ul li a {
+  font-size: 0.8125rem;
 }

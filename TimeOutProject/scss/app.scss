@@ -452,7 +452,6 @@ footer{
 	.preferSection{
 		border-right-width: 0;
 		border-top: 1px solid #fff;
-		min-height: 0;	
 		padding-top: 20px;
 		margin-top: 20px;		
 	}
@@ -485,7 +484,6 @@ footer{
 		.footer-sections{
 			border-right: 1px solid #fff;
 			border-top-width: 0;
-			min-height: 260px;	
 			margin-top:0;
 			padding-top: 0;			
 		}	
@@ -503,7 +501,6 @@ footer{
 	footer{
 		.footer-sections{
 			border: 0 none;
-			min-height: 0;	
 			margin-top:0;			
 		}	
 		.connectedSection,.preferSection{
@@ -769,6 +766,46 @@ footer{
 			}
 		}
 	}
+}
+
+.whatsOnPage{
+	.whatsListContainer{
+		.whatsTitles{
+			border-bottom: 1px solid #bbb;
+			margin-bottom: rem-calc(20);
+			li{
+				strong{
+					border-bottom: 2px solid #e74c3c;
+					padding-bottom: rem-calc(20);
+				}
+			}
+		}
+		*{
+			font-size: rem-calc(13);
+		}
+		.button{
+			@include buttonStyle(#2b97df, darken(#2b97df, 20%), 2, 6);
+		}
+		.eventItems{
+			ul:not(:first-child){
+				border-top: 1px solid #bbb;
+				margin-top: rem-calc(10);
+				padding-top: rem-calc(15);
+			}
+		}
+
+	}
+		.whatsOn{
+			h5{
+				margin: rem-calc(0 0 10 0) !important;
+				padding: rem-calc(0 0 10 0) !important;
+			}
+			ul{
+				li{
+					a{font-size: rem-calc(13);}
+				}
+			}
+		}
 }
 
 
