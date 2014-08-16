@@ -1,0 +1,297 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TimeOut Tickets</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'> 
+    <link rel="stylesheet" href="stylesheets/slick.css" />
+    <link rel="stylesheet" href="stylesheets/app.css" />
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+      <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+      <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+    <![endif]-->    
+  </head>
+  <body>
+    <div class="off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+        <nav class="tab-bar hidden-for-large-up">
+          <section class="left-small">
+            <a class="left-off-canvas-toggle menu-icon" href="javascript:void(0)"><span></span></a>
+          </section>       
+          
+          <section class="right-small">
+            <a class="right-off-canvas-toggle menu-icon" href="javascript:void(0)"><span></span></a>
+          </section>           
+        </nav>
+        <!-- Off Canvas Menu -->
+        <aside class="left-off-canvas-menu">
+            <!-- whatever you want goes here -->
+            <ul class="off-canvas-list">    
+              <li><label> MENU </label></li>
+              <li class="active"><a href="javascript:void(0)">HOME</a></li>
+              <li><a href="javascript:void(0)">CONCERTS</a></li>
+              <li><a href="javascript:void(0)">SPORTS</a></li>
+              <li><a href="javascript:void(0)">THEATRE</a></li>
+              <li><a href="javascript:void(0)">EXHIBITIONS &amp;EXPERIENCES</a></li>
+              <li><a href="javascript:void(0)">FAMILY</a></li>
+              <li><a href="javascript:void(0)">COMEDY</a></li>
+            </ul>
+        </aside>
+
+        <!-- Off Canvas Right Menu -->
+        <aside class="right-off-canvas-menu">
+          <ul class="off-canvas-list">
+            <li><label>Search</label></li>
+              <li class="has-form">
+                <div class="row collapse">
+                  <div class="large-12 columns">
+                    <span class="icon-search"></span>
+                    <input id="topSearch" class="radius" type="text" placeholder="SEARCH">
+                  </div>
+                </div>
+              </li> 
+              <li><label>Country</label></li>
+              <li><a href="javascript:void(0)">DUBAI</a></li> 
+              <li><a href="javascript:void(0)">QATAR</a></li>
+              <li><a href="javascript:void(0)">DUBAI</a></li> 
+          </ul>
+        </aside>        
+      <!-- close the off-canvas menu -->
+      <a class="exit-off-canvas"></a>
+ 
+      <!-- Top Header -->
+      <div class="topHeader">
+        <div class="row">
+          <div class="large-4 columns medium-text-center small-text-center  logo wobble-horizontal">
+            <a href="javascript:void(0)"> <img src="images/logo.png" width="135" height="90" alt="" /> </a>
+          </div>
+          <div class="large-8 columns medium-text-center ">
+            <img class="visible-for-medium-up " src="images/AdImage.jpg" width="728" height="90" alt="AdArea" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Top Bar -->
+      <section id="top-barSection">  
+        <div class="row visible-for-large-up" >
+          <div class="large-12">
+            <nav class="top-bar" data-topbar>
+                  <ul class="title-area">
+                   <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                    <li class="toggle-topbar menu-icon"><a href="javascript:void(0)"><span>Menu</span></a></li>
+                  </ul>
+
+                  <div class="top-bar-section">
+                    <!-- Left Nav Section -->
+                    <ul>
+                      <li class="active"><a href="javascript:void(0)">HOME</a></li>
+                      <li><a href="javascript:void(0)">CONCERTS</a></li>
+                      <li><a href="javascript:void(0)">SPORTS</a></li>
+                      <li><a href="javascript:void(0)">THEATRE</a></li>
+                      <li><a href="javascript:void(0)">EXHIBITIONS &amp;EXPERIENCES</a></li>
+                      <li><a href="javascript:void(0)">FAMILY</a></li>
+                      <li><a href="javascript:void(0)">COMEDY</a></li>
+
+                      <li class="has-form">
+                        <div class="row collapse">
+                          <div class="large-12 columns">
+                            <span class="icon-search"></span>
+                            <input id="topSearch" class="radius" type="text" placeholder="SEARCH">
+                          </div>
+                        </div>
+                      </li>  
+                      <li class="has-dropdown icon-arrow-down"><a href="javascript:void(0)">DUBAI</a>
+                        <ul class="dropdown">
+                          <li><a href="javascript:void(0)"> Item 1 </a></li>
+                          <li><a href="javascript:void(0)"> Item 2 </a></li>
+                          <li><a href="javascript:void(0)"> Item 3 </a></li>
+                        </ul>
+                      </li>                          
+                    </ul>
+                  </div>
+            </nav> <!-- top-bar -->
+          </div>
+        </div>
+      </section>
+      <section id="content" class="whatsOnPage">
+        <div class="row">
+          <div class="large-8 columns">
+            <h4 class="sectionTitle">What’s on <span class="theDay">today</span> in dubai</h4>
+            <div class="whatsListContainer">
+              <ul class="whatsTitles small-block-grid-4 medium-block-grid-4 large-block-grid-4">
+                <li><strong class="upper">Event</strong></li>
+                <li><strong class="upper">Location</strong></li>
+                <li><strong class="upper">Date&amp;Time</strong></li>
+              </ul>
+              <div class="eventItems">
+                <ul class="small-block-grid-3 medium-block-grid-3 large-block-grid-4">
+                  <li>
+                    <img src="images/latest.jpg" alt="Latest" />
+                    <div>Disney On Ice presents Treasure Trove.</div>
+                  </li>
+                  <li>Adelaide Entertainment Centre Dubai</li>
+                  <li> Mon 09 Jun 2014 <br / > 8:00 pm - 12:00 am</li>
+                  <li><a href="javascript:void(0)" class="button radius">Get Tickets</a></li>
+                </ul> 
+
+                <ul class="small-block-grid-3 medium-block-grid-3 large-block-grid-4">
+                  <li>
+                    <img src="images/latest.jpg" alt="Latest" />
+                    <div>Disney On Ice presents Treasure Trove.</div>
+                  </li>
+                  <li>Adelaide Entertainment Centre Dubai</li>
+                  <li> Mon 09 Jun 2014 <br / > 8:00 pm - 12:00 am</li>
+                  <li><a href="javascript:void(0)" class="button radius">Get Tickets</a></li>
+                </ul> 
+              </div>
+
+
+            </div>
+
+          </div>
+          <!-- RIGHT SIDE -->
+          <div class="large-4 medium-4 columns">
+            <div class="bigEvnt whatsOn">
+              <div class="panel">
+                <h5> What’s on in Dubai </h5>
+                <ul class="no-bullet">
+                  <li><a href="#">What's On Today</a></li>
+                  <li><a href="#">What's On This Weekend</a></li>
+                  <li><a href="#">What's On In The Next 7 Days</a></li>
+                  <li><a href="#">What's On In The Next 30 Days</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Ad Event -->
+            <div class="adEvnt panel">
+              <a href="javascript:void(0)"><img src="images/adEvnt.jpg" alt="AdEvent" /></a>
+            </div>
+            <!-- NEWSLETTER -->
+            <div class="subscribeBox icon-envelope">
+              <h5> subscribe to newsletter </h5>
+              <p>News, reviews, photos and features sent directly to your inbox.</p>
+              <form action="javascrip:void(0)" class="newsletter-form" data-abide>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <div class="row collapse">
+                      <div class="small-8 columns">
+                            <input type="email"  placeholder="Type your email..." required />
+                            <small class="error">An email address is required.</small>
+                      </div>
+                      <div class="small-4 columns">
+                        <button type="submit" class="button postfix subscribe">Subscribe</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div> 
+
+
+      </section>
+      <footer>
+        <div id="footer" class="row" data-equalizer>
+
+          <div class="large-2 medium-6 columns otherITPsites" data-equalizer-watch>
+            <ul>
+              <li><a href="javascript:void(0)">About us</a></li>         
+              <li><a href="javascript:void(0)">retail sales outlets</a></li>         
+              <li><a href="javascript:void(0)">delivery methods</a></li>         
+              <li><a href="javascript:void(0)">utilities-me.com</a></li>         
+              <li><a href="javascript:void(0)">purchase policy</a></li>         
+              <li><a href="javascript:void(0)">terms of use</a></li>         
+              <li><a href="javascript:void(0)">contact us</a></li>         
+            </ul>
+          </div>
+
+          <div class="large-4 medium-6 columns footer-sections" data-equalizer-watch>
+            <div class="row">
+              <div class="large-12 columns"> <p class="footer-titles"> WHAT'S ON </p> </div>
+                <div class="large-6 medium-6 columns">              
+                  <ul>
+                    <li><a href="javascript:void(0)">comedy tickets</a></li>             
+                    <li><a href="javascript:void(0)">concerts tickets</a></li>             
+                    <li><a href="javascript:void(0)">exhibition tickets</a></li>
+                    <li><a href="javascript:void(0)">experience tickets</a></li>             
+                    <li><a href="javascript:void(0)">family and kids tickets</a></li>             
+                    <li><a href="javascript:void(0)">festival tickets</a></li>                
+                  </ul>           
+                </div>
+                <div class="large-6 medium-6 columns">
+                  <ul>
+                    <li><a href="javascript:void(0)">lifestyle tickets</a></li>             
+                    <li><a href="javascript:void(0)">Music tickets</a></li>             
+                    <li><a href="javascript:void(0)">sports tickets</a></li>
+                    <li><a href="javascript:void(0)">EXHIBITIONS &amp;
+                      theatre &amp; arts tickets</a></li>             
+                    <li><a href="javascript:void(0)">waitlist events</a></li>             
+                    <li><a href="javascript:void(0)">group entertainment</a></li>   
+                  </ul>                
+                </div>          
+            </div>
+          </div>
+
+          <div class="large-4 medium-6 columns footer-sections connectedSection" data-equalizer-watch>
+            <div><p class="footer-titles"> STAY CONNECTED </p></div>
+            <div class="social">
+              <ul class="inline-list">
+                <li><a class="facebook" href="javascript:void(0)"></a></li>
+                <li><a class="twitter" href="javascript:void(0)"></a></li>
+                <li><a  class="ytube" href="javascript:void(0)"></a></li>
+                <li><a class="gplus" href="javascript:void(0)"></a></li>
+                <li><a class="in" href="javascript:void(0)"></a></li>
+              </ul>
+            </div>
+            <div><p class="footer-titles"> SUBSCRIBE TO NEWSLETTER </p></div>
+            <div>
+              <form class="newsletter-form" data-abide>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <div class="row collapse">
+                      <div class="small-8 columns">
+
+                        <input type="email" placeholder="Type your email..." required>
+                        <small class="error">An email address is required.</small>
+                      </div>
+                      <div class="small-4 columns">
+                        <button type="submit" class="button postfix subscribe">Subscribe</button>
+                      </div>
+                    </div>
+                  </div>  
+                </div>        
+              </form>
+            </div>
+          </div>
+
+          <div class="large-2 medium-6 columns preferSection" data-equalizer-watch>
+           <div><p class="footer-titles"> WE PREFER </p></div>
+           <div class="we-prefer">
+            <ul class="small-block-grid-4 medium-block-grid-4 large-block-grid-2">
+              <li></li>
+              <li class="master-card"></li>
+              <li class="Xpress"></li>
+              <li class="paypal"></li>
+            </ul>
+           </div>
+          </div>
+        </div>               
+      </footer>
+
+      </div> <!-- Inner wrap -->
+    </div><!-- OFF-canvas-->    
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+<script src="js/slick.js"></script>
+    <script src="js/app.js"></script>
+    <!--[if lt IE 9]>
+      <script src="js/rem.min.js"></script>
+    <![endif]--> 
+  </body>
+</html>
+        
